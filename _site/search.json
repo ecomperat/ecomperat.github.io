@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hello, I am Etienne Compérat, currently a second year student of the Master of Research in Economics at Sciences Po. My research interest are spatial economics, political economy and economic history.\nFeel free to reach out to me at my email address: “etienne.comperat” followed by “@sciencespo.fr” !"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Welcome tom my project webpage. You will find here a list of ongoing or past projects I worked on."
+  }
+]
