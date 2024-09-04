@@ -12,8 +12,6 @@ about:
       href: https://www.linkedin.com/in/%C3%A9tienne-comp%C3%A9rat-a22850242/
 ---
 
-[This website is a work in progress...]
-
 Hello, I am Etienne Compérat, currently a second year student of the [Economic Research Master](https://www.sciencespo.fr/ecole-recherche/en/academics/masters/master-economics/) at Sciences Po Paris. I am willing to pursue in Economic research, hence the goal of this website is to allow me to present efficiently my work so far, skills and projects for the future.
 
 
