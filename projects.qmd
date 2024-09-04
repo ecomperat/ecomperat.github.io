@@ -2,5 +2,12 @@
 title: "Projects"
 ---
 
-Welcome tom my project webpage. You will find here a list of ongoing or past projects I worked on.
+\begin{center}
+Welcome tom my project webpage. You will find here a list of ongoing or past projects I have worked on.
+\end{center}
 
+- [Macroeconomics Group Presentation about the Diamond Dybvig model of Bank Runs (finished)](macro_pre.pdf) : 
+This is a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class that consisted in an article review of "Bank runs, Deposit Insurance, and Liquidity", by Douglas W. Diamond and Philip H. Dybvig (2020). We received the grade of 19/20 for this presentation.
+
+- [Microeconomics Group project about modelling class attendance in a Game Theoretical Framework (finished)](Micro_Group_Project.pdf) : 
+This is a group project done in the spring semester of 2024 for a Microeconomics 2 class that consisted in the use of notions seen in class on a chosen case. We choose to do it on strategic interactions between students in a context of class attendance. We received the grade of 17.5/20 for this work.

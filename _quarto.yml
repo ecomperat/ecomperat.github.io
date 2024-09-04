@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "Etienne Compérat"
   navbar:
     left:
       - href: index.qmd
