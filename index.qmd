@@ -18,3 +18,11 @@ Hello, I am Etienne Compérat, currently a second year student of the [Economic 
 I have a Bachelor degree in Political and Social Sciences from Sciences Po with the Economics major and a minor in Central and Eastern European Studies. I have also done an exchange year at the University of California on the Berkeley campus where I have followed the Environmental and Economics Policies major. My research interest are political economy, spatial economy and economic history.
 
 
+
+
+
+
+
+
+
+ This website was realized with the help of Paulo Gugelmo Cavalheiro Dias and his [Research Portfolio Tutorial](https://www.paulogcd.com/portfolio_tutorial/), so thank you Paulo!
