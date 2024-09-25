@@ -25,4 +25,4 @@ I have a Bachelor degree in Political and Social Sciences from Sciences Po with 
 
 
 
- This website was realized with the help of Paulo Gugelmo Cavalheiro Dias and his [Research Portfolio Tutorial](https://www.paulogcd.com/portfolio_tutorial/), so thank you Paulo!
+ I want to thank Paulo Gugelmo Cavalheiro Dias for helping me realizing this website with his [Research Portfolio Tutorial](https://www.paulogcd.com/portfolio_tutorial/), thank you Paulo !
