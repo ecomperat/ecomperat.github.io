@@ -7,7 +7,10 @@ Welcome tom my project webpage. You will find here a list of ongoing or past pro
 \end{center}
 
 - [Macroeconomics Group Presentation about the Diamond Dybvig model of Bank Runs (finished)](macro_pre.pdf) : 
-This is a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class that consisted in an article review of "Bank runs, Deposit Insurance, and Liquidity", by Douglas W. Diamond and Philip H. Dybvig (2020). We received the grade of 19/20 for this presentation.
+This is a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class taught by [Jean Barthélemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France) that consisted in an article review of "Bank runs, Deposit Insurance, and Liquidity", by Douglas W. Diamond and Philip H. Dybvig (2020). We received the grade of 19/20 for this presentation.
 
 - [Microeconomics Group project about modelling class attendance in a Game Theoretical Framework (finished)](Micro_Group_Project.pdf) : 
-This is a group project done in the spring semester of 2024 for a Microeconomics 2 class that consisted in the use of notions seen in class on a chosen case. We choose to do it on strategic interactions between students in a context of class attendance. We received the grade of 17.5/20 for this work.
+This is a group project done in the spring semester of 2024 for a Microeconomics 2 class taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po Paris) that consisted in the use of notions seen in class on a chosen case. We choose to do it on strategic interactions between students in a context of class attendance. We received the grade of 17.5/20 for this work.
+
+- [Political Economy Theory Paper: "Who controls the flows? A comparative analysis of Fernand Braudel and David Harvey"](theory-paper_braudel-harvey.pdf) : 
+This is a theory paper done in the spring semester of 2023 for the POLECON 101 class (Contemporary Theory of Political Economy) taught by [Steven K. Vogel] (https://polisci.berkeley.edu/people/person/steven-vogel) (UC Berkeley) that consisted in connecting a concept from an author studied in lecture and readings to an author from our personal references. This work received the grade of A+.
