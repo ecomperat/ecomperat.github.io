@@ -6,11 +6,13 @@ title: "Projects"
 Welcome tom my project webpage. You will find here a list of ongoing or past projects I have worked on.
 \end{center}
 
-- [Macroeconomics Group Presentation about the Diamond Dybvig model of Bank Runs (finished)](macro_pre.pdf) : 
-This is a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class taught by [Jean Barthélemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France) that consisted in an article review of "Bank runs, Deposit Insurance, and Liquidity", by Douglas W. Diamond and Philip H. Dybvig (2020). We received the grade of 19/20 for this presentation.
+- [Article Review of The carbon footprint of capital, by Chancel and Rehm in 2024](https://www.paulogcd.com/TPEE_Presentation/) : This is a group presentation done during the fall semester of 2024-2025 for the class “Topics in Public and Environmental Economics” taught by [Stefan Pollinger](https://www.stefanpollinger.com/). We were asked to present in one hour the working paper of Chancel and Rehm about how to account the Carbon Footprint of Capital. The link sends you to a dedicated section on Paulo's website with our slides and a detailed summary of the article. The latest version of the article is available [here](https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&e=1).
 
-- [Microeconomics Group project about modelling class attendance in a Game Theoretical Framework (finished)](Micro_Group_Project.pdf) : 
-This is a group project done in the spring semester of 2024 for a Microeconomics 2 class taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po Paris) that consisted in the use of notions seen in class on a chosen case. We choose to do it on strategic interactions between students in a context of class attendance. We received the grade of 17.5/20 for this work.
+- [Macroeconomics Group Presentation about the Diamond Dybvig model of Bank Runs](macro_pre.pdf) : 
+This is a group presentation done in the spring semester of 2024 for the "Macroeconomics 2" class taught by [Jean Barthélemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France) that consisted in a one hour presentation of the paper ["Bank runs, Deposit Insurance, and Liquidity"](https://www.jstor.org/stable/1837095), by Douglas W. Diamond and Philip H. Dybvig (2020). We received the grade of 19/20 for this presentation.
 
-- [Political Economy Theory Paper: "Who controls the flows? A comparative analysis of Fernand Braudel and David Harvey" (finished)](theory-paper_braudel-harvey.pdf) : 
+- [Microeconomics Group project about modelling class attendance in a Game Theoretical Framework](Micro_Group_Project.pdf) : 
+This is a group project done in the spring semester of 2024 for the "Microeconomics 2" class taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po Paris) that consisted in elaborating a game using notions seen in class. We choose to do it on strategic interactions between students in a context of class attendance. We received the grade of 17.5/20 for this work.
+
+- [Political Economy Theory Paper: "Who controls the flows? A comparative analysis of Fernand Braudel and David Harvey"](theory-paper_braudel-harvey.pdf) : 
 This is a theory paper done in the fall semester of 2022 for the POLECON 101 class (Contemporary Theory of Political Economy) taught by [Steven K. Vogel](https://polisci.berkeley.edu/people/person/steven-vogel) (UC Berkeley) that consisted in connecting a reading from an author studied in lecture to an author from our personal references. This work received the grade of A+.
