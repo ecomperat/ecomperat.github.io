@@ -13,7 +13,7 @@ Welcome tom my project webpage. You will find here a list of ongoing or past pro
    available online here : [https://www.jstor.org/stable/26621311](https://www.jstor.org/stable/26621311).
     This was done for the “[Computational Economics](https://floswald.github.io/NumericalMethods/)” class,
      taught during the Fall 2024 Semester by [Florian Oswald](https://floswald.github.io/) at Sciences Po.
-      We obtained the grade of 19/20 for this work.]
+      We obtained the grade of 19/20 for this work.
 
 - [Article Review of The carbon footprint of capital, by Chancel and Rehm in 2024](https://www.paulogcd.com/TPEE_Presentation/) : This is a group presentation done during the fall semester of 2024-2025 for the class “Topics in Public and Environmental Economics” taught by [Stefan Pollinger](https://www.stefanpollinger.com/). We were asked to present in one hour the working paper of Chancel and Rehm about how to account the Carbon Footprint of Capital. The link sends you to a dedicated section on Paulo's website with our slides and a detailed summary of the article. The latest version of the article is available [here](https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&e=1).
 
