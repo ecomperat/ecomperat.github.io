@@ -7,7 +7,7 @@ Welcome tom my project webpage. You will find here a list of ongoing or past pro
 \end{center}
 
 - [Replication package of Monge-Naranjo et al., 2019, in Julia (finished)](https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/) :
- Together with [CHAMBON Lionel](https://lionelchambon.github.io/) and [Paulo GUGELMO CAVALHEIRO DIAS](https://www.paulogcd.com/), we proceeded to an attempt of translation from 
+ Together with [CHAMBON Lionel](https://lionelchambon.github.io/) and [GUGELMO CAVALHEIRO DIAS Paulo](https://www.paulogcd.com/), we proceeded to an attempt of translation from 
  Stata to Julia of the replication package of Monge-Naranjo, Alexander, Juan M. Sánchez, and Raül Santaeulàlia-Llopis.
   “Natural Resources and Global Misallocation.” American Economic Journal: Macroeconomics 11, no. 2 (2019): 79–126,
    available online here : [https://www.jstor.org/stable/26621311](https://www.jstor.org/stable/26621311).
