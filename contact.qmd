@@ -1,14 +1,6 @@
 ---
-title: "Contact"
-about:
-  template: jolla
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/ecomperat
-    - icon: linkeding
-      text: LinkedIn
-      href: https://www.linkedin.com/in/%C3%A9tienne-comp%C3%A9rat-a22850242/
+title: "Contact (disabled)"
+draft: true
 ---
 
-Feel free to reach out! You can contact me via my academic email: etienne.comperat, followed by "@sciencespo.fr". You can also connect with me on [LinkedIn](https://www.linkedin.com/in/%C3%A9tienne-comp%C3%A9rat-a22850242/). 
+This page has been disabled and will no longer be rendered.

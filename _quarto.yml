@@ -1,19 +1,24 @@
-project:
+﻿project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - coursework.qmd
+    - cv.qmd
 
 website:
+  title: "Etienne Compérat"
+  favicon: docs\img\website_logo_round.png
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - href: coursework.qmd
+        text: Coursework
       - cv.qmd
-      - contact.qmd
 
 format:
   html:
     theme: jollia
     css: styles.css
     toc: true
-

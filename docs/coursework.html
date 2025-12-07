@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CV – Etienne Compérat</title>
+<title>Past Assignments – Etienne Compérat</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed coursework-compact quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,11 +95,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coursework.html"> 
+    <a class="nav-link active" href="./coursework.html" aria-current="page"> 
 <span class="menu-text">Coursework</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -117,11 +117,11 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CV</h1>
+<h1 class="title">Past Assignments</h1>
 </div>
 
 
@@ -138,7 +138,254 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>You can take a look at my <a href="pdf/resume/COMPERAT.Etienne_cv.pdf">resume</a> here.</p>
+<style>
+/* Compact typography just for this page */
+body.coursework-compact {
+  font-size: 0.9rem;
+}
+
+body.coursework-compact h1,
+body.coursework-compact .title {
+  font-size: 1.75rem;
+}
+
+body.coursework-compact h2,
+body.coursework-compact h3,
+body.coursework-compact h4 {
+  font-size: 1.05rem;
+}
+
+body.coursework-compact p,
+body.coursework-compact li {
+  font-size: 0.9rem;
+}
+
+/* Increase left margin so content clears the navbar brand */
+body.coursework-compact .page-columns,
+body.coursework-compact .page-layout-article {
+  padding-left: 2.25rem;
+}
+
+/* Force the main document area to respect the left padding */
+body.coursework-compact #quarto-content,
+body.coursework-compact main,
+body.coursework-compact .quarto-container {
+  padding-left: 2.25rem !important;
+}
+
+/* Cover container classes used by Quarto/Bootstrap */
+body.coursework-compact .container,
+body.coursework-compact .container-fluid,
+body.coursework-compact .content {
+  padding-left: 2.25rem !important;
+}
+
+/* Fallback: margin on main */
+body.coursework-compact main {
+  margin-left: 2.25rem !important;
+}
+
+/* Justify body text */
+body.coursework-compact p {
+  text-align: justify;
+}
+
+body.coursework-compact .course-item h3 {
+  display: inline-block;
+  margin-bottom: 0.15rem; 
+}
+
+body.coursework-compact .course-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.1rem 0;
+  margin-bottom: 0.02rem;
+}
+
+body.coursework-compact .course-note {
+  display: block;
+  font-style: normal;
+  margin: 0 0 0.2rem 0;
+  line-height: 1.2;
+}
+
+body.coursework-compact .course-note em,
+body.coursework-compact .course-note i {
+  font-style: italic;
+}
+
+body.coursework-compact .course-note p {
+  margin: 0;
+}
+
+body.coursework-compact .course-tag {
+  background: #eee6de;
+  color: #4a3017;
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Categories panel in the margin sidebar */
+body.coursework-compact .categories-container {
+  position: sticky;
+  top: 90px;
+}
+
+body.coursework-compact #categories-panel {
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 0.5rem;
+  background: #faf7f4;
+  max-width: 240px;
+}
+
+body.coursework-compact #categories-panel h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+body.coursework-compact .cat-filter {
+  display: inline-block;
+  margin: 0.15rem 0.2rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid #c45607;
+  color: #c45607;
+  background: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+body.coursework-compact .cat-filter:hover,
+body.coursework-compact .cat-filter.active {
+  background: #c45607;
+  color: #fdfefe;
+}
+
+@media (max-width: 991px) {
+  body.coursework-compact .categories-container {
+    position: static;
+  }
+
+  body.coursework-compact #categories-panel {
+    margin: 0.5rem 0 1rem;
+    max-width: none;
+    width: 100%;
+  }
+}
+</style>
+<p>This section includes past coursework throughout my Bachelor and Master’s.</p>
+
+<div class="no-row-height column-margin column-container"><div class="categories-container" data-markdown="1">
+<div id="categories-panel" data-markdown="1">
+<section id="categories" class="level4">
+<h4 class="anchored" data-anchor-id="categories">Categories</h4>
+<p><a href="#" class="cat-filter active" data-cat="all">All</a> <a href="#" class="cat-filter" data-cat="replication">Replication package</a> <a href="#" class="cat-filter" data-cat="research">Research project</a> <a href="#" class="cat-filter" data-cat="presentation">Paper presentation</a> <a href="#" class="cat-filter" data-cat="referee">Referee report</a> <a href="#" class="cat-filter" data-cat="paper">Theory paper</a></p>
+</section>
+</div>
+</div></div><section class="course-item" data-cats="replication">
+<h3 class="anchored">
+Computational Economics (<em>Fall 2024</em>)
+</h3>
+<div class="course-note">
+<p>Course taught by <a href="https://floswald.github.io/">Florian Oswald</a> (Sciences Po)</p>
+<em>With <a href="https://lionelchambon.github.io/">Lionel Chambon</a> and <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a> </em>
+</div>
+<div class="course-tags">
+<p><span class="course-tag">Replication package</span></p>
+</div>
+<p>As part of this <a href="https://floswald.github.io/NumericalMethods/">Computational Economics</a> course, we developed a complete Julia replication package for Monge-Naranjo, Sanchez &amp; Santaeulalia-Llopis, “Natural Resources and Global Misallocation” (AEJ: Macroeconomics, 2019). The authors provided only four raw datasets and a single do-file for the initial merge, with no code for producing the paper’s tables or figures. Our task therefore required rebuilding the full data pipeline and inference steps directly from the paper.</p>
+<p>We recreated the dataset used in the article (MSS_NRshares.dta) by translating the Stata workflow into Julia, resolving country-splitting issues and handling software differences in merging, treatment of missing values, and rounding. Tests show an exact match for several variables and approximate equality for the rest, consistent with Stata–Julia rounding differences . Because no replication code was available, we reconstructed all figures and tables using only the methodological descriptions in the paper. For elements relying on external non-shared datasets (e.g., Sachs–Warner openness indicator), we documented and implemented reasonable substitutes while explaining the discrepancies that arise.</p>
+<p>The full replication package, documentation, and reproducible workflow are available <a href="https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/">here</a>.</p>
+</section>
+<section class="course-item" data-cats="presentation referee">
+<h3 class="anchored">
+Topics in Public and Environmental Economics (<em>Fall 2024</em>)
+</h3>
+<div class="course-note">
+<p>Course taught by <a href="https://www.stefanpollinger.com/">Stefan Pollinger</a> (Sciences Po)</p>
+<em>With <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a> and Marie-Ange Ortiz </em>
+</div>
+<div class="course-tags">
+<p><span class="course-tag">Paper presentation</span> <span class="course-tag">Referee report</span></p>
+</div>
+<p>As part of this course, our group presented <a href="https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&amp;e=1">Chancel &amp; Rehm (2024)</a>, “The Carbon Footprint of Capital”, a working paper that proposes new methods to measure individual carbon footprints by incorporating emissions linked to asset ownership. Our presentation summarized the paper’s framework, data sources, and key results on emissions inequality across France, Germany, and the United States, drawing on its figures and empirical findings. Slides and a written summary can be found on our <a href="https://www.paulogcd.com/TPEE_Presentation/">dedicated website</a>.</p>
+<p>In addition to the presentation, we had to write an individual <a href="docs/pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf">referee report</a> evaluating the paper’s methodology, data limitations, and interpretation of results. The report discussed issues such as undercoverage at the top of the wealth distribution, limited asset-level granularity, and challenges in attributing cross-border emissions, and offered suggestions for clarifying the robustness and scope of the analysis.</p>
+</section>
+<section class="course-item" data-cats="presentation">
+<h3 class="anchored">
+Macroeconomics 2 (<em>Spring 2024</em>)
+</h3>
+<div class="course-note">
+<p>Course taught by <a href="https://sites.google.com/site/jeanbarthelemyeconomist/home">Jean Barthélemy</a> (Banque de France)</p>
+<em>With Jiawei Qian</em>
+</div>
+<div class="course-tags">
+<p><span class="course-tag">Paper presentation</span></p>
+</div>
+<p>As part of this course, our group delivered a one-hour presentation on Diamond &amp; Dybvig, “Bank Runs, Deposit Insurance, and Liquidity”. The <a href="docs/pdf/macro_pre.pdf">presentation</a> reviewed the model’s core mechanisms—banks’ role in providing liquidity, the emergence of multiple equilibria under sequential service constraints, and the conditions under which bank runs arise even for solvent institutions.</p>
+<p>We covered the competitive, planner, and banking allocations; derived the key equilibrium conditions; and explained how deposit contracts improve risk-sharing but generate run-prone equilibria. We also examined the main policy results, including suspension of convertibility, optimal deposit insurance, and the role of taxes in restoring the constrained-efficient allocation when liquidity needs are stochastic.</p>
+</section>
+<section class="course-item" data-cats="research">
+<h3 class="anchored">
+Microeconomics 2 (<em>Spring 2024</em>)
+</h3>
+<div class="course-note">
+<p>Course taught by <a href="https://sites.google.com/site/emericmlhenry/home">Emeric Henry</a> (Sciences Po)</p>
+<em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage</em>
+</div>
+<div class="course-tags">
+<p><span class="course-tag">Research project</span></p>
+</div>
+<p>For this group research project, we developed and analyzed a game-theoretic model of class-attendance decisions, formulating student behavior as strategic interaction under workload constraints. The project involved constructing: a baseline simultaneous-move game with heterogeneous student types and Bayesian Nash equilibria, a dynamic signaling extension with Perfect Bayesian Equilibria across periods, and a teacher–student extension where a workload-setting instructor solves an optimization problem anticipating equilibrium attendance responses.</p>
+<p>The <a href="docs/pdf/Micro_Group_Project.pdf">report</a> includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.</p>
+</section>
+<section class="course-item" data-cats="research">
+<h3 class="anchored">
+Contemporary Theories of Political Economy (<em>Fall 2022</em>)
+</h3>
+<div class="course-note">
+Course taught by <a href="https://polisci.berkeley.edu/people/person/steven-vogel">Steven K. Vogel</a> (UC Berkeley)
+</div>
+<div class="course-tags">
+<p><span class="course-tag">Theory paper</span></p>
+</div>
+<p>For this <a href="docs/pdf/polecon_flows.pdf">theory paper</a> assignment, I wrote a comparative political-economy paper examining Fernand Braudel’s longue-durée analysis of “économie-monde” and David Harvey’s theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel’s emphasis on control of trade infrastructures and Harvey’s concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows</p>
+</section>
+<script>
+(function() {
+  const items = Array.from(document.querySelectorAll('.course-item'));
+  const buttons = Array.from(document.querySelectorAll('.cat-filter'));
+
+  function applyFilter(cat) {
+    items.forEach(item => {
+      const cats = (item.dataset.cats || '').split(/\s+/).filter(Boolean);
+      const match = cat === 'all' || cats.includes(cat);
+      item.style.display = match ? '' : 'none';
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.cat === cat);
+    });
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      applyFilter(btn.dataset.cat);
+    });
+  });
+
+  applyFilter('all');
+})();
+</script>
 
 
 

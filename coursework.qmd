@@ -161,48 +161,67 @@ This section includes past coursework throughout my Bachelor and Master's.
 [Research project](#){.cat-filter data-cat="research"}
 [Paper presentation](#){.cat-filter data-cat="presentation"}
 [Referee report](#){.cat-filter data-cat="referee"}
+[Theory paper](#){.cat-filter data-cat="paper"}
 </div>
 </div>
 
 <section class="course-item" data-cats="replication">
 <h3>Computational Economics (*Fall 2024*)</h3>
-<div class="course-note">Here’s a brief note between the labels and the description.</div>
+<div class="course-note">
+Course taught by [Florian Oswald](https://floswald.github.io/) (Sciences Po)
+
+<em>With [Lionel Chambon](https://lionelchambon.github.io/) and [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) </em> </div>
 <div class="course-tags">
   <span class="course-tag">Replication package</span>
 </div>
 
-Together with [CHAMBON Lionel](https://lionelchambon.github.io/) and [GUGELMO CAVALHEIRO DIAS Paulo](https://www.paulogcd.com/), we translated the replication package of Monge-Naranjo, Alexander, Juan M. Sanchez, and Raul Santaeulalia-Llopis, "Natural Resources and Global Misallocation" (AEJ Macroeconomics 11:2, 2019) from Stata to Julia. This was done for the [Computational Economics](https://floswald.github.io/NumericalMethods/) class taught by [Florian Oswald](https://floswald.github.io/) at Sciences Po. We obtained the grade of 19/20 for this work.
+As part of this [Computational Economics](https://floswald.github.io/NumericalMethods/) course, we developed a complete Julia replication package for Monge-Naranjo, Sanchez & Santaeulalia-Llopis, "Natural Resources and Global Misallocation" (AEJ: Macroeconomics, 2019). The authors provided only four raw datasets and a single do-file for the initial merge, with no code for producing the paper’s tables or figures. Our task therefore required rebuilding the full data pipeline and inference steps directly from the paper.
 
-You can find our package documentation and work repository here: [Replication package of Monge-Naranjo et al., 2019, in Julia](https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/).
+We recreated the dataset used in the article (MSS_NRshares.dta) by translating the Stata workflow into Julia, resolving country-splitting issues and handling software differences in merging, treatment of missing values, and rounding. Tests show an exact match for several variables and approximate equality for the rest, consistent with Stata–Julia rounding differences .
+Because no replication code was available, we reconstructed all figures and tables using only the methodological descriptions in the paper. For elements relying on external non-shared datasets (e.g., Sachs–Warner openness indicator), we documented and implemented reasonable substitutes while explaining the discrepancies that arise.
+
+The full replication package, documentation, and reproducible workflow are available [here](https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/).
+
 </section>
 
 <section class="course-item" data-cats="presentation referee">
 <h3>Topics in Public and Environmental Economics (*Fall 2024*)</h3>
+<div class="course-note">
+Course taught by [Stefan Pollinger](https://www.stefanpollinger.com/) (Sciences Po)
+
+<em>With [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) and Marie-Ange Ortiz </em> </div>
 <div class="course-tags">
   <span class="course-tag">Paper presentation</span>
   <span class="course-tag">Referee report</span>
 </div>
-This is a group presentation done during the fall semester of 2024-2025 for the class taught by [Stefan Pollinger](https://www.stefanpollinger.com/). We presented the working paper of Chancel and Rehm on the Carbon Footprint of Capital. The link sends you to our slides and a detailed summary of the article (here is the [latest version of the paper](https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&e=1)). The referee report was written individually. These works combined received the grade of 16/20.
+As part of this course, our group presented [Chancel & Rehm (2024)](https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&e=1), “The Carbon Footprint of Capital”, a working paper that proposes new methods to measure individual carbon footprints by incorporating emissions linked to asset ownership. Our presentation summarized the paper’s framework, data sources, and key results on emissions inequality across France, Germany, and the United States, drawing on its figures and empirical findings. Slides and a written summary can be found on our [dedicated website](https://www.paulogcd.com/TPEE_Presentation/).
 
-You can find our dedicated project website [here](https://www.paulogcd.com/TPEE_Presentation/) and my referee report [here](docs/pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf).
+In addition to the presentation, we had to write an individual [referee report](docs/pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf) evaluating the paper’s methodology, data limitations, and interpretation of results. The report discussed issues such as undercoverage at the top of the wealth distribution, limited asset-level granularity, and challenges in attributing cross-border emissions, and offered suggestions for clarifying the robustness and scope of the analysis.
+
 </section>
 
 <section class="course-item" data-cats="presentation">
 <h3>Macroeconomics 2 (*Spring 2024*)</h3>
+<div class="course-note">
+Course taught by [Jean Barthélemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France)
+
+<em>With Jiawei Qian</em> </div>
 <div class="course-tags">
   <span class="course-tag">Paper presentation</span>
 </div>
-This is a group presentation done in the spring semester of 2024 for the "Macroeconomics 2" class taught by [Jean Barthelemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France) that consisted in a one-hour presentation of the paper "Bank runs, Deposit Insurance, and Liquidity," by Douglas W. Diamond and Philip H. Dybvig (2020). We received the grade of 19/20 for this presentation.
 
-You can find our presentation here: [Macroeconomics Group Presentation about the Diamond Dybvig model of Bank Runs](docs/pdf/macro_pre.pdf).
+As part of this course, our group delivered a one-hour presentation on Diamond & Dybvig, “Bank Runs, Deposit Insurance, and Liquidity”. The [presentation](docs/pdf/macro_pre.pdf) reviewed the model’s core mechanisms—banks’ role in providing liquidity, the emergence of multiple equilibria under sequential service constraints, and the conditions under which bank runs arise even for solvent institutions.
+
+We covered the competitive, planner, and banking allocations; derived the key equilibrium conditions; and explained how deposit contracts improve risk-sharing but generate run-prone equilibria. We also examined the main policy results, including suspension of convertibility, optimal deposit insurance, and the role of taxes in restoring the constrained-efficient allocation when liquidity needs are stochastic.
+
 </section>
 
 <section class="course-item" data-cats="research">
 <h3>Microeconomics 2 (*Spring 2024*)</h3>
 <div class="course-note">
-<em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage<em>
+Course taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po)
 
-Course taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po)</div>
+<em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage</em> </div>
 <div class="course-tags">
   <span class="course-tag">Research project</span>
 </div>
@@ -210,7 +229,7 @@ For this group research project, we developed and analyzed a game-theoretic mode
 a dynamic signaling extension with Perfect Bayesian Equilibria across periods, and
 a teacher–student extension where a workload-setting instructor solves an optimization problem anticipating equilibrium attendance responses.
 
-The [report](docs/pdf/Micro_Group_Project.pdf). includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.
+The [report](docs/pdf/Micro_Group_Project.pdf) includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.
 
 </section>
 
@@ -218,7 +237,7 @@ The [report](docs/pdf/Micro_Group_Project.pdf). includes full model specificatio
 <h3>Contemporary Theories of Political Economy (*Fall 2022*)</h3>
 <div class="course-note">Course taught by [Steven K. Vogel](https://polisci.berkeley.edu/people/person/steven-vogel) (UC Berkeley)</div>
 <div class="course-tags">
-  <span class="course-tag">Research project</span>
+  <span class="course-tag">Theory paper</span>
 </div>
 For this [theory paper](docs/pdf/polecon_flows.pdf) assignment, I wrote a comparative political-economy paper examining Fernand Braudel’s longue-durée analysis of “économie-monde” and David Harvey’s theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel’s emphasis on control of trade infrastructures and Harvey’s concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows
 

@@ -1,9 +1,9 @@
 ---
-title: "Projects"
+title: "Coursework"
 ---
 
 \begin{center}
-Welcome tom my project webpage. You will find here a list of ongoing or past projects I have worked on.
+Welcome to my coursework page. You will find here a list of ongoing or past projects I have worked on.
 \end{center}
 
 
