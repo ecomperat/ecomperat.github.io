@@ -1,4 +1,4 @@
 ---
 title: "CV"
 ---
-You can take a look at my [resume](pdf/resume/COMPERAT.Etienne_cv.pdf) here.
+You can take a look at my [resume](docs/pdf/resume/COMPERAT.Etienne_cv.pdf) here.

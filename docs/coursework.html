@@ -195,12 +195,29 @@ body.coursework-compact .course-item h3 {
   margin-bottom: 0.15rem; 
 }
 
+body.coursework-compact .course-head {
+  cursor: pointer;
+  padding: 0.1rem 0;
+}
+
+body.coursework-compact .course-head:hover {
+  opacity: 0.9;
+}
+
+body.coursework-compact .course-body {
+  display: none;
+  margin-top: 0.25rem;
+}
+
+body.coursework-compact .course-item.open .course-body {
+  display: block;
+}
+
 body.coursework-compact .course-tags {
   display: flex;
   gap: 0.4rem;
   flex-wrap: wrap;
-  margin: 0 0 0.1rem 0;
-  margin-bottom: 0.02rem;
+  margin: 0 0 0.05rem 0;
 }
 
 body.coursework-compact .course-note {
@@ -291,7 +308,20 @@ body.coursework-compact .cat-filter.active {
 <p><a href="#" class="cat-filter active" data-cat="all">All</a> <a href="#" class="cat-filter" data-cat="replication">Replication package</a> <a href="#" class="cat-filter" data-cat="research">Research project</a> <a href="#" class="cat-filter" data-cat="presentation">Paper presentation</a> <a href="#" class="cat-filter" data-cat="referee">Referee report</a> <a href="#" class="cat-filter" data-cat="paper">Theory paper</a></p>
 </section>
 </div>
-</div></div><section class="course-item" data-cats="replication">
+</div></div><section class="course-item" data-cats="referee research">
+<h3 class="anchored">
+Topics in Public, Political &amp; Organizational Economics (<em>Spring 2025</em>)
+</h3>
+<div class="course-note">
+Course taught Antoine Ferey, Roberto Galbiati, Franz Ostrizek (Sciences Po)
+</div>
+<div class="course-tags">
+<p><span class="course-tag">Referee report</span> <span class="course-tag">Research project</span></p>
+</div>
+<p>As part of this research-oriented course, I completed two assignments:</p>
+<p>I wrote a referee report on Pires (2024), “How Much Can You Make? Mispredictions and Biased Memory in Gig Jobs”, a behavioral-labor-economics paper on biased beliefs and earnings misprediction among gig-economy workers. The report summarizes the contribution, assesses identification and survey-design concerns, and proposes extensions including sensitivity analysis of cost assumptions, potential commitment-device effects in elicited expectations, and alternative explanations such as social-desirability bias.</p>
+</section>
+<section class="course-item" data-cats="replication">
 <h3 class="anchored">
 Computational Economics (<em>Fall 2024</em>)
 </h3>
@@ -303,7 +333,7 @@ Computational Economics (<em>Fall 2024</em>)
 <p><span class="course-tag">Replication package</span></p>
 </div>
 <p>As part of this <a href="https://floswald.github.io/NumericalMethods/">Computational Economics</a> course, we developed a complete Julia replication package for Monge-Naranjo, Sanchez &amp; Santaeulalia-Llopis, “Natural Resources and Global Misallocation” (AEJ: Macroeconomics, 2019). The authors provided only four raw datasets and a single do-file for the initial merge, with no code for producing the paper’s tables or figures. Our task therefore required rebuilding the full data pipeline and inference steps directly from the paper.</p>
-<p>We recreated the dataset used in the article (MSS_NRshares.dta) by translating the Stata workflow into Julia, resolving country-splitting issues and handling software differences in merging, treatment of missing values, and rounding. Tests show an exact match for several variables and approximate equality for the rest, consistent with Stata–Julia rounding differences . Because no replication code was available, we reconstructed all figures and tables using only the methodological descriptions in the paper. For elements relying on external non-shared datasets (e.g., Sachs–Warner openness indicator), we documented and implemented reasonable substitutes while explaining the discrepancies that arise.</p>
+<p>We recreated the dataset used in the article by translating the Stata workflow into Julia, resolving country-splitting issues and handling software differences in merging, treatment of missing values, and rounding. Tests show an exact match for several variables and approximate equality for the rest, consistent with Stata–Julia rounding differences . Because no replication code was available, we reconstructed all figures and tables using only the methodological descriptions in the paper and our understanding of the data. For elements relying on external non-shared datasets, we documented and implemented reasonable substitutes while explaining the discrepancies that arise.</p>
 <p>The full replication package, documentation, and reproducible workflow are available <a href="https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/">here</a>.</p>
 </section>
 <section class="course-item" data-cats="presentation referee">
@@ -348,7 +378,7 @@ Microeconomics 2 (<em>Spring 2024</em>)
 <p>For this group research project, we developed and analyzed a game-theoretic model of class-attendance decisions, formulating student behavior as strategic interaction under workload constraints. The project involved constructing: a baseline simultaneous-move game with heterogeneous student types and Bayesian Nash equilibria, a dynamic signaling extension with Perfect Bayesian Equilibria across periods, and a teacher–student extension where a workload-setting instructor solves an optimization problem anticipating equilibrium attendance responses.</p>
 <p>The <a href="docs/pdf/Micro_Group_Project.pdf">report</a> includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.</p>
 </section>
-<section class="course-item" data-cats="research">
+<section class="course-item" data-cats="theory">
 <h3 class="anchored">
 Contemporary Theories of Political Economy (<em>Fall 2022</em>)
 </h3>
