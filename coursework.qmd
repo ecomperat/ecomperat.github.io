@@ -174,30 +174,47 @@ This section includes past coursework throughout my Bachelor and Master's.
 <div id="categories-panel" markdown="1">
 #### Categories
 [All](#){.cat-filter .active data-cat="all"}
-[Replication package](#){.cat-filter data-cat="replication"}
-[Research project](#){.cat-filter data-cat="research"}
 [Paper presentation](#){.cat-filter data-cat="presentation"}
 [Referee report](#){.cat-filter data-cat="referee"}
-[Theory paper](#){.cat-filter data-cat="paper"}
+[Replication package](#){.cat-filter data-cat="replication"}
+[Research project](#){.cat-filter data-cat="research"}
+[Theory paper](#){.cat-filter data-cat="theory"}
 </div>
 </div>
-
 
 
 <section class="course-item" data-cats="referee research">
-<h3>Topics in Public, Political & Organizational Economics (*Spring 2025*)</h3>
-<div class="course-note">Course taught Antoine Ferey, Roberto Galbiati, Franz Ostrizek (Sciences Po)</div>
+<h3>Urban Economics (*Spring 2025*)</h3>
+<div class="course-note">Course taught [Pierre-Philippe Combes](https://sites.google.com/view/pierrephilippecombes/) (Sciences Po)</div>
 <div class="course-tags">
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
 
+For this course, I completed two complementary assignments centered on spatial and urban economics. The first was a critical reading of Donaldson and Hornbeck (2016), "Railroads and American Economic Growth", in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report analyzes how the paper connects general-equilibrium trade theory (Eaton–Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.
 
-As part of this research-oriented course, I completed two assignments:
+The second assignment consisted in a research proposal suggesting several extensions to the Donaldson–Hornbeck framework. It outlines how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics-including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data to evaluate the generalizability of U.S. findings to a different institutional and geographic setting. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.
 
-I wrote a referee report on Pires (2024), "How Much Can You Make? Mispredictions and Biased Memory in Gig Jobs", a behavioral-labor-economics paper on biased beliefs and earnings misprediction among gig-economy workers. The report summarizes the contribution, assesses identification and survey-design concerns, and proposes extensions including sensitivity analysis of cost assumptions, potential commitment-device effects in elicited expectations, and alternative explanations such as social-desirability bias.
+Both assignments are available [here](pdf\CompératURE.pdf).
 
 </section>
+
+
+
+<section class="course-item" data-cats="referee research">
+<h3>Topics in Public, Political & Organizational Economics (*Spring 2025*)</h3>
+<div class="course-note">Course taught [Antoine Ferey](https://sites.google.com/site/fereyantoine), [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), [Franz Ostrizek](https://franzostrizek.com/) (Sciences Po)</div>
+<div class="course-tags">
+  <span class="course-tag">Referee report</span>
+  <span class="course-tag">Research project</span>
+</div>
+
+As part of this research-oriented course, I completed two assignments. The first was a [referee report](pdf\COMPERAT.Etienne_refereereport.pdf) on Pires (2024), "How Much Can You Make? Mispredictions and Biased Memory in Gig Jobs", a behavioral-labor-economics paper on biased beliefs and earnings misprediction among gig-economy workers. The report summarizes the contribution, assesses identification and survey-design concerns, and proposes extensions including sensitivity analysis of cost assumptions, potential commitment-device effects in elicited expectations, and alternative explanations such as social-desirability bias.
+
+The second assignment consisted in a [research proposal](pdf\COMPERAT.Etienne_research.project.pdf) studying whether the 1833 Guizot Law, which mandated primary schools in French communes, causally reduced crime by increasing early-life literacy. The proposal develops a cohort-based identification strategy comparing pre- and post-reform birth cohorts within départements, using literacy at age 20 as a proxy for exposure to the reform, and estimating its effect on adult crime rates in a panel FE framework. It outlines historical data construction from 19th-century administrative sources (education, literacy, criminal prosecutions) and discusses limitations related to migration, mortality, and data granularity.
+
+</section>
+
 
 <section class="course-item" data-cats="replication">
 <h3>Computational Economics (*Fall 2024*)</h3>
@@ -230,7 +247,7 @@ Course taught by [Stefan Pollinger](https://www.stefanpollinger.com/) (Sciences 
 </div>
 As part of this course, our group presented [Chancel & Rehm (2024)](https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&e=1), “The Carbon Footprint of Capital”, a working paper that proposes new methods to measure individual carbon footprints by incorporating emissions linked to asset ownership. Our presentation summarized the paper’s framework, data sources, and key results on emissions inequality across France, Germany, and the United States, drawing on its figures and empirical findings. Slides and a written summary can be found on our [dedicated website](https://www.paulogcd.com/TPEE_Presentation/).
 
-In addition to the presentation, we had to write an individual [referee report](docs/pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf) evaluating the paper’s methodology, data limitations, and interpretation of results. The report discussed issues such as undercoverage at the top of the wealth distribution, limited asset-level granularity, and challenges in attributing cross-border emissions, and offered suggestions for clarifying the robustness and scope of the analysis.
+In addition to the presentation, we had to write an individual [referee report](pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf) evaluating the paper’s methodology, data limitations, and interpretation of results. The report discussed issues such as undercoverage at the top of the wealth distribution, limited asset-level granularity, and challenges in attributing cross-border emissions, and offered suggestions for clarifying the robustness and scope of the analysis.
 
 </section>
 
@@ -244,7 +261,7 @@ Course taught by [Jean Barthélemy](https://sites.google.com/site/jeanbarthelemy
   <span class="course-tag">Paper presentation</span>
 </div>
 
-As part of this course, our group delivered a one-hour presentation on Diamond & Dybvig, “Bank Runs, Deposit Insurance, and Liquidity”. The [presentation](docs/pdf/macro_pre.pdf) reviewed the model’s core mechanisms—banks’ role in providing liquidity, the emergence of multiple equilibria under sequential service constraints, and the conditions under which bank runs arise even for solvent institutions.
+As part of this course, our group delivered a one-hour presentation on Diamond & Dybvig, “Bank Runs, Deposit Insurance, and Liquidity”. The [presentation](pdf/macro_pre.pdf) reviewed the model’s core mechanisms—banks’ role in providing liquidity, the emergence of multiple equilibria under sequential service constraints, and the conditions under which bank runs arise even for solvent institutions.
 
 We covered the competitive, planner, and banking allocations; derived the key equilibrium conditions; and explained how deposit contracts improve risk-sharing but generate run-prone equilibria. We also examined the main policy results, including suspension of convertibility, optimal deposit insurance, and the role of taxes in restoring the constrained-efficient allocation when liquidity needs are stochastic.
 
@@ -263,7 +280,7 @@ For this group research project, we developed and analyzed a game-theoretic mode
 a dynamic signaling extension with Perfect Bayesian Equilibria across periods, and
 a teacher–student extension where a workload-setting instructor solves an optimization problem anticipating equilibrium attendance responses.
 
-The [report](docs/pdf/Micro_Group_Project.pdf) includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.
+The [report](pdf/Micro_Group_Project.pdf) includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.
 
 </section>
 
@@ -273,7 +290,7 @@ The [report](docs/pdf/Micro_Group_Project.pdf) includes full model specification
 <div class="course-tags">
   <span class="course-tag">Theory paper</span>
 </div>
-For this [theory paper](docs/pdf/polecon_flows.pdf) assignment, I wrote a comparative political-economy paper examining Fernand Braudel’s longue-durée analysis of “économie-monde” and David Harvey’s theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel’s emphasis on control of trade infrastructures and Harvey’s concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows
+For this [theory paper](pdf/polecon_flows.pdf) assignment, I wrote a comparative political-economy paper examining Fernand Braudel’s longue-durée analysis of “économie-monde” and David Harvey’s theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel’s emphasis on control of trade infrastructures and Harvey’s concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows
 
 </section>
 

@@ -8,7 +8,7 @@
 
 website:
   title: "Etienne Compérat"
-  favicon: docs\img\website_logo_round.png
+  favicon: img\logo_round.png
   navbar:
     left:
       - href: index.qmd
