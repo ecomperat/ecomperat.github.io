@@ -185,15 +185,15 @@ This section includes past coursework throughout my Bachelor and Master's.
 
 <section class="course-item" data-cats="referee research">
 <h3>Urban Economics (*Spring 2025*)</h3>
-<div class="course-note">Course taught [Pierre-Philippe Combes](https://sites.google.com/view/pierrephilippecombes/) (Sciences Po)</div>
+<div class="course-note">Course taught by [Pierre-Philippe Combes](https://sites.google.com/view/pierrephilippecombes/) (Sciences Po)</div>
 <div class="course-tags">
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
 
-For this course, I completed two complementary assignments centered on spatial and urban economics. The first was a critical reading of Donaldson and Hornbeck (2016), "Railroads and American Economic Growth", in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report analyzes how the paper connects general-equilibrium trade theory (Eaton–Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.
+For this course, I completed two complementary assignments based on Donaldson and Hornbeck (2016), "Railroads and American Economic Growth". The first one was a critical reading of the paper in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. I analyzed how the paper connects general-equilibrium trade theory (Eaton–Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. This report also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.
 
-The second assignment consisted in a research proposal suggesting several extensions to the Donaldson–Hornbeck framework. It outlines how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics-including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data to evaluate the generalizability of U.S. findings to a different institutional and geographic setting. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.
+The second assignment consisted in a research proposal suggesting several extensions to the Donaldson–Hornbeck framework. In this essay, I outlined how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics-including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data to evaluate the generalizability of U.S. findings to a different institutional and geographic setting. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.
 
 Both assignments are available [here](pdf\CompératURE.pdf).
 
@@ -203,7 +203,7 @@ Both assignments are available [here](pdf\CompératURE.pdf).
 
 <section class="course-item" data-cats="referee research">
 <h3>Topics in Public, Political & Organizational Economics (*Spring 2025*)</h3>
-<div class="course-note">Course taught [Antoine Ferey](https://sites.google.com/site/fereyantoine), [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), [Franz Ostrizek](https://franzostrizek.com/) (Sciences Po)</div>
+<div class="course-note">Course taught by [Antoine Ferey](https://sites.google.com/site/fereyantoine), [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), [Franz Ostrizek](https://franzostrizek.com/) (Sciences Po)</div>
 <div class="course-tags">
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
