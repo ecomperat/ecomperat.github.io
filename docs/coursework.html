@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Past Assignments – Etienne Compérat</title>
+<title>coursework – Etienne Compérat</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed coursework-compact quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -166,21 +166,18 @@ body.coursework-compact .page-layout-article {
   padding-left: 2.25rem;
 }
 
-/* Force the main document area to respect the left padding */
 body.coursework-compact #quarto-content,
 body.coursework-compact main,
 body.coursework-compact .quarto-container {
   padding-left: 2.25rem !important;
 }
 
-/* Cover container classes used by Quarto/Bootstrap */
 body.coursework-compact .container,
 body.coursework-compact .container-fluid,
 body.coursework-compact .content {
   padding-left: 2.25rem !important;
 }
 
-/* Fallback: margin on main */
 body.coursework-compact main {
   margin-left: 2.25rem !important;
 }
@@ -192,25 +189,81 @@ body.coursework-compact p {
 
 body.coursework-compact .course-item h3 {
   display: inline-block;
-  margin-bottom: 0.15rem; 
+  margin-bottom: 0.15rem;
+}
+
+body.coursework-compact .course-item {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background: #fdfbf8;
+  border: 1px solid #e7e2db;
+  border-radius: 0.6rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02);
 }
 
 body.coursework-compact .course-head {
   cursor: pointer;
-  padding: 0.1rem 0;
-}
-
-body.coursework-compact .course-head:hover {
-  opacity: 0.9;
+  padding: 0.15rem 0;
+  position: relative;
+  padding-right: 1.5rem;
+  display: block;
 }
 
 body.coursework-compact .course-body {
-  display: none;
-  margin-top: 0.25rem;
+  display: block;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease, margin-top 0.25s ease;
 }
 
 body.coursework-compact .course-item.open .course-body {
-  display: block;
+  max-height: 1500px;
+  opacity: 1;
+  margin-top: 0.25rem;
+}
+
+body.coursework-compact .course-head::after {
+  content: "▾";
+  position: absolute;
+  right: 0;
+  top: 0.55rem;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+  color: #c45607;
+}
+
+body.coursework-compact .course-item.open .course-head::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Hover underline animation on headings */
+body.coursework-compact .course-head h3 {
+  position: relative;
+}
+
+body.coursework-compact .course-head::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.3rem;
+  height: 2px;
+  width: 0;
+  background-color: #c45607;
+  transform: translateX(-50%);
+  transition: width 0.2s ease-out, transform 0.2s ease-out, bottom 0.2s ease-out;
+}
+
+body.coursework-compact .course-head:hover::before {
+  width: 50%;
+}
+
+body.coursework-compact .course-item.open .course-head::before {
+  width: 100%;
+  bottom: -0.2rem;
+  transform: translate(-50%, 0.1rem);
 }
 
 body.coursework-compact .course-tags {
@@ -225,15 +278,30 @@ body.coursework-compact .course-note {
   font-style: normal;
   margin: 0 0 0.2rem 0;
   line-height: 1.2;
+  position: relative;
+  clear: both;
 }
 
 body.coursework-compact .course-note em,
 body.coursework-compact .course-note i {
   font-style: italic;
+  display: block;
+  margin-top: 0.05rem;
 }
 
 body.coursework-compact .course-note p {
   margin: 0;
+}
+
+body.coursework-compact .course-note .note-grade {
+  float: right;
+  font-weight: normal;
+}
+
+body.coursework-compact .course-note::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 body.coursework-compact .course-tag {
@@ -313,96 +381,96 @@ body.coursework-compact .cat-filter.active {
 Urban Economics (<em>Spring 2025</em>)
 </h3>
 <div class="course-note">
-Course taught <a href="https://sites.google.com/view/pierrephilippecombes/">Pierre-Philippe Combes</a> (Sciences Po)
+Course taught by <a href="https://sites.google.com/view/pierrephilippecombes/">Pierre-Philippe Combes</a> (Sciences Po) <span class="note-grade">Grades: 17/20 and 19/20</span>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Referee report</span> <span class="course-tag">Research project</span></p>
 </div>
-<p>For this course, I completed two complementary assignments centered on spatial and urban economics. The first was a critical reading of Donaldson and Hornbeck (2016), “Railroads and American Economic Growth”, in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report analyzes how the paper connects general-equilibrium trade theory (Eaton–Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.</p>
-<p>The second assignment consisted in a research proposal suggesting several extensions to the Donaldson–Hornbeck framework. It outlines how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics-including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data to evaluate the generalizability of U.S. findings to a different institutional and geographic setting. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.</p>
-<p>Both assignments are available <a href="pdf\CompératURE.pdf">here</a>.</p>
+<p>For this course, I completed two complementary assignments based on Donaldson and Hornbeck (2016), “Railroads and American Economic Growth”. The first one was a critical reading of the paper in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report explains how the paper connects general-equilibrium trade theory (Eaton–Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.</p>
+<p>The second assignment consisted in a research proposal suggesting several extensions to the Donaldson–Hornbeck framework. In this essay, I outlined how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics—including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.</p>
+Both assignments are available <a href="pdf\CompératURE.pdf">here</a>.
 </section>
 <section class="course-item" data-cats="referee research">
 <h3 class="anchored">
 Topics in Public, Political &amp; Organizational Economics (<em>Spring 2025</em>)
 </h3>
 <div class="course-note">
-Course taught <a href="https://sites.google.com/site/fereyantoine">Antoine Ferey</a>, <a href="https://sites.google.com/view/galbiatir1/">Roberto Galbiati</a>, <a href="https://franzostrizek.com/">Franz Ostrizek</a> (Sciences Po)
+Course taught by <a href="https://sites.google.com/site/fereyantoine">Antoine Ferey</a>, <a href="https://sites.google.com/view/galbiatir1/">Roberto Galbiati</a>, <a href="https://franzostrizek.com/">Franz Ostrizek</a> (Sciences Po) <span class="note-grade">Grade: 16/20</span>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Referee report</span> <span class="course-tag">Research project</span></p>
 </div>
 <p>As part of this research-oriented course, I completed two assignments. The first was a <a href="pdf\COMPERAT.Etienne_refereereport.pdf">referee report</a> on Pires (2024), “How Much Can You Make? Mispredictions and Biased Memory in Gig Jobs”, a behavioral-labor-economics paper on biased beliefs and earnings misprediction among gig-economy workers. The report summarizes the contribution, assesses identification and survey-design concerns, and proposes extensions including sensitivity analysis of cost assumptions, potential commitment-device effects in elicited expectations, and alternative explanations such as social-desirability bias.</p>
-<p>The second assignment consisted in a <a href="pdf\COMPERAT.Etienne_research.project.pdf">research proposal</a> studying whether the 1833 Guizot Law, which mandated primary schools in French communes, causally reduced crime by increasing early-life literacy. The proposal develops a cohort-based identification strategy comparing pre- and post-reform birth cohorts within départements, using literacy at age 20 as a proxy for exposure to the reform, and estimating its effect on adult crime rates in a panel FE framework. It outlines historical data construction from 19th-century administrative sources (education, literacy, criminal prosecutions) and discusses limitations related to migration, mortality, and data granularity.</p>
+The second assignment consisted in a <a href="pdf\COMPERAT.Etienne_research.project.pdf">research proposal</a> studying whether the 1833 Guizot Law, which mandated primary schools in French communes, causally reduced crime by increasing early-life literacy. The proposal develops a cohort-based identification strategy comparing pre- and post-reform birth cohorts within départements, using literacy at age 20 as a proxy for exposure to the reform, and estimating its effect on adult crime rates in a panel FE framework. It outlines historical data construction from 19th-century administrative sources (education, literacy, criminal prosecutions) and discusses limitations related to migration, mortality, and data granularity.
 </section>
 <section class="course-item" data-cats="replication">
 <h3 class="anchored">
 Computational Economics (<em>Fall 2024</em>)
 </h3>
 <div class="course-note">
-<p>Course taught by <a href="https://floswald.github.io/">Florian Oswald</a> (Sciences Po)</p>
-<em>With <a href="https://lionelchambon.github.io/">Lionel Chambon</a> and <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a> </em>
+<p>Course taught by <a href="https://floswald.github.io/">Florian Oswald</a> (Sciences Po) <span class="note-grade">Grade: 19/20</span></p>
+<p><em>With <a href="https://lionelchambon.github.io/">Lionel Chambon</a> and <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a></em></p>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Replication package</span></p>
 </div>
 <p>As part of this <a href="https://floswald.github.io/NumericalMethods/">Computational Economics</a> course, we developed a complete Julia replication package for Monge-Naranjo, Sanchez &amp; Santaeulalia-Llopis, “Natural Resources and Global Misallocation” (AEJ: Macroeconomics, 2019). The authors provided only four raw datasets and a single do-file for the initial merge, with no code for producing the paper’s tables or figures. Our task therefore required rebuilding the full data pipeline and inference steps directly from the paper.</p>
-<p>We recreated the dataset used in the article by translating the Stata workflow into Julia, resolving country-splitting issues and handling software differences in merging, treatment of missing values, and rounding. Tests show an exact match for several variables and approximate equality for the rest, consistent with Stata–Julia rounding differences . Because no replication code was available, we reconstructed all figures and tables using only the methodological descriptions in the paper and our understanding of the data. For elements relying on external non-shared datasets, we documented and implemented reasonable substitutes while explaining the discrepancies that arise.</p>
-<p>The full replication package, documentation, and reproducible workflow are available <a href="https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/">here</a>.</p>
+<p>We recreated the dataset used in the article by translating the Stata workflow into Julia, resolving country-splitting issues and handling software differences in merging, treatment of missing values, and rounding. Tests show an exact match for several variables and approximate equality for the rest, consistent with Stata–Julia rounding differences. Because no replication code was available, we reconstructed all figures and tables using only the methodological descriptions in the paper and our understanding of the data. For elements relying on external non-shared datasets, we documented and implemented reasonable substitutes while explaining the discrepancies that arise.</p>
+The full replication package, documentation, and reproducible workflow are available <a href="https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/">here</a>.
 </section>
 <section class="course-item" data-cats="presentation referee">
 <h3 class="anchored">
 Topics in Public and Environmental Economics (<em>Fall 2024</em>)
 </h3>
 <div class="course-note">
-<p>Course taught by <a href="https://www.stefanpollinger.com/">Stefan Pollinger</a> (Sciences Po)</p>
-<em>With <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a> and Marie-Ange Ortiz </em>
+<p>Course taught by <a href="https://www.stefanpollinger.com/">Stefan Pollinger</a> (Sciences Po) <span class="note-grade">Grade: 16/20</span></p>
+<p><em>With <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a> and Marie-Ange Ortiz</em></p>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Paper presentation</span> <span class="course-tag">Referee report</span></p>
 </div>
 <p>As part of this course, our group presented <a href="https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&amp;e=1">Chancel &amp; Rehm (2024)</a>, “The Carbon Footprint of Capital”, a working paper that proposes new methods to measure individual carbon footprints by incorporating emissions linked to asset ownership. Our presentation summarized the paper’s framework, data sources, and key results on emissions inequality across France, Germany, and the United States, drawing on its figures and empirical findings. Slides and a written summary can be found on our <a href="https://www.paulogcd.com/TPEE_Presentation/">dedicated website</a>.</p>
-<p>In addition to the presentation, we had to write an individual <a href="pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf">referee report</a> evaluating the paper’s methodology, data limitations, and interpretation of results. The report discussed issues such as undercoverage at the top of the wealth distribution, limited asset-level granularity, and challenges in attributing cross-border emissions, and offered suggestions for clarifying the robustness and scope of the analysis.</p>
+In addition to the presentation, we had to write an individual <a href="pdf/COMPERAT.Etienne_referee-report_Chancel-and-Rehm.pdf">referee report</a> evaluating the paper’s methodology, data limitations, and interpretation of results. The report discussed issues such as undercoverage at the top of the wealth distribution, limited asset-level granularity, and challenges in attributing cross-border emissions, and offered suggestions for clarifying the robustness and scope of the analysis.
 </section>
 <section class="course-item" data-cats="presentation">
 <h3 class="anchored">
 Macroeconomics 2 (<em>Spring 2024</em>)
 </h3>
 <div class="course-note">
-<p>Course taught by <a href="https://sites.google.com/site/jeanbarthelemyeconomist/home">Jean Barthélemy</a> (Banque de France)</p>
-<em>With Jiawei Qian</em>
+<p>Course taught by <a href="https://sites.google.com/site/jeanbarthelemyeconomist/home">Jean Barthélemy</a> (Banque de France) <span class="note-grade">Grade: 19/20</span></p>
+<p><em>With Jiawei Qian</em></p>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Paper presentation</span></p>
 </div>
 <p>As part of this course, our group delivered a one-hour presentation on Diamond &amp; Dybvig, “Bank Runs, Deposit Insurance, and Liquidity”. The <a href="pdf/macro_pre.pdf">presentation</a> reviewed the model’s core mechanisms—banks’ role in providing liquidity, the emergence of multiple equilibria under sequential service constraints, and the conditions under which bank runs arise even for solvent institutions.</p>
-<p>We covered the competitive, planner, and banking allocations; derived the key equilibrium conditions; and explained how deposit contracts improve risk-sharing but generate run-prone equilibria. We also examined the main policy results, including suspension of convertibility, optimal deposit insurance, and the role of taxes in restoring the constrained-efficient allocation when liquidity needs are stochastic.</p>
+We covered the competitive, planner, and banking allocations; derived the key equilibrium conditions; and explained how deposit contracts improve risk-sharing but generate run-prone equilibria. We also examined the main policy results, including suspension of convertibility, optimal deposit insurance, and the role of taxes in restoring the constrained-efficient allocation when liquidity needs are stochastic.
 </section>
 <section class="course-item" data-cats="research">
 <h3 class="anchored">
 Microeconomics 2 (<em>Spring 2024</em>)
 </h3>
 <div class="course-note">
-<p>Course taught by <a href="https://sites.google.com/site/emericmlhenry/home">Emeric Henry</a> (Sciences Po)</p>
-<em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage</em>
+<p>Course taught by <a href="https://sites.google.com/site/emericmlhenry/home">Emeric Henry</a> (Sciences Po) <span class="note-grade">Grade: 17.5/20</span></p>
+<p><em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage</em></p>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Research project</span></p>
 </div>
 <p>For this group research project, we developed and analyzed a game-theoretic model of class-attendance decisions, formulating student behavior as strategic interaction under workload constraints. The project involved constructing: a baseline simultaneous-move game with heterogeneous student types and Bayesian Nash equilibria, a dynamic signaling extension with Perfect Bayesian Equilibria across periods, and a teacher–student extension where a workload-setting instructor solves an optimization problem anticipating equilibrium attendance responses.</p>
-<p>The <a href="pdf/Micro_Group_Project.pdf">report</a> includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.</p>
+The <a href="pdf/Micro_Group_Project.pdf">report</a> includes full model specification, equilibrium derivations, and comparative statics on workload, beliefs, and incentives.
 </section>
 <section class="course-item" data-cats="theory">
 <h3 class="anchored">
 Contemporary Theories of Political Economy (<em>Fall 2022</em>)
 </h3>
 <div class="course-note">
-Course taught by <a href="https://polisci.berkeley.edu/people/person/steven-vogel">Steven K. Vogel</a> (UC Berkeley)
+Course taught by <a href="https://polisci.berkeley.edu/people/person/steven-vogel">Steven K. Vogel</a> (UC Berkeley) <span class="note-grade">Grade: A+</span>
 </div>
 <div class="course-tags">
 <p><span class="course-tag">Theory paper</span></p>
 </div>
-<p>For this <a href="pdf/polecon_flows.pdf">theory paper</a> assignment, I wrote a comparative political-economy paper examining Fernand Braudel’s longue-durée analysis of “économie-monde” and David Harvey’s theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel’s emphasis on control of trade infrastructures and Harvey’s concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows</p>
+For this <a href="pdf/polecon_flows.pdf">theory paper</a> assignment, I wrote a comparative political-economy paper examining Fernand Braudel’s longue-durée analysis of “économie-monde” and David Harvey’s theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel’s emphasis on control of trade infrastructures and Harvey’s concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows.
 </section>
 <script>
 (function() {
@@ -428,6 +496,12 @@ Course taught by <a href="https://polisci.berkeley.edu/people/person/steven-voge
   });
 
   applyFilter('all');
+
+  document.querySelectorAll('.course-item .course-head').forEach(head => {
+    head.addEventListener('click', () => {
+      head.parentElement.classList.toggle('open');
+    });
+  });
 })();
 </script>
 
