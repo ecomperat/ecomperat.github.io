@@ -85,3 +85,97 @@ nav.quarto-secondary-nav.color-navbar .h1 {
 .navbar-nav .nav-link.active::after {
   width: 100%;
 }
+
+/* -----------------------------
+   Homepage polish
+------------------------------ */
+
+/* Soften background and center the content column */
+body {
+  background: #ffffff;
+  color: #1f2a33;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+/* Title banner: cleaner, lighter */
+.quarto-title-banner {
+  background: #ffffff;
+  color: #1f2a33;
+  border: 1px solid #e6e8ed;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  border-radius: 14px;
+  padding: 1.75rem 2rem;
+}
+
+.quarto-title-banner h1,
+.quarto-title-banner .h1,
+.quarto-title-banner h2,
+.quarto-title-banner .h2 {
+  color: #1f2a33;
+  margin-bottom: 0.35rem;
+}
+
+/* About card: tighten spacing and soften edges */
+.about {
+  background: #ffffff;
+  border: 1px solid #e6e8ed;
+  border-radius: 14px;
+  padding: 1.75rem;
+  box-shadow: 0 12px 34px rgba(15, 23, 42, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.about-image img {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.about-links .about-link {
+  border: 1px solid #d4d9e1;
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  background: #f9fafc;
+}
+
+.about-links .about-link:hover {
+  background: #eef2f7;
+}
+
+/* Section spacing and headings */
+main h1,
+main h2,
+main h3 {
+  color: #14213d;
+  font-weight: 650;
+  margin-top: 1.4rem;
+  margin-bottom: 0.65rem;
+}
+
+main p {
+  margin-bottom: 0.85rem;
+}
+
+main ul {
+  padding-left: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+main li {
+  margin-bottom: 0.35rem;
+}
+
+/* Contact block clarity */
+#contact li {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contact ul {
+  padding-left: 0;
+}
