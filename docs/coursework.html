@@ -358,19 +358,96 @@ body.coursework-compact .categories-container {
   top: 90px;
 }
 
-body.coursework-compact #categories-panel {
+body.coursework-compact #filters-panel {
   padding: 0.75rem 0.9rem;
   border: 1px solid #e1e1e1;
   border-radius: 0.5rem;
   background: #faf7f4;
   max-width: 240px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-body.coursework-compact #categories-panel h4 {
+body.coursework-compact #filters-panel h4 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1rem;
+}
+
+body.coursework-compact .filters-divider {
+  height: 1px;
+  width: 100%;
+  background: #e1e1e1;
+  margin: 0.65rem 0 0.5rem 0;
+}
+
+body.coursework-compact #filters-panel .cat-filter,
+body.coursework-compact #filters-panel .program-filter {
+  display: inline-flex;
+  width: auto;
+  text-align: center;
+  margin: 0.2rem 0;
+  align-self: flex-start;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+body.coursework-compact #filters-panel p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  margin: 0 0 0.4rem 0;
+}
+
+body.coursework-compact .program-filter[data-program="all"] {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: #fff;
+}
+
+body.coursework-compact .program-filter[data-program="mres"] {
+  border: 1px solid #c8102e;
+  color: #c8102e;
+  background: #eee6de;
+}
+
+body.coursework-compact .program-filter[data-program="ucb"] {
+  border: 1px solid #003262;
+  color: #003262;
+  background: #eee6de;
+}
+
+body.coursework-compact .program-filter.active[data-program="all"],
+body.coursework-compact .program-filter:hover[data-program="all"] {
+  background: var(--accent);
+  color: #fdfefe;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
+body.coursework-compact .program-filter.active[data-program="mres"],
+body.coursework-compact .program-filter:hover[data-program="mres"] {
+  background: #c8102e;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
+body.coursework-compact .program-filter.active[data-program="ucb"],
+body.coursework-compact .program-filter:hover[data-program="ucb"] {
+  background: #003262;
+  color: #fdb515;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
 }
 
 body.coursework-compact .cat-filter {
@@ -396,6 +473,65 @@ body.coursework-compact .cat-filter.active {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
+body.coursework-compact .program-filter {
+  display: inline-flex;
+  width: auto;
+  text-align: center;
+  margin: 0.2rem 0;
+  align-self: flex-start;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  border: 1px solid #e1e1e1;
+}
+
+body.coursework-compact .program-filter[data-program="all"] {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: #fff;
+}
+
+body.coursework-compact .program-filter[data-program="all"].active,
+body.coursework-compact .program-filter[data-program="all"]:hover {
+  background: var(--accent);
+  color: #fdfefe;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
+body.coursework-compact .program-filter[data-program="mres"] {
+  border: 1px solid #c8102e;
+  color: #c8102e;
+  background: #eee6de;
+}
+
+body.coursework-compact .program-filter[data-program="mres"].active,
+body.coursework-compact .program-filter[data-program="mres"]:hover {
+  background: #c8102e;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
+body.coursework-compact .program-filter[data-program="ucb"] {
+  border: 1px solid #003262;
+  color: #003262;
+  background: #eee6de;
+}
+
+body.coursework-compact .program-filter[data-program="ucb"].active,
+body.coursework-compact .program-filter[data-program="ucb"]:hover {
+  background: #003262;
+  color: #fdb515;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
 @media (max-width: 991px) {
   body.coursework-compact .categories-container {
     position: static;
@@ -411,13 +547,20 @@ body.coursework-compact .cat-filter.active {
 <p>This section includes past coursework throughout my Bachelor and Master’s.</p>
 
 <div class="no-row-height column-margin column-container"><div class="categories-container" data-markdown="1">
-<div id="categories-panel" data-markdown="1">
+<div id="filters-panel" data-markdown="1">
+<section id="institutions" class="level4">
+<h4 class="anchored" data-anchor-id="institutions">Institutions</h4>
+<p><a href="#" class="program-filter active" data-program="all">All</a> <a href="#" class="program-filter" data-program="mres">Sciences Po</a> <a href="#" class="program-filter" data-program="ucb">UC Berkeley</a></p>
+<div class="filters-divider">
+
+</div>
+</section>
 <section id="categories" class="level4">
 <h4 class="anchored" data-anchor-id="categories">Categories</h4>
 <p><a href="#" class="cat-filter active" data-cat="all">All</a> <a href="#" class="cat-filter" data-cat="presentation">Paper presentation</a> <a href="#" class="cat-filter" data-cat="referee">Referee report</a> <a href="#" class="cat-filter" data-cat="replication">Replication package</a> <a href="#" class="cat-filter" data-cat="research">Research project</a> <a href="#" class="cat-filter" data-cat="theory">Theory paper</a></p>
 </section>
 </div>
-</div></div><section class="course-item" data-cats="referee research">
+</div></div><section class="course-item" data-cats="referee research" data-program="mres">
 <h3 class="anchored">
 Urban Economics <span class="course-term">(<em>Spring 2025</em>)</span>
 </h3>
@@ -439,7 +582,7 @@ The second assignment consisted in a <a href="pdf/URE_researchproject.pdf">resea
 </p>
 </div>
 </section>
-<section class="course-item" data-cats="referee research">
+<section class="course-item" data-cats="referee research" data-program="mres">
 <h3 class="anchored">
 Topics in Public, Political &amp; Organizational Economics <span class="course-term">(<em>Spring 2025</em>)</span>
 </h3>
@@ -461,7 +604,7 @@ The second assignment consisted in a <a href="pdf/TPPOE_researchproject.pdf">res
 </p>
 </div>
 </section>
-<section class="course-item" data-cats="replication">
+<section class="course-item" data-cats="replication" data-program="mres">
 <h3 class="anchored">
 Computational Economics <span class="course-term">(<em>Fall 2024</em>)</span>
 </h3>
@@ -489,7 +632,7 @@ The full replication package, documentation, and reproducible workflow are avail
 </p>
 </div>
 </section>
-<section class="course-item" data-cats="presentation referee">
+<section class="course-item" data-cats="presentation referee" data-program="mres">
 <h3 class="anchored">
 Topics in Public and Environmental Economics <span class="course-term">(<em>Fall 2024</em>)</span>
 </h3>
@@ -514,7 +657,7 @@ In addition to the presentation, we had to write an individual <a href="pdf/TPEE
 </p>
 </div>
 </section>
-<section class="course-item" data-cats="presentation">
+<section class="course-item" data-cats="presentation" data-program="mres">
 <h3 class="anchored">
 Macroeconomics 2 <span class="course-term">(<em>Spring 2024</em>)</span>
 </h3>
@@ -539,7 +682,7 @@ We covered the competitive, planner, and banking allocations; derived the key eq
 </p>
 </div>
 </section>
-<section class="course-item" data-cats="research">
+<section class="course-item" data-cats="research" data-program="mres">
 <h3 class="anchored">
 Microeconomics 2 <span class="course-term">(<em>Spring 2024</em>)</span>
 </h3>
@@ -564,7 +707,7 @@ The <a href="pdf/Micro2_researchproject.pdf">report</a> includes full model spec
 </p>
 </div>
 </section>
-<section class="course-item" data-cats="theory">
+<section class="course-item" data-cats="theory" data-program="ucb">
 <h3 class="anchored">
 Contemporary Theories of Political Economy <span class="course-term">(<em>Fall 2022</em>)</span>
 </h3>
@@ -587,23 +730,50 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
 (function() {
   const items = Array.from(document.querySelectorAll('.course-item'));
   const filters = Array.from(document.querySelectorAll('.cat-filter'));
+  const programFilters = Array.from(document.querySelectorAll('.program-filter'));
   const toggles = Array.from(document.querySelectorAll('.course-toggle'));
+  const groups = Array.from(document.querySelectorAll('.course-group'));
 
-  function applyFilter(cat) {
+  let currentCat = 'all';
+  let currentProgram = 'all';
+
+  function updateGroups() {
+    groups.forEach(group => {
+      const visible = Array.from(group.querySelectorAll('.course-item')).some(el => el.style.display !== 'none');
+      group.style.display = visible ? '' : 'none';
+    });
+  }
+
+  function applyFilters() {
     items.forEach(item => {
       const cats = (item.dataset.cats || '').split(/\s+/).filter(Boolean);
-      const match = cat === 'all' || cats.includes(cat);
-      item.style.display = match ? '' : 'none';
+      const prog = item.dataset.program || '';
+      const catMatch = currentCat === 'all' || cats.includes(currentCat);
+      const progMatch = currentProgram === 'all' || prog === currentProgram;
+      item.style.display = catMatch && progMatch ? '' : 'none';
     });
     filters.forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.cat === cat);
+      btn.classList.toggle('active', btn.dataset.cat === currentCat);
     });
+    programFilters.forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.program === currentProgram);
+    });
+    updateGroups();
   }
 
   filters.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      applyFilter(btn.dataset.cat);
+      currentCat = btn.dataset.cat;
+      applyFilters();
+    });
+  });
+
+  programFilters.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      currentProgram = btn.dataset.program;
+      applyFilters();
     });
   });
 
@@ -625,7 +795,7 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
     });
   });
 
-  applyFilter('all');
+  applyFilters();
 })();
 </script>
 
