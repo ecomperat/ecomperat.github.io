@@ -129,6 +129,31 @@ body.coursework-compact .course-note::after {
   clear: both;
 }
 
+body.coursework-compact .program-tag {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  margin-right: 0.4rem;
+  margin-left: 0.15rem;
+  border-radius: 999px;
+  border: 1px solid var(--card-border);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  background: #f7f2eb;
+  color: var(--text-strong);
+}
+
+body.coursework-compact .program-tag.program-mres {
+  border-color: #e4cfc0;
+  color: #c8102e;
+}
+
+body.coursework-compact .program-tag.program-ucb {
+  border-color: #d6e0ec;
+  color: #003262;
+}
+
 body.coursework-compact .course-term {
   white-space: nowrap;
 }
@@ -275,6 +300,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="course-grade">Grades: 17/20 and 19/20</span>
 </div>
 <div class="course-tags">
+  <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
@@ -293,6 +319,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="course-grade">Grade: 16/20</span>
 </div>
 <div class="course-tags">
+  <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
@@ -312,6 +339,7 @@ This section includes past coursework throughout my Bachelor and Master's.
 </div>
 <div class="course-note"><em>With [Lionel Chambon](https://lionelchambon.github.io/) and [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) </em></div>
 <div class="course-tags">
+  <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Replication package</span>
 </div>
 <button class="course-toggle" type="button">Show more</button>
@@ -332,6 +360,7 @@ This section includes past coursework throughout my Bachelor and Master's.
 </div>
 <div class="course-note"><em>With [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) and Marie-Ange Ortiz </em></div>
 <div class="course-tags">
+  <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Paper presentation</span>
   <span class="course-tag">Referee report</span>
 </div>
@@ -351,6 +380,7 @@ This section includes past coursework throughout my Bachelor and Master's.
 </div>
 <div class="course-note"><em>With Jiawei Qian</em> </div>
 <div class="course-tags">
+  <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Paper presentation</span>
 </div>
 <button class="course-toggle" type="button">Show more</button>
@@ -369,6 +399,7 @@ This section includes past coursework throughout my Bachelor and Master's.
 </div>
 <div class="course-note"><em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage</em> </div>
 <div class="course-tags">
+  <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Research project</span>
 </div>
 <button class="course-toggle" type="button">Show more</button>
@@ -386,6 +417,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="course-grade">Grade: A+</span>
 </div>
 <div class="course-tags">
+  <span class="program-tag program-ucb">BA Environmental Economics</span>
   <span class="course-tag">Theory paper</span>
 </div>
 <button class="course-toggle" type="button">Show more</button>
