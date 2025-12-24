@@ -19,7 +19,7 @@ body.coursework-compact .title {
 body.coursework-compact h2,
 body.coursework-compact h3,
 body.coursework-compact h4 {
-  font-size: 1.05rem;
+  font-size: 1.35rem;
 }
 
 body.coursework-compact p,
@@ -58,8 +58,40 @@ body.coursework-compact p {
 }
 
 body.coursework-compact .course-item h3 {
-  display: inline-block;
   margin-bottom: 0.15rem; 
+}
+
+body.coursework-compact .course-note {
+  display: block;
+  font-style: normal;
+  margin: 0 0 0.15rem 0;
+  line-height: 1.2;
+  position: relative;
+  clear: both;
+}
+
+body.coursework-compact .course-note em,
+body.coursework-compact .course-note i {
+  font-style: italic;
+  display: block;
+  margin-top: 0.05rem;
+}
+
+body.coursework-compact .course-note p {
+  margin: 0;
+}
+
+body.coursework-compact .course-grade {
+  float: right;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #4a3017;
+}
+
+body.coursework-compact .course-note::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 body.coursework-compact .course-head {
@@ -87,20 +119,9 @@ body.coursework-compact .course-tags {
   margin: 0 0 0.05rem 0;
 }
 
-body.coursework-compact .course-note {
-  display: block;
-  font-style: normal;
-  margin: 0 0 0.2rem 0;
-  line-height: 1.2;
-}
-
 body.coursework-compact .course-note em,
 body.coursework-compact .course-note i {
   font-style: italic;
-}
-
-body.coursework-compact .course-note p {
-  margin: 0;
 }
 
 body.coursework-compact .course-tag {
@@ -185,15 +206,18 @@ This section includes past coursework throughout my Bachelor and Master's.
 
 <section class="course-item" data-cats="referee research">
 <h3>Urban Economics (*Spring 2025*)</h3>
-<div class="course-note">Course taught by [Pierre-Philippe Combes](https://sites.google.com/view/pierrephilippecombes/) (Sciences Po)</div>
+<div class="course-note">
+  <span>Course taught by [Pierre-Philippe Combes](https://sites.google.com/view/pierrephilippecombes/) (Sciences Po)</span>
+  <span class="course-grade">Grades: 17/20 and 19/20</span>
+</div>
 <div class="course-tags">
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
 
-For this course, I completed two complementary assignments based on Donaldson and Hornbeck (2016), "Railroads and American Economic Growth". The first one was a [critical reading](pdf\URE_criticalreading.pdf) of the paper in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report explains how the paper connects general-equilibrium trade theory (Eaton–Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.
+For this course, I completed two complementary assignments based on Donaldson and Hornbeck (2016), "Railroads and American Economic Growth". The first one was a [critical reading](pdf\URE_criticalreading.pdf) of the paper in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report explains how the paper connects general-equilibrium trade theory (Eaton-Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.
 
-The second assignment consisted in a [research proposal](pdf\URE_researchproject.pdf) suggesting several extensions to the Donaldson–Hornbeck framework. In this essay, I outlined how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics-including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.
+The second assignment consisted in a [research proposal](pdf\URE_researchproject.pdf) suggesting several extensions to the Donaldson-Hornbeck framework. In this essay, I outlined how one could incorporate dynamic spatial adjustment, political-economy determinants of transport routes, and land-use equilibria into a unified model. The proposal then develops two extensions: one studying how railroad expansion affected urban fringe dynamics-including land rents, agricultural competition, and city expansion inspired by the monocentric model, and another adapting the market-access approach to 19th-century France, combining railway maps, agricultural inquiries, and historical census data. This project required synthesizing spatial general-equilibrium theory, urban bid-rent mechanisms, and proposing historical data construction strategies.
 
 </section>
 
@@ -201,7 +225,10 @@ The second assignment consisted in a [research proposal](pdf\URE_researchproject
 
 <section class="course-item" data-cats="referee research">
 <h3>Topics in Public, Political & Organizational Economics (*Spring 2025*)</h3>
-<div class="course-note">Course taught by [Antoine Ferey](https://sites.google.com/site/fereyantoine), [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), [Franz Ostrizek](https://franzostrizek.com/) (Sciences Po)</div>
+<div class="course-note">
+  <span>Course taught by [Antoine Ferey](https://sites.google.com/site/fereyantoine), [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), [Franz Ostrizek](https://franzostrizek.com/) (Sciences Po)</span>
+  <span class="course-grade">Grade: 16/20</span>
+</div>
 <div class="course-tags">
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
@@ -217,9 +244,10 @@ The second assignment consisted in a [research proposal](pdf\TPPOE_researchproje
 <section class="course-item" data-cats="replication">
 <h3>Computational Economics (*Fall 2024*)</h3>
 <div class="course-note">
-Course taught by [Florian Oswald](https://floswald.github.io/) (Sciences Po)
-
-<em>With [Lionel Chambon](https://lionelchambon.github.io/) and [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) </em> </div>
+  <span>Course taught by [Florian Oswald](https://floswald.github.io/) (Sciences Po)</span>
+  <span class="course-grade">Grade: 19/20</span>
+</div>
+<div class="course-note"><em>With [Lionel Chambon](https://lionelchambon.github.io/) and [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) </em></div>
 <div class="course-tags">
   <span class="course-tag">Replication package</span>
 </div>
@@ -236,9 +264,10 @@ The full replication package, documentation, and reproducible workflow are avail
 <section class="course-item" data-cats="presentation referee">
 <h3>Topics in Public and Environmental Economics (*Fall 2024*)</h3>
 <div class="course-note">
-Course taught by [Stefan Pollinger](https://www.stefanpollinger.com/) (Sciences Po)
-
-<em>With [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) and Marie-Ange Ortiz </em> </div>
+  <span>Course taught by [Stefan Pollinger](https://www.stefanpollinger.com/) (Sciences Po)</span>
+  <span class="course-grade">Grade: 16/20</span>
+</div>
+<div class="course-note"><em>With [Paulo Gugelmo Cavalheiro Dias](https://www.paulogcd.com/) and Marie-Ange Ortiz </em></div>
 <div class="course-tags">
   <span class="course-tag">Paper presentation</span>
   <span class="course-tag">Referee report</span>
@@ -252,9 +281,10 @@ In addition to the presentation, we had to write an individual [referee report](
 <section class="course-item" data-cats="presentation">
 <h3>Macroeconomics 2 (*Spring 2024*)</h3>
 <div class="course-note">
-Course taught by [Jean Barthélemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France)
-
-<em>With Jiawei Qian</em> </div>
+  <span>Course taught by [Jean Barthelemy](https://sites.google.com/site/jeanbarthelemyeconomist/home) (Banque de France)</span>
+  <span class="course-grade">Grade: 19/20</span>
+</div>
+<div class="course-note"><em>With Jiawei Qian</em> </div>
 <div class="course-tags">
   <span class="course-tag">Paper presentation</span>
 </div>
@@ -268,9 +298,10 @@ We covered the competitive, planner, and banking allocations; derived the key eq
 <section class="course-item" data-cats="research">
 <h3>Microeconomics 2 (*Spring 2024*)</h3>
 <div class="course-note">
-Course taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po)
-
-<em>With Paul Farnault, Jean Fontalirand, and Nathanaël Soulage</em> </div>
+  <span>Course taught by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) (Sciences Po)</span>
+  <span class="course-grade">Grade: 17.5/20</span>
+</div>
+<div class="course-note"><em>With Paul Farnault, Jean Fontalirand, and Nathanael Soulage</em> </div>
 <div class="course-tags">
   <span class="course-tag">Research project</span>
 </div>
@@ -284,7 +315,10 @@ The [report](pdf\Micro2_researchproject.pdf) includes full model specification, 
 
 <section class="course-item" data-cats="theory">
 <h3>Contemporary Theories of Political Economy (*Fall 2022*)</h3>
-<div class="course-note">Course taught by [Steven K. Vogel](https://polisci.berkeley.edu/people/person/steven-vogel) (UC Berkeley)</div>
+<div class="course-note">
+  <span>Course taught by [Steven K. Vogel](https://polisci.berkeley.edu/people/person/steven-vogel) (UC Berkeley)</span>
+  <span class="course-grade">Grade: A+</span>
+</div>
 <div class="course-tags">
   <span class="course-tag">Theory paper</span>
 </div>
@@ -318,4 +352,3 @@ For this [theory paper](pdf\POLECON_theorypaper.pdf) assignment, I wrote a compa
   applyFilter('all');
 })();
 </script>
-
