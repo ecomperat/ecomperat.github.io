@@ -22,7 +22,7 @@ format:
     page-layout: full
 ---
 
-Hello! My name is Etienne Compérat, I am a Pre-doctoral Fellow in the Department of Economics at the University of Zurich, where I work under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/). Welcome to my website! ^[A special thanks to Paulo for his invaluable help in bringing this website to life! You can find his Research Portfolio Tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
+Hi! I'm Etienne, a Pre-doctoral Fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/), welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
 
 :::{#hero-heading}
 
@@ -43,8 +43,6 @@ Pre-doctoral Fellow in Economics
 Replicator, Journal of Political Economy
   </div>
 </div>
-
-**Research Interests:** Political Economy, Economic History, Spatial Economics
 
 ## Education
 
@@ -72,10 +70,11 @@ B.A. in Economics and Political Sciences
   </div>
 </div>
 
+**Research Interests:** <br> Political Economy, Economic History, Spatial Economics
 :::
 
 I recently completed a Research Master’s in Economics at Sciences Po, following an exchange year at UC Berkeley, where I specialized in Environmental Economics and Policy. My master’s thesis, supervised by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) and [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), examined the joint impact of education and local democratic institutions on economic development in nineteenth-century France and was awarded Sciences Po’s Prize for Best Master’s Thesis (2024–2025).
 
 My research interests lie at the intersection of Economic History, Political Economy, and Spatial Economics, with a particular focus on institutions, human capital, and long-run development. I am especially interested in the construction of new historical datasets through archival work, including OCR and machine learning-based data extraction. More broadly, I am interested in leveraging historical variation for causal inference, with a particular focus on nineteenth-century France and Europe.
 
-During my pre-doctoral fellowship, my goal is to refine my PhD research agenda while strengthening my empirical and computational skills. My work involves large historical datasets and the use of Python, Stata, as well as machine learning tools applied to economic history. In parallel, I contribute to replication work for the Journal of Political Economy at the University of Chicago, under the supervision of [Florian Oswald](https://floswald.github.io/).
+During my pre-doctoral fellowship, my goal is to refine my PhD project agenda while strengthening my empirical and computational skills. My work involves large historical datasets and the use of Python, Stata, as well as machine learning tools applied to economic history. In parallel, I contribute to replication work for the Journal of Political Economy at the University of Chicago, under the supervision of [Florian Oswald](https://floswald.github.io/).
