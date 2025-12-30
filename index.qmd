@@ -15,8 +15,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/%C3%A9tienne-comp%C3%A9rat-a22850242/
-    - icon:
-      text: "<b>UZH</b>"
+    - text: "<b>UZH</b>"
       href: https://www.econ.uzh.ch/en/people/predocs/comperat.html
 format:
   html:
