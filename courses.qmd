@@ -15,27 +15,51 @@ format:
 <div class="course-list-section active" data-section="graduate-coursework">
 <div class="course-list-heading"><a href="#selected-graduate">Graduate Coursework</a></div>
 <ul>
-  <li>
+  <li class="course-list-parent open" id="course-list-core-parent">
     <a href="#core-seq">Core Graduate Sequences</a>
-    <ul>
+    <ul id="course-list-core" class="course-list-children">
       <li><a href="#econ-iii">ECONOMETRICS I–III</a></li>
       <li><a href="#micro-ii">MICROECONOMICS I–II</a></li>
       <li><a href="#macro-iii">MACROECONOMICS I–III</a></li>
     </ul>
   </li>
-  <li><a href="#field-research">Field and Research-Oriented Courses</a></li>
-  <li><a href="#computational">Computational and Technical Foundations</a></li>
+  <li class="course-list-parent">
+    <a href="#field-research">Field and Research-Oriented Courses</a>
+    <ul id="course-list-field" class="course-list-children">
+      <li><a href="#economic-history">Economic History</a></li>
+      <li><a href="#topics-ppoe">Topics in Political, Public, and Organizational Economics</a></li>
+      <li><a href="#urban-regional">Urban and Regional Economics</a></li>
+      <li><a href="#international-trade">International Trade</a></li>
+      <li><a href="#labor-economics">Labor Economics</a></li>
+      <li><a href="#topics-public-env">Topics in Public and Environmental Economics</a></li>
+      <li><a href="#demography-policy">Demography: Challenges and Policy Implications</a></li>
+      <li><a href="#topics-econ-research">Topics in Economics Research (Graduate Research Seminar)</a></li>
+    </ul>
+  </li>
+  <li class="course-list-parent">
+    <a href="#computational">Computational and Technical Foundations</a>
+    <ul id="course-list-comp" class="course-list-children">
+      <li><a href="#computational-econ">Computational Economics</a></li>
+      <li><a href="#programming-julia">Programming Course: Julia</a></li>
+      <li><a href="#intro-math-econ">Introduction to Mathematics for Economics</a></li>
+    </ul>
+  </li>
 </ul>
 </div>
 
-<div class="course-list-section" data-section="upper-division">
-<div class="course-list-heading"><a href="#upper-division">Upper-Division Coursework</a></div>
+<div class="course-list-section open" data-section="upper-division">
+<div class="course-list-heading"><a href="#upper-division">Undergraduate Coursework</a></div>
 <ul>
-  <li><a href="#berkeley-applied-econ">Introductory Applied Econometrics (ENVECON C118)</a></li>
-  <li><a href="#berkeley-econ-research">Topics in Economic Research (ECON 191)</a></li>
-  <li><a href="#berkeley-growth">Economic Growth in Historical Perspective (ECON 135)</a></li>
-  <li><a href="#berkeley-modern-international">Modern International Economy (HISTORY 160)</a></li>
-  <li><a href="#berkeley-polecon">Contemporary Theories of Political Economy (POLECON 101)</a></li>
+  <li class="course-list-parent">
+    <a href="#upper-division">Selected Upper-Division Courses</a>
+    <ul class="course-list-children">
+      <li><a href="#berkeley-applied-econ">Introductory Applied Econometrics (ENVECON C118)</a></li>
+      <li><a href="#berkeley-econ-research">Topics in Economic Research (ECON 191)</a></li>
+      <li><a href="#berkeley-growth">Economic Growth in Historical Perspective (ECON 135)</a></li>
+      <li><a href="#berkeley-modern-international">Modern International Economy (HISTORY 160)</a></li>
+      <li><a href="#berkeley-polecon">Contemporary Theories of Political Economy (POLECON 101)</a></li>
+    </ul>
+  </li>
 </ul>
 </div>
 </div>
@@ -308,12 +332,17 @@ format:
 <script>
 (function() {
   const listSections = Array.from(document.querySelectorAll('.course-list-section'));
+  const listBlock = document.querySelector('.course-list-block');
   const contentSections = [
     { id: 'core-seq', el: document.getElementById('core-seq') },
     { id: 'field-research', el: document.getElementById('field-research') },
     { id: 'computational', el: document.getElementById('computational') },
     { id: 'upper-division', el: document.getElementById('upper-division') }
   ].filter(item => item.el);
+
+  let isHoveringList = false;
+  const openedParents = new Set();
+  const openedSections = new Set();
 
   function mapSection(id) {
     if (id === 'upper-division') return 'upper-division';
@@ -327,6 +356,7 @@ format:
   }
 
   function updateActiveSection() {
+    if (isHoveringList) return;
     const offset = 120;
     let current = contentSections[0] ? contentSections[0].id : null;
     for (let i = 0; i < contentSections.length; i += 1) {
@@ -341,6 +371,46 @@ format:
     if (current) setActive(mapSection(current));
   }
 
+  const listParents = Array.from(document.querySelectorAll('.course-list-parent'));
+
+  if (listBlock) {
+    listBlock.addEventListener('mouseenter', () => {
+      isHoveringList = true;
+    });
+    listBlock.addEventListener('mouseleave', () => {
+      isHoveringList = false;
+      openedParents.clear();
+      openedSections.clear();
+      listSections.forEach(section => {
+        if (section.dataset.section !== 'upper-division') {
+          section.classList.remove('open');
+        }
+      });
+      listParents.forEach(item => {
+        if (item.id !== 'course-list-core-parent') {
+          item.classList.remove('open');
+        }
+      });
+      updateActiveSection();
+    });
+  }
+
+  listSections.forEach(section => {
+    section.addEventListener('mouseenter', () => {
+      if (!isHoveringList) return;
+      openedSections.add(section);
+      section.classList.add('open');
+    });
+  });
+
+  listParents.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      if (!isHoveringList) return;
+      openedParents.add(item);
+      item.classList.add('open');
+    });
+  });
+
   window.addEventListener('scroll', updateActiveSection, { passive: true });
   window.addEventListener('resize', updateActiveSection);
   if (contentSections.length) {
@@ -349,3 +419,4 @@ format:
   updateActiveSection();
 })();
 </script>
+

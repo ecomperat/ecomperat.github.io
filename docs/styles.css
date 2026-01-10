@@ -292,13 +292,21 @@ body.courses-page .course-list-heading a:hover {
   font-weight: 700;
 }
 
-body.courses-page .course-list-section ul {
+body.courses-page .course-list-section > ul {
   display: none;
   padding-left: 1.1rem;
   margin: 0.1rem 0 0.4rem;
 }
 
 body.courses-page .course-list-section.active ul {
+  display: block;
+}
+
+body.courses-page .course-list-section.open ul {
+  display: block;
+}
+
+body.courses-page .course-list-parent.open > ul {
   display: block;
 }
 
@@ -312,10 +320,30 @@ body.courses-page .course-list-section li {
   margin: 0.2rem 0;
 }
 
-body.courses-page .course-list-section ul ul {
-  margin-top: 0.15rem;
-  padding-left: 0.9rem;
-  border-left: 1px solid #e6dccf;
+body.courses-page .course-list-children {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding-left: 0;
+  border-left: 2px solid #c9c9c9;
+  transition: max-height 0.9s ease, opacity 0.9s ease;
+}
+
+body.courses-page .course-list-parent.open > .course-list-children,
+body.courses-page .course-list-parent:focus-within > .course-list-children {
+  max-height: 500px;
+  opacity: 1;
+}
+
+body.courses-page .course-list-children.course-list-children-open {
+  max-height: none;
+  opacity: 1;
+}
+
+body.courses-page .course-list-children > li {
+  padding-left: 1.2rem;
 }
 
 body.courses-page .course-list-section a {
