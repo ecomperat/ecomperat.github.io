@@ -4,6 +4,7 @@
   render:
     - index.qmd
     - coursework.qmd
+    - courses.qmd
     - cv.qmd
 
 website:
@@ -13,8 +14,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: coursework.qmd
-        text: Coursework
+      - text: Coursework
+        menu:
+          - href: coursework.qmd
+            text: Past Assignments
+          - href: courses.qmd
+            text: Courses
       - cv.qmd
 
 format:

@@ -1,0 +1,6 @@
+---
+title: "Courses"
+format:
+  html:
+    body-classes: courses-page
+---

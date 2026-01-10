@@ -24,7 +24,7 @@ format:
     page-layout: full
 ---
 
-Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/), welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
+Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/). Welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
 
 
 :::{#hero-heading}
@@ -80,4 +80,4 @@ I recently completed a Research Master’s in Economics at Sciences Po, followin
 
 My research interests lie at the intersection of Economic History, Political Economy, and Spatial Economics, with a particular focus on institutions, human capital, and long-run development. I am especially interested in the construction of new historical datasets through archival work, including OCR and machine learning-based data extraction. More broadly, I am interested in leveraging historical variation for causal inference, with a particular focus on nineteenth-century France and Europe.
 
-During my pre-doctoral fellowship, my goal is to refine my PhD project agenda while strengthening my empirical and computational skills. My work involves large historical datasets and the use of Python, Stata, as well as machine learning tools applied to economic history. In parallel, I contribute to replication work for the Journal of Political Economy (University of Chicago), under the supervision of [Florian Oswald](https://floswald.github.io/).
+During my pre-doctoral fellowship, my goal is to refine my PhD project while strengthening my empirical and computational skills. My work involves large historical datasets and the use of Python, Stata, as well as the application of machine learning tools to economic history. In parallel, I am also part of the [JPE replication team](https://jpe-reproducibility.github.io/jpereplicators/index.html) at UChicago, under the supervision of [Florian Oswald](https://floswald.github.io/).

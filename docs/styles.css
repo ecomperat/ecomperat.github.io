@@ -86,6 +86,99 @@ nav.quarto-secondary-nav.color-navbar .h1 {
   width: 100%;
 }
 
+/* Keep underline animation for dropdown toggle, even when hovering the menu */
+.navbar .dropdown:hover > .dropdown-toggle::before,
+.navbar .dropdown:focus-within > .dropdown-toggle::before,
+.navbar .dropdown.show > .dropdown-toggle::before {
+  width: 100%;
+}
+
+/* Keep Coursework active styling on its pages */
+body.coursework-compact .navbar .dropdown > .dropdown-toggle::before,
+body.courses-page .navbar .dropdown > .dropdown-toggle::before {
+  width: 100%;
+}
+
+body.coursework-compact .navbar .dropdown > .dropdown-toggle,
+body.courses-page .navbar .dropdown > .dropdown-toggle {
+  font-weight: 600;
+}
+
+/* Navbar dropdown: smooth open on hover and hide caret */
+.navbar .dropdown > .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar .dropdown > .dropdown-toggle {
+  position: relative;
+}
+
+.navbar .dropdown {
+  position: relative;
+}
+
+.navbar .dropdown::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 0.5rem;
+}
+
+.navbar .dropdown > .dropdown-toggle::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.5px;
+  height: 2px;
+  width: 0;
+  background-color: #d96d10;
+  transform: translateX(-50%);
+  transition: width 0.2s ease-out;
+}
+
+.navbar .dropdown-menu {
+  margin-top: 0.5rem;
+  padding: 0.45rem 0.55rem 0.95rem;
+  border: 1px solid #c45607;
+  border-radius: 12px;
+  background: #d96d10;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.16);
+}
+
+.navbar .dropdown-item {
+  color: #fdfefe;
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background: #c45607;
+  color: #fdfefe;
+}
+
+.navbar .dropdown > .dropdown-menu {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out, visibility 0s linear 0.2s;
+}
+
+.navbar .dropdown:hover > .dropdown-menu,
+.navbar .dropdown:focus-within > .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+  transition-delay: 0s;
+}
+
 /* -----------------------------
    Homepage polish
 ------------------------------ */
