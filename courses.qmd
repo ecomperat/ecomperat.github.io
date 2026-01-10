@@ -3,4 +3,349 @@ title: "Courses"
 format:
   html:
     body-classes: courses-page
+    toc: false
 ---
+
+## Selected Graduate Coursework {#selected-graduate}
+
+:::{.column-margin}
+<div class="course-list-block">
+<div class="course-list-title">Course List</div>
+
+<div class="course-list-section active" data-section="graduate-coursework">
+<div class="course-list-heading"><a href="#selected-graduate">Graduate Coursework</a></div>
+<ul>
+  <li>
+    <a href="#core-seq">Core Graduate Sequences</a>
+    <ul>
+      <li><a href="#econ-iii">ECONOMETRICS I–III</a></li>
+      <li><a href="#micro-ii">MICROECONOMICS I–II</a></li>
+      <li><a href="#macro-iii">MACROECONOMICS I–III</a></li>
+    </ul>
+  </li>
+  <li><a href="#field-research">Field and Research-Oriented Courses</a></li>
+  <li><a href="#computational">Computational and Technical Foundations</a></li>
+</ul>
+</div>
+
+<div class="course-list-section" data-section="upper-division">
+<div class="course-list-heading"><a href="#upper-division">Upper-Division Coursework</a></div>
+<ul>
+  <li><a href="#berkeley-applied-econ">Introductory Applied Econometrics (ENVECON C118)</a></li>
+  <li><a href="#berkeley-econ-research">Topics in Economic Research (ECON 191)</a></li>
+  <li><a href="#berkeley-growth">Economic Growth in Historical Perspective (ECON 135)</a></li>
+  <li><a href="#berkeley-modern-international">Modern International Economy (HISTORY 160)</a></li>
+  <li><a href="#berkeley-polecon">Contemporary Theories of Political Economy (POLECON 101)</a></li>
+</ul>
+</div>
+</div>
+:::
+
+<span class="institution">Sciences Po Paris - MRes in Economics</span>
+
+### Core Graduate Sequences {#core-seq}
+
+<div class="course-item" markdown="1">
+#### ECONOMETRICS I–III (Probability, Estimation, and Causal Inference) {#econ-iii .course-title}
+
+<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
+
+<button class="course-toggle" type="button">Details</button>
+<div class="course-body" hidden>
+**Econometrics I: Probability and Statistics**
+
+<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including estimation, hypothesis testing, and asymptotic properties.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Jean-Marc Robin</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Casella & Berger, Statistical Inference</span>
+
+**Econometrics II: Estimation and Inference**
+
+<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric models with cross-sectional data.</span>
+
+**Econometrics III: Causal Inference with Cross-Sectional and Panel Data**
+
+<span class="course-desc">Graduate causal inference covering randomized controlled trials, matching, instrumental variables, regression discontinuity designs, and difference-in-differences.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Clément de Chaisemartin</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Chaisemartin, Clément de, and Xavier D’Haultfœuille, Credible Answers to Hard Questions: Differences-in-Differences for Natural Experiments (2025)</span>
+</div>
+</div>
+
+<div class="course-item" markdown="1">
+#### MICROECONOMICS I–II (Optimal Choice, Equilibrium, and Strategic Interaction) {#micro-ii .course-title}
+
+<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span>
+
+<button class="course-toggle" type="button">Details</button>
+<div class="course-body" hidden>
+**Microeconomics I: Optimal Choice and Equilibrium**
+
+<span class="course-desc">Graduate microeconomics covering individual choice, choice under uncertainty, revealed preferences, consumer and producer theory, general equilibrium, and comparative statics.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Eduardo Perez</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Mas-Colell, Whinston & Green, Microeconomic Theory; Jehle & Reny, Advanced Microeconomic Theory; Kreps, Microeconomic Foundations I</span>
+
+**Microeconomics II: Thinking Strategically (Game Theory)**
+
+<span class="course-desc">Graduate game theory with emphasis on Nash equilibrium, sequential and repeated games, and games of incomplete information, with applications to industrial organization, political economy, and public economics.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Emeric Henry</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Fudenberg & Tirole, Game Theory; Osborne, A Course in Game Theory; Tirole, The Theory of Industrial Organization</span>
+</div>
+</div>
+
+<div class="course-item" markdown="1">
+#### MACROECONOMICS I–III (Growth, Fluctuations, and Heterogeneity) {#macro-iii .course-title}
+
+<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Paul Bouscasse, Jean Barthélemy, Xavier Ragot</span>
+
+<button class="course-toggle" type="button">Details</button>
+<div class="course-body" hidden>
+**Macroeconomics I: Growth**
+
+<span class="course-desc">Graduate macroeconomic growth theory, including Solow and endogenous growth models, development accounting, and the fundamental causes of long-run growth.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Paul Bouscasse</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Acemoglu, Introduction to Modern Economic Growth</span>
+
+**Macroeconomics II: Economic Fluctuations**
+
+<span class="course-desc">Graduate macroeconomics of business cycles, monetary and fiscal policy, covering RBC and New Keynesian models.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Jean Barthélemy</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Galí, Monetary Policy, Inflation, and the Business Cycle; King & Rebelo; Stock & Watson</span>
+
+**Macroeconomics III: Macroeconomics, Finance, and Heterogeneity**
+
+<span class="course-desc">Advanced macroeconomics focused on heterogeneous-agent models, macro-finance, asset pricing, and HANK frameworks, with dynamic programming and computational methods implemented in Julia.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Xavier Ragot</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Sargent & Ljungqvist, Recursive Macroeconomic Theory</span>
+</div>
+</div>
+
+### Field and Research-Oriented Courses {#field-research}
+
+<div class="course-item">
+<span id="economic-history"></span>**Economic History**
+
+<span class="course-desc">Historical analysis of economic development, crises, and long-run structural change, combining theory, historical data, and institutional perspectives.</span>
+
+<span class="course-meta"><span class="course-label">Instructors:</span> Moritz Schularick, Paul Bouscasse</span>
+</div>
+
+<div class="course-item">
+<span id="topics-ppoe"></span>**Topics in Political, Public, and Organizational Economics**
+
+<span class="course-desc">Advanced topics in political economy, public finance, and institutional analysis, with student presentations and research-based written work.</span>
+
+<span class="course-meta"><span class="course-label">Instructors:</span> Roberto Galbiati, Antoine Férey, Franz Ostrizek</span>
+</div>
+
+<div class="course-item">
+<span id="urban-regional"></span>**Urban and Regional Economics**
+
+<span class="course-desc">Graduate seminar on the microeconomic foundations and empirical analysis of cities, agglomeration economies, spatial sorting, and urban inequality, culminating in a research-oriented project.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Pierre-Philippe Combes</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Duranton, Henderson & Strange (eds.), Handbook of Urban and Regional Economics; Combes, Mayer & Thisse, Economic Geography</span>
+</div>
+
+<div class="course-item">
+<span id="international-trade"></span>**International Trade**
+
+<span class="course-desc">Graduate international trade theory and empirics, covering comparative advantage, firm heterogeneity, and quantitative trade models.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Thierry Mayer</span>
+</div>
+
+<div class="course-item">
+<span id="labor-economics"></span>**Labor Economics**
+
+<span class="course-desc">Graduate course covering labor supply and demand, wage determination, unemployment, labor market institutions, and public policy, with emphasis on empirical evidence and institutional contexts.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Pierre Cahuc</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Cahuc, Pierre; Stéphane Carcillo; André Zylberberg, "Labor Economics (2nd edition)", MIT Press</span>
+</div>
+
+<div class="course-item">
+<span id="topics-public-env"></span>**Topics in Public and Environmental Economics**
+
+<span class="course-desc">Graduate course covering optimal taxation, redistribution, environmental externalities, and climate policy, with emphasis on welfare analysis and empirical evaluation of public policies. Includes student presentations and written research reports based on academic papers.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Stefan Pollinger</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbooks:</span> Salanié, The Economics of Taxation; Hindriks & Myles, Intermediate Public Economics; Phaneuf & Requate, Environmental Economics</span>
+</div>
+
+<div class="course-item">
+<span id="demography-policy"></span>**Demography: Challenges and Policy Implications**
+
+<span class="course-desc">Applied course examining demographic change, fertility, mortality, migration, and population aging, with emphasis on economic mechanisms and policy implications for inequality, labor markets, and development.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Angela Greulich</span>
+</div>
+
+<div class="course-item">
+<span id="topics-econ-research"></span>**Topics in Economics Research (Graduate Research Seminar)**
+
+<span class="course-desc">Graduate seminar exposing students to frontier research across applied microeconomics, political economy, and economic history, through faculty presentations and student-led discussions.</span>
+
+<span class="course-meta"><span class="course-label">Instructors:</span> David Thesmar, Jeanne Commault, Claire Montialoux, Pierre-Philippe Combes, Michele Fioretti</span>
+</div>
+
+### Computational and Technical Foundations {#computational}
+
+<div class="course-item">
+<span id="computational-econ"></span>**Computational Economics**
+
+<span class="course-desc">Numerical methods, simulation techniques, and computational problem-solving in economics, with applications implemented in Julia.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
+</div>
+
+<div class="course-item">
+<span id="programming-julia"></span>**Programming Course: Julia**
+
+<span class="course-desc">Technical programming course focused on numerical methods and computational tools for economics, with applications implemented in Julia and emphasis on reproducible research workflows.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
+</div>
+
+<div class="course-item">
+<span id="intro-math-econ"></span>**Introduction to Mathematics for Economics**
+
+<span class="course-desc">Formal foundations course covering mathematical tools used in graduate economics, including optimization, constrained problems, and elements of linear algebra and real analysis.</span>
+
+</div>
+
+## Selected Upper-Division Coursework {#upper-division}
+
+<span class="institution">University of California, Berkeley</span>
+
+<div class="course-item">
+<span id="berkeley-applied-econ"></span>**Introductory Applied Econometrics (ENVECON C118) - A+**
+
+<span class="course-desc">Applied econometrics focused on hypothesis formulation, empirical strategy, regression analysis, and policy-relevant case studies using real-world data.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Pierre Biscaye</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Wooldridge, Introductory Econometrics</span>
+</div>
+
+<div class="course-item">
+<span id="berkeley-econ-research"></span>**Topics in Economic Research (ECON 191) - A**
+
+<span class="course-desc">Research-intensive course culminating in a 20–25 page original empirical paper; weekly exposure to frontier research through faculty seminars.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Benjamin Handel</span>
+</div>
+
+<div class="course-item">
+<span id="berkeley-growth"></span>**Economic Growth in Historical Perspective (ECON 135) - A**
+
+<span class="course-desc">Economic growth analyzed through long-run historical processes, institutional change, and political economy.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> J. Bradford DeLong</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> DeLong, Slouching Towards Utopia</span>
+</div>
+
+<div class="course-item">
+<span id="berkeley-modern-international"></span>**Modern International Economy (HISTORY 160) - A+**
+
+<span class="course-desc">Economic history of the twentieth century, with emphasis on globalization, crises, state–market relations, and structural transformation.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Christoph Hermann</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Core Reading:</span> Polanyi, The Great Transformation</span>
+</div>
+
+<div class="course-item">
+<span id="berkeley-polecon"></span>**Contemporary Theories of Political Economy (POLECON 101) - A**
+
+<span class="course-desc">Survey of major theoretical traditions in political economy, including institutional, Marxist, and comparative approaches to markets and states.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Steven K. Vogel</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Barma & Vogel (eds.), The Political Economy Reader</span>
+</div>
+
+<script>
+(function() {
+  const toggles = Array.from(document.querySelectorAll('.course-toggle'));
+
+  function setToggleState(item, open) {
+    const body = item.querySelector('.course-body');
+    const btn = item.querySelector('.course-toggle');
+    item.classList.toggle('open', open);
+    if (body) body.hidden = !open;
+    if (btn) btn.textContent = open ? 'Hide' : 'Details';
+  }
+
+  toggles.forEach(btn => {
+    const item = btn.closest('.course-item');
+    if (!item) return;
+    setToggleState(item, false);
+    btn.addEventListener('click', () => {
+      const open = !item.classList.contains('open');
+      setToggleState(item, open);
+    });
+  });
+})();
+</script>
+
+<script>
+(function() {
+  const listSections = Array.from(document.querySelectorAll('.course-list-section'));
+  const contentSections = [
+    { id: 'core-seq', el: document.getElementById('core-seq') },
+    { id: 'field-research', el: document.getElementById('field-research') },
+    { id: 'computational', el: document.getElementById('computational') },
+    { id: 'upper-division', el: document.getElementById('upper-division') }
+  ].filter(item => item.el);
+
+  function mapSection(id) {
+    if (id === 'upper-division') return 'upper-division';
+    return 'graduate-coursework';
+  }
+
+  function setActive(sectionId) {
+    listSections.forEach(section => {
+      section.classList.toggle('active', section.dataset.section === sectionId);
+    });
+  }
+
+  function updateActiveSection() {
+    const offset = 120;
+    let current = contentSections[0] ? contentSections[0].id : null;
+    for (let i = 0; i < contentSections.length; i += 1) {
+      const { id, el } = contentSections[i];
+      const top = el.getBoundingClientRect().top;
+      if (top - offset <= 0) {
+        current = id;
+      } else {
+        break;
+      }
+    }
+    if (current) setActive(mapSection(current));
+  }
+
+  window.addEventListener('scroll', updateActiveSection, { passive: true });
+  window.addEventListener('resize', updateActiveSection);
+  if (contentSections.length) {
+    setActive(mapSection(contentSections[0].id));
+  }
+  updateActiveSection();
+})();
+</script>
