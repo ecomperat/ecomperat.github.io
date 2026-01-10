@@ -250,7 +250,15 @@ body.courses-page .institution {
   font-size: 1.1rem;
   font-weight: 600;
   display: block;
-  margin: 0.2rem 0 0.8rem;
+  margin: 0.05rem 0 0;
+}
+
+body.courses-page .institution + h3 {
+  margin-top: 0.025rem;
+}
+
+body.courses-page h3 {
+  margin-top: 0.3rem;
 }
 
 body.courses-page .course-desc {

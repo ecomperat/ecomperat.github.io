@@ -18,22 +18,22 @@ format:
   <li class="course-list-parent open" id="course-list-core-parent">
     <a href="#core-seq">Core Graduate Sequences</a>
     <ul id="course-list-core" class="course-list-children">
-      <li><a href="#econ-iii">ECONOMETRICS I–III</a></li>
-      <li><a href="#micro-ii">MICROECONOMICS I–II</a></li>
-      <li><a href="#macro-iii">MACROECONOMICS I–III</a></li>
+      <li><a href="#micro-ii">Microeconomics I-II</a></li>
+      <li><a href="#macro-iii">Macroeconomics I-III</a></li>
+      <li><a href="#econ-iii">Econometrics I-III</a></li>
     </ul>
   </li>
   <li class="course-list-parent">
     <a href="#field-research">Field and Research-Oriented Courses</a>
     <ul id="course-list-field" class="course-list-children">
       <li><a href="#economic-history">Economic History</a></li>
-      <li><a href="#topics-ppoe">Topics in Political, Public, and Organizational Economics</a></li>
       <li><a href="#urban-regional">Urban and Regional Economics</a></li>
+      <li><a href="#topics-ppoe">Political, Public, and Organizational Economics</a></li>
       <li><a href="#international-trade">International Trade</a></li>
       <li><a href="#labor-economics">Labor Economics</a></li>
-      <li><a href="#topics-public-env">Topics in Public and Environmental Economics</a></li>
-      <li><a href="#demography-policy">Demography: Challenges and Policy Implications</a></li>
-      <li><a href="#topics-econ-research">Topics in Economics Research (Graduate Research Seminar)</a></li>
+      <li><a href="#topics-public-env">Public and Environmental Economics</a></li>
+      <li><a href="#topics-econ-research">Topics in Economics (Graduate Research Seminar)</a></li>
+      <li><a href="#demography-policy">Demography</a></li>
     </ul>
   </li>
   <li class="course-list-parent">
@@ -51,13 +51,18 @@ format:
 <div class="course-list-heading"><a href="#upper-division">Undergraduate Coursework</a></div>
 <ul>
   <li class="course-list-parent">
-    <a href="#upper-division">Selected Upper-Division Courses</a>
+    <a href="#upper-division">Economic History and Political Economy</a>
     <ul class="course-list-children">
-      <li><a href="#berkeley-applied-econ">Introductory Applied Econometrics (ENVECON C118)</a></li>
-      <li><a href="#berkeley-econ-research">Topics in Economic Research (ECON 191)</a></li>
-      <li><a href="#berkeley-growth">Economic Growth in Historical Perspective (ECON 135)</a></li>
-      <li><a href="#berkeley-modern-international">Modern International Economy (HISTORY 160)</a></li>
-      <li><a href="#berkeley-polecon">Contemporary Theories of Political Economy (POLECON 101)</a></li>
+      <li><a href="#berkeley-growth">Economic Growth in Historical Perspective</a></li>
+      <li><a href="#berkeley-modern-international">Modern International Economy</a></li>
+      <li><a href="#berkeley-polecon">Contemporary Theories of Political Economy</a></li>
+    </ul>
+  </li>
+  <li class="course-list-parent">
+    <a href="#upper-division">Empirical and Research Training</a>
+    <ul class="course-list-children">
+      <li><a href="#berkeley-applied-econ">Introductory Applied Econometrics</a></li>
+      <li><a href="#berkeley-econ-research">Topics in Economic Research</a></li>
     </ul>
   </li>
 </ul>
@@ -70,36 +75,7 @@ format:
 ### Core Graduate Sequences {#core-seq}
 
 <div class="course-item" markdown="1">
-#### ECONOMETRICS I–III (Probability, Estimation, and Causal Inference) {#econ-iii .course-title}
-
-<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
-
-<button class="course-toggle" type="button">Details</button>
-<div class="course-body" hidden>
-**Econometrics I: Probability and Statistics**
-
-<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including estimation, hypothesis testing, and asymptotic properties.</span>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Jean-Marc Robin</span>
-
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Casella & Berger, Statistical Inference</span>
-
-**Econometrics II: Estimation and Inference**
-
-<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric models with cross-sectional data.</span>
-
-**Econometrics III: Causal Inference with Cross-Sectional and Panel Data**
-
-<span class="course-desc">Graduate causal inference covering randomized controlled trials, matching, instrumental variables, regression discontinuity designs, and difference-in-differences.</span>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Clément de Chaisemartin</span>
-
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Chaisemartin, Clément de, and Xavier D’Haultfœuille, Credible Answers to Hard Questions: Differences-in-Differences for Natural Experiments (2025)</span>
-</div>
-</div>
-
-<div class="course-item" markdown="1">
-#### MICROECONOMICS I–II (Optimal Choice, Equilibrium, and Strategic Interaction) {#micro-ii .course-title}
+#### MICROECONOMICS I-II (Optimal Choice, Equilibrium, and Strategic Interaction) {#micro-ii .course-title}
 
 <span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span>
 
@@ -111,7 +87,7 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Eduardo Perez</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Mas-Colell, Whinston & Green, Microeconomic Theory; Jehle & Reny, Advanced Microeconomic Theory; Kreps, Microeconomic Foundations I</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Mas-Colell et al. (1995); Jehle & Reny (2011); Kreps (2013)</span>
 
 **Microeconomics II: Thinking Strategically (Game Theory)**
 
@@ -119,12 +95,13 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Emeric Henry</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Fudenberg & Tirole, Game Theory; Osborne, A Course in Game Theory; Tirole, The Theory of Industrial Organization</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Fudenberg & Tirole (1991); Osborne (1994); Tirole (1988)</span>
+
 </div>
 </div>
 
 <div class="course-item" markdown="1">
-#### MACROECONOMICS I–III (Growth, Fluctuations, and Heterogeneity) {#macro-iii .course-title}
+#### MACROECONOMICS I-III (Growth, Fluctuations, and Heterogeneity) {#macro-iii .course-title}
 
 <span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Paul Bouscasse, Jean Barthélemy, Xavier Ragot</span>
 
@@ -136,7 +113,7 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Paul Bouscasse</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Acemoglu, Introduction to Modern Economic Growth</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Acemoglu. Introduction to Modern Economic Growth. (2009)</span>
 
 **Macroeconomics II: Economic Fluctuations**
 
@@ -144,7 +121,7 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Jean Barthélemy</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Galí, Monetary Policy, Inflation, and the Business Cycle; King & Rebelo; Stock & Watson</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Galí (2015); King & Rebelo (1999); Stock & Watson (1999)</span>
 
 **Macroeconomics III: Macroeconomics, Finance, and Heterogeneity**
 
@@ -152,7 +129,36 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Xavier Ragot</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Sargent & Ljungqvist, Recursive Macroeconomic Theory</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Ljungqvist & Sargent (2018)</span>
+</div>
+</div>
+
+<div class="course-item" markdown="1">
+#### ECONOMETRICS I-III (Probability, Estimation, and Causal Inference) {#econ-iii .course-title}
+
+<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
+
+<button class="course-toggle" type="button">Details</button>
+<div class="course-body" hidden>
+**Econometrics I: Probability and Statistics**
+
+<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including estimation, hypothesis testing, and asymptotic properties.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Jean-Marc Robin</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Casella & Berger, Statistical Inference. 2nd ed. (2002)</span>
+
+**Econometrics II: Estimation and Inference**
+
+<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric models with cross-sectional data.</span>
+
+**Econometrics III: Causal Inference with Cross-Sectional and Panel Data**
+
+<span class="course-desc">Graduate causal inference covering randomized controlled trials, matching, instrumental variables, regression discontinuity designs, and difference-in-differences.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Clément de Chaisemartin</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Chaisemartin & D’Haultfœuille. Credible Answers to Hard Questions: Differences-in-Differences for Natural Experiments. (2025)</span>
 </div>
 </div>
 
@@ -167,6 +173,16 @@ format:
 </div>
 
 <div class="course-item">
+<span id="urban-regional"></span>**Urban and Regional Economics**
+
+<span class="course-desc">Graduate seminar on the microeconomic foundations and empirical analysis of cities, agglomeration economies, spatial sorting, and urban inequality, culminating in a research-oriented project.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Pierre-Philippe Combes</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Duranton et al. (2015); Combes et al. (2008)</span>
+</div>
+
+<div class="course-item">
 <span id="topics-ppoe"></span>**Topics in Political, Public, and Organizational Economics**
 
 <span class="course-desc">Advanced topics in political economy, public finance, and institutional analysis, with student presentations and research-based written work.</span>
@@ -175,19 +191,9 @@ format:
 </div>
 
 <div class="course-item">
-<span id="urban-regional"></span>**Urban and Regional Economics**
-
-<span class="course-desc">Graduate seminar on the microeconomic foundations and empirical analysis of cities, agglomeration economies, spatial sorting, and urban inequality, culminating in a research-oriented project.</span>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Pierre-Philippe Combes</span>
-
-<span class="course-meta course-meta-reading"><span class="course-label">Readings:</span> Duranton, Henderson & Strange (eds.), Handbook of Urban and Regional Economics; Combes, Mayer & Thisse, Economic Geography</span>
-</div>
-
-<div class="course-item">
 <span id="international-trade"></span>**International Trade**
 
-<span class="course-desc">Graduate international trade theory and empirics, covering comparative advantage, firm heterogeneity, and quantitative trade models.</span>
+<span class="course-desc">Graduate international trade theory and empirics, with emphasis on firm heterogeneity, gravity models, and the spatial organization of production and trade.</span>
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Thierry Mayer</span>
 </div>
@@ -199,7 +205,7 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Pierre Cahuc</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Cahuc, Pierre; Stéphane Carcillo; André Zylberberg, "Labor Economics (2nd edition)", MIT Press</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Cahuc et al. (2014)</span>
 </div>
 
 <div class="course-item">
@@ -209,7 +215,15 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Stefan Pollinger</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbooks:</span> Salanié, The Economics of Taxation; Hindriks & Myles, Intermediate Public Economics; Phaneuf & Requate, Environmental Economics</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Salanié (2011); Hindriks & Myles (2013); Phaneuf & Requate (2017)</span>
+</div>
+
+<div class="course-item">
+<span id="topics-econ-research"></span>**Topics in Economic Research (Graduate Research Seminar)**
+
+<span class="course-desc">Graduate seminar exposing students to frontier research across applied microeconomics, political economy, and economic history, through faculty presentations and student-led discussions.</span>
+
+<span class="course-meta"><span class="course-label">Instructors:</span> David Thesmar, Jeanne Commault, Claire Montialoux, Pierre-Philippe Combes, Michele Fioretti</span>
 </div>
 
 <div class="course-item">
@@ -220,28 +234,20 @@ format:
 <span class="course-meta"><span class="course-label">Instructor:</span> Angela Greulich</span>
 </div>
 
-<div class="course-item">
-<span id="topics-econ-research"></span>**Topics in Economics Research (Graduate Research Seminar)**
-
-<span class="course-desc">Graduate seminar exposing students to frontier research across applied microeconomics, political economy, and economic history, through faculty presentations and student-led discussions.</span>
-
-<span class="course-meta"><span class="course-label">Instructors:</span> David Thesmar, Jeanne Commault, Claire Montialoux, Pierre-Philippe Combes, Michele Fioretti</span>
-</div>
-
 ### Computational and Technical Foundations {#computational}
 
 <div class="course-item">
 <span id="computational-econ"></span>**Computational Economics**
 
-<span class="course-desc">Numerical methods, simulation techniques, and computational problem-solving in economics, with applications implemented in Julia.</span>
+<span class="course-desc">Numerical methods, simulation techniques, and computational problem-solving in economics, with applications implemented in RStudio and Julia.</span>
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
 </div>
 
 <div class="course-item">
-<span id="programming-julia"></span>**Programming Course: Julia**
+<span id="programming-julia"></span>**Programming Course: Git, R, Julia**
 
-<span class="course-desc">Technical programming course focused on numerical methods and computational tools for economics, with applications implemented in Julia and emphasis on reproducible research workflows.</span>
+<span class="course-desc">Technical programming course focused on numerical methods and computational tools for economics, with applications implemented in RStudio and Julia, and emphasis on reproducible research workflows.</span>
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
 </div>
@@ -257,23 +263,7 @@ format:
 
 <span class="institution">University of California, Berkeley</span>
 
-<div class="course-item">
-<span id="berkeley-applied-econ"></span>**Introductory Applied Econometrics (ENVECON C118) - A+**
-
-<span class="course-desc">Applied econometrics focused on hypothesis formulation, empirical strategy, regression analysis, and policy-relevant case studies using real-world data.</span>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Pierre Biscaye</span>
-
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Wooldridge, Introductory Econometrics</span>
-</div>
-
-<div class="course-item">
-<span id="berkeley-econ-research"></span>**Topics in Economic Research (ECON 191) - A**
-
-<span class="course-desc">Research-intensive course culminating in a 20–25 page original empirical paper; weekly exposure to frontier research through faculty seminars.</span>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Benjamin Handel</span>
-</div>
+### Economic History and Political Economy
 
 <div class="course-item">
 <span id="berkeley-growth"></span>**Economic Growth in Historical Perspective (ECON 135) - A**
@@ -282,17 +272,16 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> J. Bradford DeLong</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> DeLong, Slouching Towards Utopia</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> DeLong. Slouching Towards Utopia (2022)</span>
 </div>
 
 <div class="course-item">
 <span id="berkeley-modern-international"></span>**Modern International Economy (HISTORY 160) - A+**
 
-<span class="course-desc">Economic history of the twentieth century, with emphasis on globalization, crises, state–market relations, and structural transformation.</span>
+<span class="course-desc">Economic history of the twentieth century, with emphasis on globalization, crises, state-market relations, and structural transformation.</span>
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Christoph Hermann</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Core Reading:</span> Polanyi, The Great Transformation</span>
 </div>
 
 <div class="course-item">
@@ -302,7 +291,27 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Steven K. Vogel</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Barma & Vogel (eds.), The Political Economy Reader</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Barma & Vogel. The Political Economy Reader (2022)</span>
+</div>
+
+### Empirical and Research Training
+
+<div class="course-item">
+<span id="berkeley-applied-econ"></span>**Introductory Applied Econometrics (ENVECON C118) - A+**
+
+<span class="course-desc">Applied econometrics focused on hypothesis formulation, empirical strategy, regression analysis, and policy-relevant case studies using real-world data.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Pierre Biscaye</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Wooldridge (2020)</span>
+</div>
+
+<div class="course-item">
+<span id="berkeley-econ-research"></span>**Topics in Economic Research (ECON 191) - A**
+
+<span class="course-desc">Research-intensive course culminating in a 20-25 page original empirical paper; weekly exposure to frontier research through faculty seminars.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Benjamin Handel</span>
 </div>
 
 <script>
