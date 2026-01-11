@@ -3,5 +3,89 @@ title: "CV"
 ---
 Choose the format that suits you best:
 
-- [One-page CV](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
-- [Detailed CV (2 pages)](pdf/resume/COMPERAT.Etienne_cv.pdf)
+- [One-page resume](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
+- [Detailed resume (2 pages)](pdf/resume/COMPERAT.Etienne_cv.pdf)
+
+---
+
+## Research Experience
+
+### Predoctoral Position
+
+**Predoctoral Fellow in Economics** | University of Zurich (July 2025--Present)  
+<span class="cv-supervisor">Supervisor: Hans-Joachim Voth</span>  
+Contribute to supervisor-led projects in economic history and political economy, involving computer-vision-based image analysis (IMAGES) and the construction of linked archival, textual, and spatial datasets for empirical analysis.
+
+### Replication Work
+
+**JPE Replicator** | University of Chicago (July 2025--Present)  
+<span class="cv-supervisor">Supervisor: Florian Oswald</span>  
+Conduct reproducibility audits of accepted JPE articles, assessing data integrity, code robustness, and empirical validity using authors' replication packages under editorial supervision.
+
+**EJ Replicator** | Royal Economic Society (2024--July 2025)  
+<span class="cv-supervisor">Supervisor: Florian Oswald</span>  
+Conducted reproducibility checks for accepted articles at The Economic Journal using authors' replication packages under editorial supervision.
+
+### Research Assistantships
+
+**Research Assistant** | Sciences Po (June--July 2025)  
+<span class="cv-supervisor">Supervisor: Roberto Galbiati</span>  
+Collected and digitized archival data for an economic history research project. Assisted in transforming archival sources into structured datasets for empirical analysis of historical economic outcomes.
+
+**Research Assistant** | Sciences Po (June--July 2024)  
+<span class="cv-supervisor">Supervisors: Roberto Galbiati, Aurelie Ouss (UPenn)</span>  
+Collected and digitized archival and administrative data for a research project in political economy. Contributed to data preparation and documentation for administrative regulatory approval.
+
+**Research Assistant** | CEPREMAP (OBE) (June--July 2023)  
+Contributed to the construction of a database on well-being economics researchers in France under the supervision of Mathieu Perona. Conducted literature reviews and exploratory empirical work for academic projects.
+
+**Research Assistant** | University of California, Berkeley (Spring 2023)  
+Assisted in quantifying global arms trade in 19th-century France from archival sources (PATH project).
+
+### Teaching and Other Experiences
+
+**Assistant Project Manager** | Agence Francaise de Developpement (June--July 2022)  
+Conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.
+
+**Teaching Assistant** | Sciences Po (Fall 2021)  
+Teaching assistant in Comparative Political Institutions (undergraduate level).
+
+## Education
+
+**Sciences Po** (2023--2025) - M.Res. in Economics (PhD Track)  
+GPA: 4.0  
+<div class="cv-details">
+Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-Century France"  
+<span class="cv-advisors">Advisors: Roberto Galbiati, Emeric Henry</span>  
+*Awarded Sciences Po Prize for Best Master's Thesis*
+</div>
+
+**University of California, Berkeley** (2022--2023)  
+Full-Year Exchange Program (B.A.), Department of Agricultural & Resource Economics  
+GPA: 4.0
+
+**Sciences Po** (2020--2023) - B.A. in Economics and Political Science  
+GPA: 4.0, *Cum laude*
+
+## Coursework
+
+For more details, check out the [dedicated page](courses.qmd).
+
+- **Econometrics:** Econometrics I--III (Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data)
+- **Microeconomics:** Microeconomics I--II (Optimal Choice and Equilibrium; Game Theory)
+- **Macroeconomics:** Macroeconomics I--III (Growth; Business Cycles; Macro-Finance and Heterogeneity (HANK))
+- **Applied Fields:** Economic History; Political Economy; Urban and Regional Economics; International Trade; Labor Economics; Public Economics; Demography
+- **Computation:** Computational Economics (Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods); Programming in R, Julia, and Git
+
+## Methods & Programming
+
+- **Mathematical Preparation:** Probability Theory; Linear Algebra; Optimization; Dynamic Programming
+- **Programming:** Python, R (Advanced), Stata, Julia (Intermediate)
+- **Tools:** Git, LaTeX, Google Vertex AI, OCR, GIS, web scraping, reproducible workflows
+
+## Languages
+
+- French (Native)
+- English (C2)
+- Italian (C1)
+- German (B1)

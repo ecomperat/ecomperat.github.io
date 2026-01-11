@@ -444,6 +444,21 @@ body.courses-page .course-label {
   color: #3b2714;
 }
 
+.cv-supervisor {
+  color: #4f3a26;
+}
+
+.cv-details {
+  margin-top: 0.35rem;
+  margin-left: 1.5rem;
+  border-left: 3px solid #b6b6b6;
+  padding-left: 0.9rem;
+}
+
+.cv-advisors {
+  color: #4f3a26;
+}
+
 
 body.courses-page .course-toggle {
   display: inline-flex;
