@@ -1,4 +1,7 @@
 ---
 title: "CV"
 ---
-You can take a look at my [resume](pdf/resume/COMPERAT.Etienne_cv.pdf) here.
+Choose the format that suits you best:
+
+- [One-page CV](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
+- [Detailed CV (2 pages)](pdf/resume/COMPERAT.Etienne_cv.pdf)

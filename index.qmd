@@ -73,11 +73,11 @@ B.A. in Economics and Political Sciences
   </div>
 </div>
 
-**Research Interests:** <br> Political Economy, Economic History, Spatial Economics
+**Research Interests:** <br> Political Economy, Economic History, Urban/Regional Economics
 :::
 
 I recently completed a Research Master’s in Economics at Sciences Po, following an exchange year at UC Berkeley, where I specialized in Environmental Economics and Policy. My master’s thesis, supervised by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) and [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), examined the joint impact of education and local democratic institutions on economic development in nineteenth-century France and was awarded Sciences Po’s Prize for Best Master’s Thesis (2024–2025).
 
-My research interests lie at the intersection of Economic History, Political Economy, and Spatial Economics, with a particular focus on institutions, human capital, and long-run development. I am especially interested in the construction of new historical datasets through archival work, including OCR and machine learning-based data extraction. More broadly, I am interested in leveraging historical variation for causal inference, with a particular focus on nineteenth-century France and Europe.
+My research interests lie at the intersection of Economic History, Political Economy, and Urban & Regional Economics, with an emphasis on institutions and long-run development. Empirically, I am particularly interested in constructing new historical datasets from archival sources, combining original data collection with modern empirical methods, including OCR and machine learning tools for large-scale data extraction.
 
-During my pre-doctoral fellowship, my goal is to refine my PhD project while strengthening my empirical and computationals skills. My work involves large historical datasets and the use of Python, Stata, as well as the application of machine learning tools to economic history. In parallel, I am also part of the [JPE replication team](https://jpe-reproducibility.github.io/replicator-team/) at UChicago, under the supervision of [Florian Oswald](https://floswald.github.io/).
+More broadly, I am interested in exploiting historical institutional and spatial variation for causal inference, with a primary focus on nineteenth-century France and Europe. During my pre-doctoral fellowship, my goal is to refine my PhD project while strengthening my empirical and computationals skills. My work involves large historical datasets and the use of Python, Stata, as well as the application of machine learning tools to economic history. In parallel, I am also part of the [JPE replication team](https://jpe-reproducibility.github.io/replicator-team/) at UChicago, under the supervision of [Florian Oswald](https://floswald.github.io/).

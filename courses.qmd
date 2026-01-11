@@ -113,7 +113,7 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Paul Bouscasse</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Acemoglu. Introduction to Modern Economic Growth. (2009)</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span>  Romer (2012) ; Steinsson (2022) ; Acemoglu. Introduction to Modern Economic Growth (2009)</span>
 
 **Macroeconomics II: Economic Fluctuations**
 
@@ -123,7 +123,7 @@ format:
 
 <span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Galí (2015); King & Rebelo (1999); Stock & Watson (1999)</span>
 
-**Macroeconomics III: Macroeconomics, Finance, and Heterogeneity**
+**Macroeconomics III: Finance, and Heterogeneity**
 
 <span class="course-desc">Advanced macroeconomics focused on heterogeneous-agent models, macro-finance, asset pricing, and HANK frameworks, with dynamic programming and computational methods implemented in Julia.</span>
 
@@ -142,7 +142,7 @@ format:
 <div class="course-body" hidden>
 **Econometrics I: Probability and Statistics**
 
-<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including estimation, hypothesis testing, and asymptotic properties.</span>
+<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including methods for point and interval estimation (least-squares, maximum likelihood, and method of moments), hypothesis testing  (t-test, F-test, Wald, Likelihood ratio, and Lagrange multiplier), and asymptotic properties.</span>
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Jean-Marc Robin</span>
 
@@ -150,7 +150,10 @@ format:
 
 **Econometrics II: Estimation and Inference**
 
-<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric models with cross-sectional data.</span>
+<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric settings  under standard and nonstandard conditions, with cross-sectional data.</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Wooldridge. Econometric Analysis of Cross Section and Panel Data (2010)</span>
+
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Moshe Buchinsky</span>
 
