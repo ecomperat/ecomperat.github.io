@@ -267,6 +267,31 @@ body.courses-page .course-desc {
   font-style: normal;
 }
 
+body.courses-page .course-section-dropdown .course-desc-block {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s ease;
+}
+
+body.courses-page .course-section-dropdown .course-item:hover .course-desc-block {
+  max-height: 200px;
+  opacity: 1;
+}
+
+body.courses-page .course-section-dropdown .course-item > .course-meta {
+  margin-top: -0.9rem;
+}
+
+body.courses-page .course-section-dropdown .course-item:hover > .course-meta {
+  margin-top: 0.25rem;
+}
+
+body.courses-page .course-section-dropdown .course-item > p {
+  margin-bottom: 0;
+}
+
+
 body.courses-page .column-margin {
   position: sticky;
   top: 90px;
@@ -374,6 +399,10 @@ body.courses-page .course-item {
   border-left: 2px solid #e1e1e1;
   padding-left: 0.85rem;
   margin: 0.35rem 0 0.8rem;
+}
+
+body.courses-page .course-section-dropdown .course-item:hover {
+  border-left-color: #c45607;
 }
 
 body.courses-page .course-meta {
