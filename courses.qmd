@@ -77,7 +77,7 @@ format:
 <div class="course-item" markdown="1">
 #### MICROECONOMICS I-II (Optimal Choice, Equilibrium, and Strategic Interaction) {#micro-ii .course-title}
 
-<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span>
+<span class="course-meta course-meta-core"><span class="course-label">Lead Instructors:</span> Eduardo Perez, Emeric Henry</span>
 
 <button class="course-toggle" type="button">Details</button>
 <div class="course-body" hidden>
@@ -103,7 +103,7 @@ format:
 <div class="course-item" markdown="1">
 #### MACROECONOMICS I-III (Growth, Fluctuations, and Heterogeneity) {#macro-iii .course-title}
 
-<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Paul Bouscasse, Jean Barthélemy, Xavier Ragot</span>
+<span class="course-meta course-meta-core"><span class="course-label">Lead Instructors:</span> Paul Bouscasse, Jean Barthélemy, Xavier Ragot</span>
 
 <button class="course-toggle" type="button">Details</button>
 <div class="course-body" hidden>
@@ -136,7 +136,7 @@ format:
 <div class="course-item" markdown="1">
 #### ECONOMETRICS I-III (Probability, Estimation, and Causal Inference) {#econ-iii .course-title}
 
-<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
+<span class="course-meta course-meta-core"><span class="course-label">Lead Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
 
 <button class="course-toggle" type="button">Details</button>
 <div class="course-body" hidden>
@@ -151,6 +151,8 @@ format:
 **Econometrics II: Estimation and Inference**
 
 <span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric models with cross-sectional data.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Moshe Buchinsky</span>
 
 **Econometrics III: Causal Inference with Cross-Sectional and Panel Data**
 
@@ -282,6 +284,8 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Christoph Hermann</span>
 
+<span class="course-meta course-meta-reading"><span class="course-label">Core reading:</span> Polanyi. The Great Transformation (1944)</span>
+
 </div>
 
 <div class="course-item">
@@ -291,7 +295,7 @@ format:
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Steven K. Vogel</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Barma & Vogel. The Political Economy Reader (2022)</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Barma & Vogel. The Political Economy Reader (2021)</span>
 </div>
 
 ### Empirical and Research Training
