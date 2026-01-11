@@ -8,7 +8,7 @@ Choose the format that suits you best:
 
 ---
 
-## Research Experience
+## Research Experience 🔬
 
 ### Predoctoral Position
 
@@ -50,7 +50,7 @@ Conducted economic and environmental analysis of transportation infrastructure p
 **Teaching Assistant** | Sciences Po (Fall 2021)  
 Teaching assistant in Comparative Political Institutions (undergraduate level).
 
-## Education
+## Education 🎓
 
 **Sciences Po** (2023--2025) - M.Res. in Economics (PhD Track)  
 GPA: 4.0  
@@ -67,7 +67,7 @@ GPA: 4.0
 **Sciences Po** (2020--2023) - B.A. in Economics and Political Science  
 GPA: 4.0, *Cum laude*
 
-## Coursework
+## Coursework 📚
 
 For more details, check out the [dedicated page](courses.qmd).
 
@@ -77,13 +77,13 @@ For more details, check out the [dedicated page](courses.qmd).
 - **Applied Fields:** Economic History; Political Economy; Urban and Regional Economics; International Trade; Labor Economics; Public Economics; Demography
 - **Computation:** Computational Economics (Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods); Programming in R, Julia, and Git
 
-## Methods & Programming
+## Methods & Programming 🛠️
 
 - **Mathematical Preparation:** Probability Theory; Linear Algebra; Optimization; Dynamic Programming
 - **Programming:** Python, R (Advanced), Stata, Julia (Intermediate)
 - **Tools:** Git, LaTeX, Google Vertex AI, OCR, GIS, web scraping, reproducible workflows
 
-## Languages
+## Languages 🌍
 
 - French (Native)
 - English (C2)
