@@ -61,7 +61,7 @@ MRes in Economics
   <img src="img/logo_berkeley.png" alt="University of California, Berkeley logo" class="inst-logo">
   <div class="inst-text">
 **University of California, Berkeley** | 2022 - 2023<br>
-Exchange - Environmental Economics
+Exchange - Dept. of Agricultural & Resource Economics
   </div>
 </div>
 
@@ -76,7 +76,7 @@ B.A. in Economics and Political Sciences
 **Research Interests:** <br> Political Economy, Economic History, Urban/Regional Economics
 :::
 
-I recently completed a Research Master’s in Economics at Sciences Po, following an exchange year at UC Berkeley, where I specialized in Environmental Economics and Policy. My master’s thesis, supervised by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) and [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), examined the joint impact of education and local democratic institutions on economic development in nineteenth-century France and was awarded Sciences Po’s Prize for Best Master’s Thesis (2024–2025).
+I recently completed a Research Master’s in Economics at Sciences Po, following an exchange year at UC Berkeley, where I specialized in Environmental Economics and Policy. My master’s thesis, supervised by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) and [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), examined the joint impact of education and local democratic institutions on economic development in nineteenth-century France and was awarded Sciences Po’s Prize for Best Master’s Thesis (2024-2025).
 
 My research interests lie at the intersection of Economic History, Political Economy, and Urban & Regional Economics, with an emphasis on institutions and long-run development. Empirically, I am particularly interested in constructing new historical datasets from archival sources, combining original data collection with modern empirical methods, including OCR and machine learning tools for large-scale data extraction.
 
