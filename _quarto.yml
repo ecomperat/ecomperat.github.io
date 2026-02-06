@@ -9,7 +9,12 @@
 
 website:
   title: "Etienne Compérat"
+  description: "Pre-doctoral Fellow in Economics at University of Zurich. Economic History, Political Economy, and Urban Economics."
+  site-url: "https://ecomperat.github.io"
   favicon: img\logo_round.png
+  open-graph: true
+  twitter-card: true
+  image: "img/snapshot2.jpg"
   navbar:
     left:
       - href: index.qmd

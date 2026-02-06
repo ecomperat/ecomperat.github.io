@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  11 JAN 2026 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  6 FEB 2026 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -668,17 +668,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 142.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
 
  []
 
@@ -687,22 +677,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--191
 [1
 
 {C:/Users/etien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Overfull \hbox (0.93869pt too wide) in paragraph at lines 215--216
-[]\OT1/cmr/bx/n/10.95 Macroeconomics: \OT1/cmr/m/n/10.95 Macroe-co-nomics I--III (Growth; Busi-ness Cy-cles; Macro-Finance and Het-ero-gene-ity (HANK)) 
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
@@ -712,12 +702,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Overfull \hbox (0.93869pt too wide) in paragraph at lines 221--222
+[]\OT1/cmr/bx/n/10.95 Macroeconomics: \OT1/cmr/m/n/10.95 Macroe-co-nomics I--III (Growth; Busi-ness Cy-cles; Macro-Finance and Het-ero-gene-ity (HANK)) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
@@ -739,17 +749,17 @@ Package logreq Info: Writing requests to 'COMPERAT.Etienne_cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20654 strings out of 473899
- 378345 string characters out of 5726500
- 1210364 words of memory out of 5000000
- 43318 multiletter control sequences out of 15000+600000
- 563898 words of font info for 55 fonts, out of 8000000 for 9000
+ 20660 strings out of 473899
+ 378465 string characters out of 5726500
+ 1211364 words of memory out of 5000000
+ 43323 multiletter control sequences out of 15000+600000
+ 564239 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,81p,1284b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on COMPERAT.Etienne_cv.pdf (2 pages, 131599 bytes).
+ <C:\Users\etien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on COMPERAT.Etienne_cv.pdf (2 pages, 133662 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

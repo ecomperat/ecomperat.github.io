@@ -2,6 +2,7 @@
 ---
 image: img/ppic_uzh_trim.jpg
 title: Etienne Compérat
+description: "Pre-doctoral Fellow in Economics at University of Zurich. Research interests in Economic History, Political Economy, and Urban & Regional Economics."
 subtitle: "<b>Pre-doctoral Fellow, UZH<br>JPE Replicator, UChicago</b>"
 about:
   id: hero-heading

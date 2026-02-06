@@ -1,5 +1,6 @@
 ---
 title: "CV"
+description: "Curriculum Vitae of Etienne Compérat - Pre-doctoral Fellow at UZH and JPE Replicator at UChicago. Research experience, education, and skills in economics."
 ---
 Choose the format that suits you best:
 

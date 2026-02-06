@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\Users\\\\etien\\\\OneDrive\\\\Documents\\\\GitHub\\\\ecomperat.github.io\" log --oneline -20)",
+      "Bash(git -C \"c:\\\\Users\\\\etien\\\\OneDrive\\\\Documents\\\\GitHub\\\\ecomperat.github.io\" config --local --list)",
+      "Bash(python:*)",
+      "Bash(identify:*)",
+      "Bash(convert:*)",
+      "Bash(ls:*)",
+      "Bash(where:*)",
+      "Bash(magick:*)",
+      "Bash(pip install:*)",
+      "Bash(quarto render:*)"
+    ]
+  }
+}

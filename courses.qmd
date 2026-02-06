@@ -1,5 +1,6 @@
 ---
 title: "Courses"
+description: "Graduate coursework in Economics at Sciences Po and UC Berkeley, including core sequences in Microeconomics, Macroeconomics, Econometrics, and field courses."
 format:
   html:
     body-classes: courses-page

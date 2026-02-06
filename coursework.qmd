@@ -1,5 +1,6 @@
 ---
 title: "Past Assignments"
+description: "Academic projects, research papers, referee reports, and replication packages from graduate coursework in Economics at Sciences Po and UC Berkeley."
 format:
   html:
     body-classes: coursework-compact

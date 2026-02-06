@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Academic projects, research papers, referee reports, and replication packages from graduate coursework in Economics at Sciences Po and UC Berkeley.">
 
 <title>Past Assignments – Etienne Compérat</title>
 <style>
@@ -71,6 +72,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Past Assignments – Etienne Compérat">
+<meta property="og:description" content="Academic projects, research papers, referee reports, and replication packages from graduate coursework in Economics at Sciences Po and UC Berkeley.">
+<meta property="og:image" content="https://ecomperat.github.io/img/snapshot2.jpg">
+<meta property="og:site_name" content="Etienne Compérat">
+<meta name="twitter:title" content="Past Assignments – Etienne Compérat">
+<meta name="twitter:description" content="Academic projects, research papers, referee reports, and replication packages from graduate coursework in Economics at Sciences Po and UC Berkeley.">
+<meta name="twitter:image" content="https://ecomperat.github.io/img/snapshot2.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed coursework-compact quarto-light">
@@ -135,6 +144,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Past Assignments</h1>
 </div>
 
+<div>
+  <div class="description">
+    Academic projects, research papers, referee reports, and replication packages from graduate coursework in Economics at Sciences Po and UC Berkeley.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -887,7 +901,7 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ecomperat\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
