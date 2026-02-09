@@ -799,6 +799,8 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
 
 
 </main> <!-- /main -->
+<script>
+
 // analytics.js - Custom event tracking for GA4
 
 (function() {
@@ -821,7 +823,7 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
 
     const href = target.getAttribute('href');
 
-    if (href &amp;&amp; href.endsWith('.pdf')) {
+    if (href && href.endsWith('.pdf')) {
 
       gtag('event', 'file_download', {
 
@@ -849,7 +851,7 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
 
     const href = target.getAttribute('href');
 
-    if (href &amp;&amp; (href.startsWith('http://') || href.startsWith('https://'))) {
+    if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
 
       const isExternal = !href.includes(window.location.hostname);
 
@@ -951,7 +953,7 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
 
     [25, 50, 75, 100].forEach(function(mark) {
 
-      if (scrollPercent &gt;= mark &amp;&amp; !scrollMarks[mark]) {
+      if (scrollPercent >= mark && !scrollMarks[mark]) {
 
         scrollMarks[mark] = true;
 
@@ -968,6 +970,8 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
   });
 
 })();
+
+</script>
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1060,8 +1064,6 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
-            // default icon
-            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

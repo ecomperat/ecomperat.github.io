@@ -638,6 +638,8 @@ Details
 </section>
 
 </main> <!-- /main -->
+<script>
+
 // analytics.js - Custom event tracking for GA4
 
 (function() {
@@ -660,7 +662,7 @@ Details
 
     const href = target.getAttribute('href');
 
-    if (href &amp;&amp; href.endsWith('.pdf')) {
+    if (href && href.endsWith('.pdf')) {
 
       gtag('event', 'file_download', {
 
@@ -688,7 +690,7 @@ Details
 
     const href = target.getAttribute('href');
 
-    if (href &amp;&amp; (href.startsWith('http://') || href.startsWith('https://'))) {
+    if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
 
       const isExternal = !href.includes(window.location.hostname);
 
@@ -790,7 +792,7 @@ Details
 
     [25, 50, 75, 100].forEach(function(mark) {
 
-      if (scrollPercent &gt;= mark &amp;&amp; !scrollMarks[mark]) {
+      if (scrollPercent >= mark && !scrollMarks[mark]) {
 
         scrollMarks[mark] = true;
 
@@ -807,6 +809,8 @@ Details
   });
 
 })();
+
+</script>
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -899,8 +903,6 @@ Details
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
-            // default icon
-            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -1,3 +1,4 @@
+<script>
 // analytics.js - Custom event tracking for GA4
 (function() {
   window.dataLayer = window.dataLayer || [];
@@ -83,3 +84,4 @@
     });
   });
 })();
+</script>
