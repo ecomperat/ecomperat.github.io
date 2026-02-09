@@ -4,7 +4,14 @@ description: "Academic projects, research papers, referee reports, and replicati
 format:
   html:
     body-classes: coursework-compact
+open-graph:
+  type: article
+  url: https://ecomperat.github.io/coursework.html
+  article:
+    author: Étienne Compérat
 ---
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <style>
 /* Compact typography just for this page */
@@ -343,65 +350,6 @@ body.coursework-compact .cat-filter.active {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-body.coursework-compact .program-filter {
-  display: inline-flex;
-  width: auto;
-  text-align: center;
-  margin: 0.2rem 0;
-  align-self: flex-start;
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.15s ease-in-out;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  border: 1px solid #e1e1e1;
-}
-
-body.coursework-compact .program-filter[data-program="all"] {
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  background: #fff;
-}
-
-body.coursework-compact .program-filter[data-program="all"].active,
-body.coursework-compact .program-filter[data-program="all"]:hover {
-  background: var(--accent);
-  color: #fdfefe;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
-body.coursework-compact .program-filter[data-program="mres"] {
-  border: 1px solid #c8102e;
-  color: #c8102e;
-  background: #eee6de;
-}
-
-body.coursework-compact .program-filter[data-program="mres"].active,
-body.coursework-compact .program-filter[data-program="mres"]:hover {
-  background: #c8102e;
-  color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
-body.coursework-compact .program-filter[data-program="ucb"] {
-  border: 1px solid #003262;
-  color: #003262;
-  background: #eee6de;
-}
-
-body.coursework-compact .program-filter[data-program="ucb"].active,
-body.coursework-compact .program-filter[data-program="ucb"]:hover {
-  background: #003262;
-  color: #fdb515;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
 @media (max-width: 991px) {
   body.coursework-compact .categories-container {
     position: static;
@@ -450,7 +398,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>For this course, I completed two complementary assignments based on Donaldson and Hornbeck (2016), "Railroads and American Economic Growth". The first one was a [critical reading](pdf/URE_criticalreading.pdf) of the paper in which I examined their market-access framework, the construction of their GIS-based transport network, and the identification challenges arising from spatial spillovers. This report explains how the paper connects general-equilibrium trade theory (Eaton-Kortum) with historical data and discussed limitations regarding the sufficiency of market access as a summary statistic, the static capitalization of expected rents, and the reliance on modeled least-cost routes. It also situates their contribution within the broader literature in economic geography, land-use theory, and infrastructure evaluation, drawing on extensions and critiques from subsequent work.</p>
 
@@ -469,7 +417,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="course-tag">Referee report</span>
   <span class="course-tag">Research project</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>As part of this applied economics course, I completed two assignments. The first was a [referee report](pdf/TPPOE_refereereport.pdf) on Pires (2024), "How Much Can You Make? Mispredictions and Biased Memory in Gig Jobs", a behavioral-labor-economics paper on biased beliefs and earnings misprediction among gig-economy workers. The report summarizes the contribution, assesses identification and survey-design concerns, and proposes extensions including sensitivity analysis of cost assumptions, potential commitment-device effects in elicited expectations, and alternative explanations such as social-desirability bias.</p>
 
@@ -488,7 +436,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Replication package</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>As part of this [Computational Economics](https://floswald.github.io/NumericalMethods/) course, we developed a complete Julia replication package for Monge-Naranjo, Sanchez & Santaeulalia-Llopis, "Natural Resources and Global Misallocation" (AEJ: Macroeconomics, 2019). The authors provided only four raw datasets and a single do-file for the initial merge, with no code for producing the paper?s tables or figures. Our task therefore required rebuilding the full data pipeline and inference steps directly from the paper.</p>
 
@@ -510,7 +458,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="course-tag">Paper presentation</span>
   <span class="course-tag">Referee report</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>As part of this course, our group presented [Chancel & Rehm (2024)](https://www.dropbox.com/scl/fi/8jsi7pgno80xlhhjsu3zc/CarbonCapital2023ChancelRehm.pdf?rlkey=nu70bve6k1ofmqz2zpttox9gh&e=1), "The Carbon Footprint of Capital", a working paper that proposes new methods to measure individual carbon footprints by incorporating emissions linked to asset ownership. Our presentation summarized the paper's framework, data sources, and key results on emissions inequality across France, Germany, and the United States, drawing on its figures and empirical findings. Slides and a written summary can be found on our [dedicated website](https://www.paulogcd.com/TPEE_Presentation/).</p>
 
@@ -529,7 +477,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Paper presentation</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>As part of this course, our group delivered a one-hour presentation on Diamond & Dybvig, "Bank Runs, Deposit Insurance, and Liquidity". The [presentation](pdf/Macro2_slides.pdf) reviewed the model's core mechanisms: banks' role in providing liquidity, the emergence of multiple equilibria under sequential service constraints, and the conditions under which bank runs arise even for solvent institutions.</p>
 
@@ -548,7 +496,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="program-tag program-mres">MRes Economics</span>
   <span class="course-tag">Research project</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>For this group research project, we developed and analyzed a game-theoretic model of class-attendance decisions, formulating student behavior as strategic interaction under workload constraints. The project involved constructing: a baseline simultaneous-move game with heterogeneous student types and Bayesian Nash equilibria, a dynamic signaling extension with Perfect Bayesian Equilibria across periods, and a teacher-student extension where a workload-setting instructor solves an optimization problem anticipating equilibrium attendance responses.</p>
 
@@ -566,7 +514,7 @@ This section includes past coursework throughout my Bachelor and Master's.
   <span class="program-tag program-ucb">BA Environmental Economics</span>
   <span class="course-tag">Theory paper</span>
 </div>
-<button class="course-toggle" type="button">Show more</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">Show more</button>
 <div class="course-body" hidden>
 <p>For this [theory paper](pdf/POLECON_theorypaper.pdf) assignment, I wrote a comparative political-economy paper examining Fernand Braudel's longue-durée analysis of the "économie-mondes" and David Harvey's theory of capital circulation, focusing on how both frameworks integrate geography into the study of capitalism. The paper develops an analytical connection between Braudel's emphasis on control of trade infrastructures and Harvey's concepts of the capital fix and spatial fix, using the Belt and Road Initiative as an illustrative case of territorial domination through the management of capital flows.</p>
 </div>
@@ -628,7 +576,10 @@ This section includes past coursework throughout my Bachelor and Master's.
     const btn = item.querySelector('.course-toggle');
     item.classList.toggle('open', open);
     if (body) body.hidden = !open;
-    if (btn) btn.textContent = open ? 'Show less' : 'Show more';
+    if (btn) {
+      btn.textContent = open ? 'Show less' : 'Show more';
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
   }
 
   toggles.forEach(btn => {
@@ -644,6 +595,24 @@ This section includes past coursework throughout my Bachelor and Master's.
   applyFilters();
 })();
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Past Assignments",
+  "description": "Academic projects, research papers, referee reports, and replication packages",
+  "about": {
+    "@type": "EducationalOccupationalProgram",
+    "name": "Economics Graduate Program"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Étienne Compérat"
+  }
+}
+</script>
+
 
 
 

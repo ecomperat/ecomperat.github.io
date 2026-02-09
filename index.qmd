@@ -1,9 +1,15 @@
 
 ---
-image: img/ppic_uzh_trim.jpg
+image: img/ppic_uzh_optimized.jpg
 title: Etienne Compérat
-description: "Pre-doctoral Fellow in Economics at University of Zurich. Research interests in Economic History, Political Economy, and Urban & Regional Economics."
 subtitle: "<b>Pre-doctoral Fellow, UZH<br>JPE Replicator, UChicago</b>"
+open-graph:
+  type: profile
+  url: https://ecomperat.github.io/
+  locale: en_US
+  profile:
+    first_name: Étienne
+    last_name: Compérat
 about:
   id: hero-heading
   template: trestles
@@ -25,6 +31,8 @@ format:
     page-layout: full
 ---
 
+<a href="#hero-heading" class="skip-link">Skip to main content</a>
+
 Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/). Welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
 
 
@@ -33,7 +41,7 @@ Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics 
 ## Affiliations
 
 <div class="inst-item" markdown="1">
-  <img src="img/logo_uzh.png" alt="University of Zurich logo" class="inst-logo">
+  <img src="img/logo_uzh_opt.png" alt="University of Zurich logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **University of Zurich** | 2025 -<br>
 Pre-doctoral Fellow in Economics
@@ -41,7 +49,7 @@ Pre-doctoral Fellow in Economics
 </div>
 
 <div class="inst-item" markdown="1">
-  <img src="img/logo_uchicago.png" alt="University of Chicago logo" class="inst-logo">
+  <img src="img/logo_uchicago.png" alt="University of Chicago logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **University of Chicago** | 2025 -<br>
 Replicator, Journal of Political Economy
@@ -51,7 +59,7 @@ Replicator, Journal of Political Economy
 ## Education
 
 <div class="inst-item" markdown="1">
-  <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo">
+  <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **Sciences Po** | 2023 - 2025<br>
 MRes in Economics
@@ -59,7 +67,7 @@ MRes in Economics
 </div>
 
 <div class="inst-item" markdown="1">
-  <img src="img/logo_berkeley.png" alt="University of California, Berkeley logo" class="inst-logo">
+  <img src="img/logo_berkeley_opt.png" alt="University of California, Berkeley logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **University of California, Berkeley** | 2022 - 2023<br>
 Exchange - Dept. of Agricultural & Resource Economics
@@ -67,7 +75,7 @@ Exchange - Dept. of Agricultural & Resource Economics
 </div>
 
 <div class="inst-item" markdown="1">
-  <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo">
+  <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **Sciences Po** | 2020 - 2023<br>
 B.A. in Economics and Political Sciences
@@ -82,3 +90,53 @@ I recently completed a Research Master’s in Economics at Sciences Po, followin
 My research interests lie at the intersection of Economic History, Political Economy, and Urban & Regional Economics, with an emphasis on institutions and long-run development. Empirically, I am particularly interested in constructing new historical datasets from archival sources, combining original data collection with modern empirical methods, including OCR and machine learning tools for large-scale data extraction.
 
 More broadly, I am interested in exploiting historical institutional and spatial variation for causal inference, with a primary focus on nineteenth-century France and Europe. During my pre-doctoral fellowship, my goal is to refine my PhD project while strengthening my empirical and computationals skills. My work involves large historical datasets and the use of Python, Stata, as well as the application of machine learning tools to economic history. In parallel, I am also part of the [JPE replication team](https://jpe-reproducibility.github.io/replicator-team/) at UChicago, under the supervision of [Florian Oswald](https://floswald.github.io/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Étienne Compérat",
+  "jobTitle": "Pre-doctoral Fellow in Economics",
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "University of Zurich",
+      "department": "Department of Economics",
+      "url": "https://www.econ.uzh.ch/"
+    },
+    {
+      "@type": "Organization",
+      "name": "University of Chicago",
+      "department": "Journal of Political Economy",
+      "url": "https://jpe-reproducibility.github.io/"
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Sciences Po",
+      "url": "https://www.sciencespo.fr/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of California, Berkeley",
+      "url": "https://www.berkeley.edu/"
+    }
+  ],
+  "knowsAbout": [
+    "Economic History",
+    "Political Economy",
+    "Urban Economics",
+    "Regional Economics",
+    "Econometrics",
+    "Causal Inference"
+  ],
+  "sameAs": [
+    "https://github.com/ecomperat",
+    "https://www.linkedin.com/in/étienne-compérat-a22850242/",
+    "https://www.econ.uzh.ch/en/people/predocs/comperat.html"
+  ],
+  "url": "https://ecomperat.github.io",
+  "image": "https://ecomperat.github.io/img/ppic_uzh_optimized.jpg"
+}
+</script>

@@ -10,7 +10,8 @@
       "Bash(where:*)",
       "Bash(magick:*)",
       "Bash(pip install:*)",
-      "Bash(quarto render:*)"
+      "Bash(quarto render:*)",
+      "Bash(find:*)"
     ]
   }
 }

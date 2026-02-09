@@ -69,6 +69,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -162,6 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><a href="#selected-graduate" class="skip-link">Skip to main content</a></p>
 <section id="selected-graduate" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="selected-graduate">Selected Graduate Coursework</h2>
 
@@ -273,7 +283,7 @@ Course List
 <section id="micro-ii" class="level4 course-title course-item" data-markdown="1">
 <h4 class="course-title anchored" data-anchor-id="micro-ii">MICROECONOMICS I-II (Optimal Choice, Equilibrium, and Strategic Interaction)</h4>
 <p><span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span></p>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">
 Details
 </button>
 <div class="course-body" hidden="">
@@ -290,7 +300,7 @@ Details
 <section id="macro-iii" class="level4 course-title course-item" data-markdown="1">
 <h4 class="course-title anchored" data-anchor-id="macro-iii">MACROECONOMICS I-III (Growth, Fluctuations, and Heterogeneity)</h4>
 <p><span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Paul Bouscasse, Jean Barthélemy, Xavier Ragot</span></p>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">
 Details
 </button>
 <div class="course-body" hidden="">
@@ -311,7 +321,7 @@ Details
 <section id="econ-iii" class="level4 course-title course-item" data-markdown="1">
 <h4 class="course-title anchored" data-anchor-id="econ-iii">ECONOMETRICS I-III (Probability, Estimation, and Causal Inference)</h4>
 <p><span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span></p>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">
 Details
 </button>
 <div class="course-body" hidden="">
@@ -478,7 +488,10 @@ Details
     const btn = item.querySelector('.course-toggle');
     item.classList.toggle('open', open);
     if (body) body.hidden = !open;
-    if (btn) btn.textContent = open ? 'Hide' : 'Details';
+    if (btn) {
+      btn.textContent = open ? 'Hide' : 'Details';
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
   }
 
   toggles.forEach(btn => {
@@ -582,12 +595,219 @@ Details
   updateActiveSection();
 })();
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Graduate Economics Coursework",
+  "description": "Graduate coursework in Economics at Sciences Po and UC Berkeley",
+  "itemListElement": [
+    {
+      "@type": "Course",
+      "name": "Microeconomics I-II",
+      "description": "Optimal Choice, Equilibrium, and Strategic Interaction",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Macroeconomics I-III",
+      "description": "Growth, Fluctuations, and Heterogeneity",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Econometrics I-III",
+      "description": "Probability, Estimation, and Causal Inference",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      }
+    }
+  ]
+}
+</script>
 
 
 </section>
 </section>
 
 </main> <!-- /main -->
+// analytics.js - Custom event tracking for GA4
+
+(function() {
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+
+
+  // Track PDF downloads
+
+  document.addEventListener('click', function(e) {
+
+    const target = e.target.closest('a');
+
+    if (!target) return;
+
+
+
+    const href = target.getAttribute('href');
+
+    if (href &amp;&amp; href.endsWith('.pdf')) {
+
+      gtag('event', 'file_download', {
+
+        file_name: href.split('/').pop(),
+
+        link_text: target.textContent.trim()
+
+      });
+
+    }
+
+  });
+
+
+
+  // Track external link clicks
+
+  document.addEventListener('click', function(e) {
+
+    const target = e.target.closest('a');
+
+    if (!target) return;
+
+
+
+    const href = target.getAttribute('href');
+
+    if (href &amp;&amp; (href.startsWith('http://') || href.startsWith('https://'))) {
+
+      const isExternal = !href.includes(window.location.hostname);
+
+      if (isExternal) {
+
+        gtag('event', 'click', {
+
+          event_category: 'outbound',
+
+          event_label: href,
+
+          link_domain: new URL(href).hostname
+
+        });
+
+      }
+
+    }
+
+  });
+
+
+
+  // Track course expansion
+
+  const courseToggles = document.querySelectorAll('.course-toggle');
+
+  courseToggles.forEach(function(btn) {
+
+    btn.addEventListener('click', function() {
+
+      const courseItem = btn.closest('.course-item');
+
+      const courseTitle = courseItem ? courseItem.querySelector('.course-title, h3, h4') : null;
+
+      const isExpanding = !courseItem.classList.contains('open');
+
+
+
+      gtag('event', isExpanding ? 'course_expand' : 'course_collapse', {
+
+        event_category: 'engagement',
+
+        event_label: courseTitle ? courseTitle.textContent.trim() : 'Unknown Course'
+
+      });
+
+    });
+
+  });
+
+
+
+  // Track coursework filters
+
+  const filterButtons = document.querySelectorAll('.cat-filter, .program-filter');
+
+  filterButtons.forEach(function(btn) {
+
+    btn.addEventListener('click', function() {
+
+      const filterType = btn.classList.contains('cat-filter') ? 'category' : 'program';
+
+      const filterValue = btn.dataset.cat || btn.dataset.program;
+
+
+
+      gtag('event', 'filter_apply', {
+
+        event_category: 'coursework_filters',
+
+        filter_type: filterType,
+
+        filter_value: filterValue
+
+      });
+
+    });
+
+  });
+
+
+
+  // Track scroll depth
+
+  let scrollMarks = { 25: false, 50: false, 75: false, 100: false };
+
+  window.addEventListener('scroll', function() {
+
+    const winHeight = window.innerHeight;
+
+    const docHeight = document.documentElement.scrollHeight - winHeight;
+
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    const scrollPercent = Math.round((scrollTop / docHeight) * 100);
+
+
+
+    [25, 50, 75, 100].forEach(function(mark) {
+
+      if (scrollPercent &gt;= mark &amp;&amp; !scrollMarks[mark]) {
+
+        scrollMarks[mark] = true;
+
+        gtag('event', 'scroll', {
+
+          percent_scrolled: mark
+
+        });
+
+      }
+
+    });
+
+  });
+
+})();
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -674,6 +894,13 @@ Details
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

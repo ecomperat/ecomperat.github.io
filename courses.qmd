@@ -5,7 +5,14 @@ format:
   html:
     body-classes: courses-page
     toc: false
+open-graph:
+  type: article
+  url: https://ecomperat.github.io/courses.html
+  article:
+    author: Étienne Compérat
 ---
+
+<a href="#selected-graduate" class="skip-link">Skip to main content</a>
 
 ## Selected Graduate Coursework {#selected-graduate}
 
@@ -80,7 +87,7 @@ format:
 
 <span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span>
 
-<button class="course-toggle" type="button">Details</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">Details</button>
 <div class="course-body" hidden>
 **Microeconomics I: Optimal Choice and Equilibrium**
 
@@ -106,7 +113,7 @@ format:
 
 <span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Paul Bouscasse, Jean Barthélemy, Xavier Ragot</span>
 
-<button class="course-toggle" type="button">Details</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">Details</button>
 <div class="course-body" hidden>
 **Macroeconomics I: Growth**
 
@@ -139,7 +146,7 @@ format:
 
 <span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
 
-<button class="course-toggle" type="button">Details</button>
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">Details</button>
 <div class="course-body" hidden>
 **Econometrics I: Probability and Statistics**
 
@@ -368,7 +375,10 @@ format:
     const btn = item.querySelector('.course-toggle');
     item.classList.toggle('open', open);
     if (body) body.hidden = !open;
-    if (btn) btn.textContent = open ? 'Hide' : 'Details';
+    if (btn) {
+      btn.textContent = open ? 'Hide' : 'Details';
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
   }
 
   toggles.forEach(btn => {
@@ -473,4 +483,43 @@ format:
   updateActiveSection();
 })();
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Graduate Economics Coursework",
+  "description": "Graduate coursework in Economics at Sciences Po and UC Berkeley",
+  "itemListElement": [
+    {
+      "@type": "Course",
+      "name": "Microeconomics I-II",
+      "description": "Optimal Choice, Equilibrium, and Strategic Interaction",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Macroeconomics I-III",
+      "description": "Growth, Fluctuations, and Heterogeneity",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Econometrics I-III",
+      "description": "Probability, Estimation, and Causal Inference",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      }
+    }
+  ]
+}
+</script>
+
 

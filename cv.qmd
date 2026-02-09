@@ -1,7 +1,16 @@
 ---
 title: "CV"
 description: "Curriculum Vitae of Etienne Compérat - Pre-doctoral Fellow at UZH and JPE Replicator at UChicago. Research experience, education, and skills in economics."
+open-graph:
+  type: article
+  url: https://ecomperat.github.io/cv.html
+  article:
+    author: Étienne Compérat
+    section: Academic CV
 ---
+
+<a href="#research-experience" class="skip-link">Skip to main content</a>
+
 Choose the format that suits you best:
 
 - [One-page resume](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
@@ -90,3 +99,47 @@ For more details, check out the [dedicated page](courses.qmd).
 - English (C2)
 - Italian (C1)
 - German (B1)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Étienne Compérat",
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "name": "Master of Research in Economics",
+      "educationalLevel": "Graduate",
+      "recognizedBy": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "name": "Bachelor of Arts in Economics and Political Science",
+      "educationalLevel": "Undergraduate",
+      "recognizedBy": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      },
+      "dateCreated": "2023"
+    }
+  ],
+  "workExample": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Education, Local Democracy, and Economic Development in 19th-Century France",
+      "description": "Master's Thesis awarded Sciences Po Prize for Best Master's Thesis",
+      "author": {
+        "@type": "Person",
+        "name": "Étienne Compérat"
+      },
+      "datePublished": "2025"
+    }
+  ]
+}
+</script>

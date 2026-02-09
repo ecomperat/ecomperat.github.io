@@ -69,6 +69,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -179,6 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><a href="#research-experience" class="skip-link">Skip to main content</a></p>
 <p>Choose the format that suits you best:</p>
 <ul>
 <li><a href="pdf/resume/COMPERAT.Etienne_cv1p.pdf">One-page resume</a></li>
@@ -266,11 +276,224 @@ GPA: 4.0, <em>Cum laude</em></p>
 <li>Italian (C1)</li>
 <li>German (B1)</li>
 </ul>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Étienne Compérat",
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "name": "Master of Research in Economics",
+      "educationalLevel": "Graduate",
+      "recognizedBy": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      },
+      "dateCreated": "2025"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "degree",
+      "name": "Bachelor of Arts in Economics and Political Science",
+      "educationalLevel": "Undergraduate",
+      "recognizedBy": {
+        "@type": "EducationalOrganization",
+        "name": "Sciences Po"
+      },
+      "dateCreated": "2023"
+    }
+  ],
+  "workExample": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Education, Local Democracy, and Economic Development in 19th-Century France",
+      "description": "Master's Thesis awarded Sciences Po Prize for Best Master's Thesis",
+      "author": {
+        "@type": "Person",
+        "name": "Étienne Compérat"
+      },
+      "datePublished": "2025"
+    }
+  ]
+}
+</script>
 
 
 </section>
 
 </main> <!-- /main -->
+// analytics.js - Custom event tracking for GA4
+
+(function() {
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+
+
+  // Track PDF downloads
+
+  document.addEventListener('click', function(e) {
+
+    const target = e.target.closest('a');
+
+    if (!target) return;
+
+
+
+    const href = target.getAttribute('href');
+
+    if (href &amp;&amp; href.endsWith('.pdf')) {
+
+      gtag('event', 'file_download', {
+
+        file_name: href.split('/').pop(),
+
+        link_text: target.textContent.trim()
+
+      });
+
+    }
+
+  });
+
+
+
+  // Track external link clicks
+
+  document.addEventListener('click', function(e) {
+
+    const target = e.target.closest('a');
+
+    if (!target) return;
+
+
+
+    const href = target.getAttribute('href');
+
+    if (href &amp;&amp; (href.startsWith('http://') || href.startsWith('https://'))) {
+
+      const isExternal = !href.includes(window.location.hostname);
+
+      if (isExternal) {
+
+        gtag('event', 'click', {
+
+          event_category: 'outbound',
+
+          event_label: href,
+
+          link_domain: new URL(href).hostname
+
+        });
+
+      }
+
+    }
+
+  });
+
+
+
+  // Track course expansion
+
+  const courseToggles = document.querySelectorAll('.course-toggle');
+
+  courseToggles.forEach(function(btn) {
+
+    btn.addEventListener('click', function() {
+
+      const courseItem = btn.closest('.course-item');
+
+      const courseTitle = courseItem ? courseItem.querySelector('.course-title, h3, h4') : null;
+
+      const isExpanding = !courseItem.classList.contains('open');
+
+
+
+      gtag('event', isExpanding ? 'course_expand' : 'course_collapse', {
+
+        event_category: 'engagement',
+
+        event_label: courseTitle ? courseTitle.textContent.trim() : 'Unknown Course'
+
+      });
+
+    });
+
+  });
+
+
+
+  // Track coursework filters
+
+  const filterButtons = document.querySelectorAll('.cat-filter, .program-filter');
+
+  filterButtons.forEach(function(btn) {
+
+    btn.addEventListener('click', function() {
+
+      const filterType = btn.classList.contains('cat-filter') ? 'category' : 'program';
+
+      const filterValue = btn.dataset.cat || btn.dataset.program;
+
+
+
+      gtag('event', 'filter_apply', {
+
+        event_category: 'coursework_filters',
+
+        filter_type: filterType,
+
+        filter_value: filterValue
+
+      });
+
+    });
+
+  });
+
+
+
+  // Track scroll depth
+
+  let scrollMarks = { 25: false, 50: false, 75: false, 100: false };
+
+  window.addEventListener('scroll', function() {
+
+    const winHeight = window.innerHeight;
+
+    const docHeight = document.documentElement.scrollHeight - winHeight;
+
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    const scrollPercent = Math.round((scrollTop / docHeight) * 100);
+
+
+
+    [25, 50, 75, 100].forEach(function(mark) {
+
+      if (scrollPercent &gt;= mark &amp;&amp; !scrollMarks[mark]) {
+
+        scrollMarks[mark] = true;
+
+        gtag('event', 'scroll', {
+
+          percent_scrolled: mark
+
+        });
+
+      }
+
+    });
+
+  });
+
+})();
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -357,6 +580,13 @@ GPA: 4.0, <em>Cum laude</em></p>
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

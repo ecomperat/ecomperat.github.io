@@ -69,6 +69,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -163,6 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><a href="#main-content" class="skip-link">Skip to main content</a></p>
 <style>
 /* Compact typography just for this page */
 body.coursework-compact {
@@ -500,65 +510,6 @@ body.coursework-compact .cat-filter.active {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-body.coursework-compact .program-filter {
-  display: inline-flex;
-  width: auto;
-  text-align: center;
-  margin: 0.2rem 0;
-  align-self: flex-start;
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.15s ease-in-out;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  border: 1px solid #e1e1e1;
-}
-
-body.coursework-compact .program-filter[data-program="all"] {
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  background: #fff;
-}
-
-body.coursework-compact .program-filter[data-program="all"].active,
-body.coursework-compact .program-filter[data-program="all"]:hover {
-  background: var(--accent);
-  color: #fdfefe;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
-body.coursework-compact .program-filter[data-program="mres"] {
-  border: 1px solid #c8102e;
-  color: #c8102e;
-  background: #eee6de;
-}
-
-body.coursework-compact .program-filter[data-program="mres"].active,
-body.coursework-compact .program-filter[data-program="mres"]:hover {
-  background: #c8102e;
-  color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
-body.coursework-compact .program-filter[data-program="ucb"] {
-  border: 1px solid #003262;
-  color: #003262;
-  background: #eee6de;
-}
-
-body.coursework-compact .program-filter[data-program="ucb"].active,
-body.coursework-compact .program-filter[data-program="ucb"]:hover {
-  background: #003262;
-  color: #fdb515;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
-}
-
 @media (max-width: 991px) {
   body.coursework-compact .categories-container {
     position: static;
@@ -597,7 +548,7 @@ Urban Economics <span class="course-term">(<em>Spring 2025</em>)</span>
 <div class="course-tags">
 <p><span class="program-tag program-mres">MRes Economics</span> <span class="course-tag">Referee report</span> <span class="course-tag">Research project</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -619,7 +570,7 @@ Topics in Public, Political &amp; Organizational Economics <span class="course-t
 <div class="course-tags">
 <p><span class="program-tag program-mres">MRes Economics</span> <span class="course-tag">Referee report</span> <span class="course-tag">Research project</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -644,7 +595,7 @@ Computational Economics <span class="course-term">(<em>Fall 2024</em>)</span>
 <div class="course-tags">
 <p><span class="program-tag program-mres">MRes Economics</span> <span class="course-tag">Replication package</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -672,7 +623,7 @@ Topics in Public and Environmental Economics <span class="course-term">(<em>Fall
 <div class="course-tags">
 <p><span class="program-tag program-mres">MRes Economics</span> <span class="course-tag">Paper presentation</span> <span class="course-tag">Referee report</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -697,7 +648,7 @@ Macroeconomics 2 <span class="course-term">(<em>Spring 2024</em>)</span>
 <div class="course-tags">
 <p><span class="program-tag program-mres">MRes Economics</span> <span class="course-tag">Paper presentation</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -722,7 +673,7 @@ Microeconomics 2 <span class="course-term">(<em>Spring 2024</em>)</span>
 <div class="course-tags">
 <p><span class="program-tag program-mres">MRes Economics</span> <span class="course-tag">Research project</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -744,7 +695,7 @@ Contemporary Theories of Political Economy <span class="course-term">(<em>Fall 2
 <div class="course-tags">
 <p><span class="program-tag program-ucb">BA Environmental Economics</span> <span class="course-tag">Theory paper</span></p>
 </div>
-<button class="course-toggle" type="button">
+<button class="course-toggle" type="button" aria-expanded="false" aria-label="Show assignment details">
 Show more
 </button>
 <div class="course-body" hidden="">
@@ -809,7 +760,10 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
     const btn = item.querySelector('.course-toggle');
     item.classList.toggle('open', open);
     if (body) body.hidden = !open;
-    if (btn) btn.textContent = open ? 'Show less' : 'Show more';
+    if (btn) {
+      btn.textContent = open ? 'Show less' : 'Show more';
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
   }
 
   toggles.forEach(btn => {
@@ -825,10 +779,196 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
   applyFilters();
 })();
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Past Assignments",
+  "description": "Academic projects, research papers, referee reports, and replication packages",
+  "about": {
+    "@type": "EducationalOccupationalProgram",
+    "name": "Economics Graduate Program"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Étienne Compérat"
+  }
+}
+</script>
 
 
 
 </main> <!-- /main -->
+// analytics.js - Custom event tracking for GA4
+
+(function() {
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+
+
+  // Track PDF downloads
+
+  document.addEventListener('click', function(e) {
+
+    const target = e.target.closest('a');
+
+    if (!target) return;
+
+
+
+    const href = target.getAttribute('href');
+
+    if (href &amp;&amp; href.endsWith('.pdf')) {
+
+      gtag('event', 'file_download', {
+
+        file_name: href.split('/').pop(),
+
+        link_text: target.textContent.trim()
+
+      });
+
+    }
+
+  });
+
+
+
+  // Track external link clicks
+
+  document.addEventListener('click', function(e) {
+
+    const target = e.target.closest('a');
+
+    if (!target) return;
+
+
+
+    const href = target.getAttribute('href');
+
+    if (href &amp;&amp; (href.startsWith('http://') || href.startsWith('https://'))) {
+
+      const isExternal = !href.includes(window.location.hostname);
+
+      if (isExternal) {
+
+        gtag('event', 'click', {
+
+          event_category: 'outbound',
+
+          event_label: href,
+
+          link_domain: new URL(href).hostname
+
+        });
+
+      }
+
+    }
+
+  });
+
+
+
+  // Track course expansion
+
+  const courseToggles = document.querySelectorAll('.course-toggle');
+
+  courseToggles.forEach(function(btn) {
+
+    btn.addEventListener('click', function() {
+
+      const courseItem = btn.closest('.course-item');
+
+      const courseTitle = courseItem ? courseItem.querySelector('.course-title, h3, h4') : null;
+
+      const isExpanding = !courseItem.classList.contains('open');
+
+
+
+      gtag('event', isExpanding ? 'course_expand' : 'course_collapse', {
+
+        event_category: 'engagement',
+
+        event_label: courseTitle ? courseTitle.textContent.trim() : 'Unknown Course'
+
+      });
+
+    });
+
+  });
+
+
+
+  // Track coursework filters
+
+  const filterButtons = document.querySelectorAll('.cat-filter, .program-filter');
+
+  filterButtons.forEach(function(btn) {
+
+    btn.addEventListener('click', function() {
+
+      const filterType = btn.classList.contains('cat-filter') ? 'category' : 'program';
+
+      const filterValue = btn.dataset.cat || btn.dataset.program;
+
+
+
+      gtag('event', 'filter_apply', {
+
+        event_category: 'coursework_filters',
+
+        filter_type: filterType,
+
+        filter_value: filterValue
+
+      });
+
+    });
+
+  });
+
+
+
+  // Track scroll depth
+
+  let scrollMarks = { 25: false, 50: false, 75: false, 100: false };
+
+  window.addEventListener('scroll', function() {
+
+    const winHeight = window.innerHeight;
+
+    const docHeight = document.documentElement.scrollHeight - winHeight;
+
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    const scrollPercent = Math.round((scrollTop / docHeight) * 100);
+
+
+
+    [25, 50, 75, 100].forEach(function(mark) {
+
+      if (scrollPercent &gt;= mark &amp;&amp; !scrollMarks[mark]) {
+
+        scrollMarks[mark] = true;
+
+        gtag('event', 'scroll', {
+
+          percent_scrolled: mark
+
+        });
+
+      }
+
+    });
+
+  });
+
+})();
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -915,6 +1055,13 @@ For this <a href="pdf/POLECON_theorypaper.pdf">theory paper</a> assignment, I wr
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
