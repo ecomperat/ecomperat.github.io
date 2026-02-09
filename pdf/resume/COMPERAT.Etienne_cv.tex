@@ -94,6 +94,8 @@
 %for social icons
 \usepackage{fontawesome5}
 
+\usepackage{enumitem}
+
 %debug page outer frames
 %\usepackage{showframe}
 
@@ -119,92 +121,82 @@
 % \end{tabularx}
 
 \begin{center}
-\textbf{\Large ETIENNE COMPERAT}\\[3pt] % Name
-\textbf{Predoctoral Fellow in Economics}\\[1pt] % One-liner
-University of Zurich, Department of Economics \\[6pt]
-% One-line
+\textbf{\Large ÉTIENNE COMPÉRAT}\\[3pt] % Name
+\textbf{Predoctoral Fellow in Economics, UZH}\\[1pt] % One-liner% One-line
 \begin{tabularx}{\linewidth}{X}
 \centering
 \href{https://github.com/ecomperat}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \ 
-\href{https://www.linkedin.com/in/étienne-compérat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
 \href{https://ecomperat.github.io}{\raisebox{-0.05\height}\faGlobe\ Website} \ $|$ \ 
+\href{https://www.linkedin.com/in/étienne-compérat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
 \href{mailto: etienne.comperat@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope\ E-Mail} \ 
-\end{tabularx} \\[6pt]
-
+\end{tabularx} \\[1pt]
 \textbf{Research Interests:} Economic History, Political Economy, Urban \& Regional Economics
-
 \end{center}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\section{Education}
+\section{EDUCATION}
 
 \textbf{Sciences Po} \hfill 2023--2025 \\
-M.Res. in Economics (PhD Track) \hfill GPA: 4.0 \\
+M.Res. in Economics \hfill GPA: 4.0 \\
 Master’s Thesis: ``Education, Local Democracy, and Economic Development in 19th-Century France'' \\
 Advisors: Roberto Galbiati, Emeric Henry \\
 \emph{Awarded Sciences Po Prize for Best Master’s Thesis}
 
 
 \textbf{University of California, Berkeley} \hfill 2022--2023 \\
-Full-Year Exchange Program (B.A.), Department of Agricultural \& Resource Economics \hfill GPA: 4.0
+Exchange Program (B.A.), Department of Agricultural \& Resource Economics \hfill GPA: 4.0
 
 \textbf{Sciences Po} \hfill 2020--2023 \\
-B.A. in Economics and Political Science \hfill  (Cum laude) GPA: 4.0
+B.A. in Economics and Political Science \hfill (\textit{Cum Laude}) GPA: 4.0
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Research Experience}
+\section{RESEARCH EXPERIENCE}
 
 \textbf{Predoctoral Fellow in Economics} $|$ University of Zurich \hfill July 2025--Present \\
 Supervisor: Hans-Joachim Voth
-\begin{itemize}
-    \item Contribute to projects in economic history, political economy, and cultural economics, including IMAGES (R\&R at the QJE).
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Contribute to projects in economic history, political economy, and cultural economics, including the IMAGES project (R\&R at the QJE).
     \item For IMAGES, contributed to an existing computer-vision workflow for historical images, including preprocessing, labeling/validation, supervised training runs, and feature extraction.
     \item For an ongoing project on the French Revolution, developing an initial data pipeline linking archival, textual, and geospatial sources; conducted historical geocoding and GIS integration.
     \item Produced documented code, draft figures/tables, and internal research memos using Python, Stata, and QGIS.
-\end{itemize}
+\end{itemize}}
 
-\textbf{Replicator (JPE ; EJ)} $|$ University of Chicago \& Royal Economic Society \hfill July 2025--Present \\
-Supervisor: Florian Oswald
-\begin{itemize}
-  \item Served as replicator for \textbf{The Economic Journal} (2024--July 2025) and subsequently for the \textbf{Journal of Political Economy} (July 2025--Present) under editorial supervision.
+\normalsize{\textbf{JPE Replicator (previously EJ)} $|$ University of Chicago \hfill 2024--Present \\
+Supervisor: Florian Oswald}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+  \item Served as replicator for \textit{The Economic Journal} (2024--July 2025) and subsequently for the \textit{Journal of Political Economy} (July 2025--Present) under editorial supervision.
   \item Executed authors’ replication code to verify that published tables and figures are reproducible and consistent with reported results.
   \item Assessed data integrity, documentation quality, and code robustness; diagnosed discrepancies and rebuilt software environments when needed (Stata/R; Git-based workflows).
   \item Authored detailed replication reports to the Data Editor specifying missing components and required fixes.
-\end{itemize}
+\end{itemize}} 
 
-\textbf{EJ Replicator} $|$ Royal Economic Society \hfill 2024--July 2025 \\
-Supervisor: Florian Oswald \\
-Conducted reproducibility checks for accepted articles at The Economic Journal using authors’ replication packages under editorial supervision. \\
+\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
+Supervisor: Roberto Galbiati}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+  \item Contributed to the construction of an original individual-level dataset from a primary historical source documenting financial contributions to an anti-Dreyfusard campaign in late 19th-century France.
+  \item Manually transcribed and cleaned donor records (names, locations, contribution amounts, messages); these data are currently used in an ongoing research draft.
+  \item Contributed to preliminary qualitative exploration of message content to inform subsequent text-based analysis.
+\end{itemize}}
 
-\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
-Supervisor: Roberto Galbiati \\
-Collected and digitized archival data for an economic history research project. Assisted in transforming archival sources into structured datasets for empirical analysis of historical economic outcomes.
+\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
+Supervisors: Roberto Galbiati, Aurélie Ouss (UPenn)}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+  \item Collected and cleaned individual-level data from police reports (IGPN), press sources, and death notices for post-1980 France.
+roduced a documented dataset and suggested corrections to baseline data.
+  \item Contributed to CNIL (GDPR) policy impact assessment through data documentation, integrity checks, and risk assessment.
+\end{itemize}}
 
-\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
-Supervisors: Roberto Galbiati, Aurélie Ouss (UPenn) \\
-Collected and digitized archival and administrative data for a research project in political economy. Contributed to data preparation and documentation for administrative regulatory approval.
-
-\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
-Assisted in quantifying global arms trade in 19th-century France from archival sources (PATH project). \\
-
-\subsection*{Additional Experience}
-
-\textbf{Research Assistant} $|$ CEPREMAP (OBE) \hfill Summer 2023 \\
-Contributed to data collection and background research for projects in well-being economics.\\
-
-\textbf{Assistant Project Manager} $|$ Agence Française de Développement \hfill June--July 2022 \\
-
-\textbf{Teaching Assistant - Comparative Political Institutions} $|$ Sciences Po \hfill Fall 2021 \\
-
-
-
-
+\normalsize{\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
+Project on Arms Trade History (PATH)}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+  \item Extracted arms trade data from French customs reports (\emph{Tableaux généraux du commerce de la France}, 19th century) using archival microfilms for the construction of a historical database on the global arms trade.
+\end{itemize}}
 
 
 %----------------------------------------------------------------------------------------
@@ -212,39 +204,85 @@ Contributed to data collection and background research for projects in well-bein
 %----------------------------------------------------------------------------------------
 
 
-\section*{Coursework}
+\section*{GRADUATE COURSEWORK}
 
-\textbf{Econometrics:} Econometrics I--III (Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data) \\[-1.5em]
+\textbf{Econometrics I-III:} Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data \\[-1.5em]
 
-\textbf{Microeconomics:} Microeconomics I--II (Optimal Choice and Equilibrium; Game Theory) \\[-1.5em]
+\textbf{Microeconomics I-II:} Optimal Choice and Equilibrium; Game Theory \\[-1.5em]
 
-\textbf{Macroeconomics:} Macroeconomics I--III (Growth; Business Cycles; Macro-Finance and Heterogeneity (HANK)) \\[-1.5em]
+\textbf{Macroeconomics I-III:} Growth Models; Business Cycles; Macro-Finance and Heterogeneous-Agent Models \\[-1.5em]
 
-\textbf{Applied Fields:} Economic History; Political Economy; Urban and Regional Economics; International Trade; Labor Economics; Public Economics; Demography \\[-1.5em]
+\textbf{Computational Economics:}  Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods \\[-1.5em]
 
-\textbf{Computation:} Computational Economics (Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods); Programming in R, Julia, and Git
+\textbf{Selected Fields:} Economic History; Political Economy; Urban \& Regional Economics; International Trade; Demography
+
 
 
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Methods \& Programming}
+\section{METHODS AND PROGRAMMING SKILLS}
 
 \textbf{Mathematical Preparation:} Probability Theory; Linear Algebra; Optimization; Dynamic Programming \\[-1.5em]
 
-\textbf{Programming:} Python, R (Advanced), Stata, Julia (Intermediate) \\[-1.5em]
+\textbf{Quantitative Methods:} panel data; spatial analysis; historical data construction; text data; image data \\[-1.5em]
 
-\textbf{Tools:} Git, \LaTeX, Google Vertex AI, OCR, GIS, web scraping, reproducible workflows
+\textbf{Programming:} Python; R (advanced); Stata; Julia (intermediate) \\[-1.5em]
+
+\textbf{Tools:} Git; \LaTeX; GIS; OCR; computer vision; web scraping; reproducible workflows
 
 
 %----------------------------------------------------------------------------------------
 %	LANGUAGES
 %----------------------------------------------------------------------------------------
-\section{Languages}
+\section{LANGUAGES}
 \
 \textbf{Native:} French \ $|$ \ \textbf{C2:} English \ $|$ \ \textbf{C1:} Italian \ $|$ \ \textbf{B1:} German
 
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section*{ADDITIONAL EXPERIENCE}
+
+\textbf{Research Assistant} $|$ CEPREMAP (OBE) \hfill Summer 2023 \\
+Contributed to data collection and background research for projects in well-being economics.
+
+\textbf{Assistant Project Manager} $|$ Agence Française de Développement \hfill Summer 2022 \\
+Assistant project manager on transportation infrastructure projects in Pakistan.
+
+\textbf{Teaching Assistant} $|$ Sciences Po \hfill Fall 2021 \\
+Teaching assistant in Comparative Political Institutions (undergraduate level).
+
+
+
+
 \vfill
 \center{\footnotesize Last updated: \today}
+
+
+
 \end{document}
+
+%----------------------------------------------------------------------------------------
+%	References
+%----------------------------------------------------------------------------------------
+\section*{REFEREES}
+
+\textbf{Prof. Roberto Galbiati} \\
+Sciences Po
+
+\vspace{6pt}
+
+\textbf{Prof. Florian Oswald} \\
+University of Turin
+
+\vspace{6pt}
+
+\textbf{Prof. Aurélie Ouss} \\
+University of Pennsylavania
+
+\vspace{6pt}
+
+\textbf{Prof. Hans-Joachim Voth} \\
+University of Zurich 
