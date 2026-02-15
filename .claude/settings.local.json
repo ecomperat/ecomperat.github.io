@@ -11,7 +11,8 @@
       "Bash(magick:*)",
       "Bash(pip install:*)",
       "Bash(quarto render:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(grep:*)"
     ]
   }
 }

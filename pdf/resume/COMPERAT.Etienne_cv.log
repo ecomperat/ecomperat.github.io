@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  9 FEB 2026 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  15 FEB 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -556,8 +556,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip86
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 90.
-Package hyperref Info: Option `breaklinks' set `true' on input line 90.
+Package hyperref Info: Option `colorlinks' set `true' on input line 92.
+Package hyperref Info: Option `breaklinks' set `true' on input line 92.
  (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
@@ -570,24 +570,24 @@ Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for font
  (COMPERAT.Etienne_cv.aux)
 \openout1 = `COMPERAT.Etienne_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
  (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count427
@@ -655,9 +655,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'COMPERAT.Etienne_cv.bbl' not found.
 
 No file COMPERAT.Etienne_cv.bbl.
-Package biblatex Info: Reference section=0 on input line 108.
-Package biblatex Info: Reference segment=0 on input line 108.
-Package hyperref Info: Link coloring ON on input line 108.
+Package biblatex Info: Reference section=0 on input line 110.
+Package biblatex Info: Reference segment=0 on input line 110.
+Package hyperref Info: Link coloring ON on input line 110.
 (COMPERAT.Etienne_cv.out) (COMPERAT.Etienne_cv.out)
 \@outlinefile=\write4
 \openout4 = `COMPERAT.Etienne_cv.out'.
@@ -665,10 +665,15 @@ Package hyperref Info: Link coloring ON on input line 108.
  (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd) (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 140.
+(Font)              using `OT1/cmr/bx/n' instead on input line 142.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
@@ -677,17 +682,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 [1
 
 {C:/Users/etien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 215.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 215.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
@@ -706,10 +710,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 233.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 233.
 
 
 [2] (COMPERAT.Etienne_cv.aux)
@@ -722,21 +722,21 @@ L3 programming layer <2024-08-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `COMPERAT.Etienne_cv.out' has not changed.
-(rerunfilecheck)             Checksum: E2B94CE0B2C48F33FA693D61A8B8AA7A;519.
+(rerunfilecheck)             Checksum: F9C6E28CB470A3283BFDBEE2780216B9;474.
 Package logreq Info: Writing requests to 'COMPERAT.Etienne_cv.run.xml'.
 \openout1 = `COMPERAT.Etienne_cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20666 strings out of 473899
- 378586 string characters out of 5726500
- 1216364 words of memory out of 5000000
- 43329 multiletter control sequences out of 15000+600000
- 564282 words of font info for 56 fonts, out of 8000000 for 9000
+ 20667 strings out of 473899
+ 378595 string characters out of 5726500
+ 1216363 words of memory out of 5000000
+ 43330 multiletter control sequences out of 15000+600000
+ 564589 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,81p,1284b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\etien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on COMPERAT.Etienne_cv.pdf (2 pages, 135405 bytes).
+Output written on COMPERAT.Etienne_cv.pdf (2 pages, 136124 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

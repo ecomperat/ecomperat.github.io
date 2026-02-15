@@ -1,6 +1,6 @@
 ---
-title: "Courses"
-description: "Graduate coursework in Economics at Sciences Po and UC Berkeley, including core sequences in Microeconomics, Macroeconomics, Econometrics, and field courses."
+title: "Coursework"
+description: "Selected courses at Sciences Po (M.Res.) and UC Berkeley (B.A.), including core sequences in Microeconomics, Macroeconomics, Econometrics, and field courses."
 format:
   html:
     body-classes: courses-page
@@ -14,7 +14,9 @@ open-graph:
 
 <a href="#selected-graduate" class="skip-link">Skip to main content</a>
 
-## Selected Graduate Coursework {#selected-graduate}
+## Graduate Coursework (M.Res.) {#selected-graduate}
+
+Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/academics/masters/master-economics/).
 
 :::{.column-margin}
 <div class="course-list-block">
@@ -32,6 +34,14 @@ open-graph:
     </ul>
   </li>
   <li class="course-list-parent">
+    <a href="#computational">Computational and Technical Foundations</a>
+    <ul id="course-list-comp" class="course-list-children">
+      <li><a href="#computational-econ">Computational Economics</a></li>
+      <li><a href="#programming-julia">Programming Course: Julia</a></li>
+      <li><a href="#intro-math-econ">Introduction to Mathematics for Economics</a></li>
+    </ul>
+  </li>
+  <li class="course-list-parent">
     <a href="#field-research">Field and Research-Oriented Courses</a>
     <ul id="course-list-field" class="course-list-children">
       <li><a href="#economic-history">Economic History</a></li>
@@ -42,14 +52,6 @@ open-graph:
       <li><a href="#topics-public-env">Public and Environmental Economics</a></li>
       <li><a href="#topics-econ-research">Topics in Economics (Graduate Research Seminar)</a></li>
       <li><a href="#demography-policy">Demography</a></li>
-    </ul>
-  </li>
-  <li class="course-list-parent">
-    <a href="#computational">Computational and Technical Foundations</a>
-    <ul id="course-list-comp" class="course-list-children">
-      <li><a href="#computational-econ">Computational Economics</a></li>
-      <li><a href="#programming-julia">Programming Course: Julia</a></li>
-      <li><a href="#intro-math-econ">Introduction to Mathematics for Economics</a></li>
     </ul>
   </li>
 </ul>
@@ -175,6 +177,39 @@ open-graph:
 </div>
 </div>
 
+### Computational Courses {#computational}
+
+<div class="course-section-dropdown">
+<div class="course-item">
+<span id="computational-econ"></span>**Computational Economics**
+
+<div class="course-desc-block">
+<span class="course-desc">Numerical methods, simulation techniques, and computational problem-solving in economics, with applications implemented in RStudio and Julia.</span>
+</div>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
+</div>
+
+<div class="course-item">
+<span id="programming-julia"></span>**Programming Course: Git, R, Julia**
+
+<div class="course-desc-block">
+<span class="course-desc">Technical programming course focused on numerical methods and computational tools for economics, with applications implemented in RStudio and Julia, and emphasis on reproducible research workflows.</span>
+</div>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
+</div>
+
+<div class="course-item">
+<span id="intro-math-econ"></span>**Introduction to Mathematics for Economics**
+
+<div class="course-desc-block">
+<span class="course-desc">Formal foundations course covering mathematical tools used in graduate economics, including optimization, constrained problems, and elements of linear algebra and real analysis.</span>
+</div>
+
+</div>
+</div>
+
 ### Field and Research-Oriented Courses {#field-research}
 
 <div class="course-section-dropdown">
@@ -265,42 +300,9 @@ open-graph:
 </div>
 </div>
 
-### Computational and Technical Foundations {#computational}
+## Upper-Division Coursework (B.A.) {#upper-division}
 
-<div class="course-section-dropdown">
-<div class="course-item">
-<span id="computational-econ"></span>**Computational Economics**
-
-<div class="course-desc-block">
-<span class="course-desc">Numerical methods, simulation techniques, and computational problem-solving in economics, with applications implemented in RStudio and Julia.</span>
-</div>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
-</div>
-
-<div class="course-item">
-<span id="programming-julia"></span>**Programming Course: Git, R, Julia**
-
-<div class="course-desc-block">
-<span class="course-desc">Technical programming course focused on numerical methods and computational tools for economics, with applications implemented in RStudio and Julia, and emphasis on reproducible research workflows.</span>
-</div>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Florian Oswald</span>
-</div>
-
-<div class="course-item">
-<span id="intro-math-econ"></span>**Introduction to Mathematics for Economics**
-
-<div class="course-desc-block">
-<span class="course-desc">Formal foundations course covering mathematical tools used in graduate economics, including optimization, constrained problems, and elements of linear algebra and real analysis.</span>
-</div>
-
-</div>
-</div>
-
-## Selected Upper-Division Coursework {#upper-division}
-
-<span class="institution">University of California, Berkeley</span>
+<span class="institution"> Selected upper-division courses at the University of California, Berkeley.</span>
 
 ### Economic History and Political Economy
 
@@ -318,18 +320,6 @@ open-graph:
 </div>
 
 <div class="course-item">
-<span id="berkeley-modern-international"></span>**Modern International Economy (HISTORY 160) - A+**
-
-<div class="course-desc-block">
-<span class="course-desc">Economic history of the twentieth century, with emphasis on globalization, crises, state-market relations, and structural transformation.</span>
-
-<span class="course-meta course-meta-reading"><span class="course-label">Core reading:</span> Polanyi. The Great Transformation (1944)</span>
-</div>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Christoph Hermann</span>
-</div>
-
-<div class="course-item">
 <span id="berkeley-polecon"></span>**Contemporary Theories of Political Economy (POLECON 101) - A**
 
 <div class="course-desc-block">
@@ -341,7 +331,32 @@ open-graph:
 <span class="course-meta"><span class="course-label">Instructor:</span> Steven K. Vogel</span>
 </div>
 
+<div class="course-item">
+<span id="berkeley-modern-international"></span>**Modern International Economy (HISTORY 160) - A+**
+
+<div class="course-desc-block">
+<span class="course-desc">Economic history of the twentieth century, with emphasis on globalization, crises, state-market relations, and structural transformation.</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Core reading:</span> Polanyi. The Great Transformation (1944)</span>
+</div>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Christoph Hermann</span>
+</div>
+
+
+
 ### Empirical and Research Training
+
+<div class="course-item">
+<span id="berkeley-econ-research"></span>**Topics in Economic Research (ECON 191) - A**
+
+<div class="course-desc-block">
+<span class="course-desc">Research-intensive course culminating in a 20-25 page original empirical paper; weekly exposure to frontier research through faculty seminars.</span>
+</div>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Benjamin Handel</span>
+</div>
+
 
 <div class="course-item">
 <span id="berkeley-applied-econ"></span>**Introductory Applied Econometrics (ENVECON C118) - A+**
@@ -353,16 +368,6 @@ open-graph:
 </div>
 
 <span class="course-meta"><span class="course-label">Instructor:</span> Pierre Biscaye</span>
-</div>
-
-<div class="course-item">
-<span id="berkeley-econ-research"></span>**Topics in Economic Research (ECON 191) - A**
-
-<div class="course-desc-block">
-<span class="course-desc">Research-intensive course culminating in a 20-25 page original empirical paper; weekly exposure to frontier research through faculty seminars.</span>
-</div>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Benjamin Handel</span>
 </div>
 </div>
 

@@ -1,9 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1768502232.66133 "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv1p.tex" "COMPERAT.Etienne_cv1p.pdf" "COMPERAT.Etienne_cv1p" 1768502233.44205 0
+["pdflatex"] 1771168017.57292 "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv1p.tex" "COMPERAT.Etienne_cv1p.pdf" "COMPERAT.Etienne_cv1p" 1771168018.50913 0
   "C:/Users/etien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748013994 281825 ffc862fcf1572770cc24f66899050ebe ""
+  "C:/Users/etien/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1731341441 12668 59aff8cc05cc442e463cbcd82339fe2b ""
   "C:/Users/etien/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727253478 11948197 5708cb4a42204972d549ac371d624e8c ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1651500229 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
+  "C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -47,6 +49,7 @@
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty" 1719393830 2963 e56732bbb93cfa019febfd0c7eaf1d21 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty" 1719393830 2378 05fbb4f2b23b0e142f8cd3440c37e72e ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo" 1719393830 8464 6b4d01be31907866396cf4ac23881d2d ""
+  "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1561039820 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesome5-generic-helper.sty" 1651500229 1796 6d3390e7a3f2a0f63ce89532aa30ac20 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawesome5-mapping.def" 1651500229 107808 07e47606922c76b1824e149c54155c4c ""
@@ -75,10 +78,10 @@
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1718356376 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "COMPERAT.Etienne_cv1p.aux" 1768502233 384 b431f2612a61dfa4fdc65ba10fbc9a13 "pdflatex"
-  "COMPERAT.Etienne_cv1p.out" 1768502233 229 acbdb32a5d3648ca525fff62df5a5760 "pdflatex"
-  "COMPERAT.Etienne_cv1p.tex" 1768502232 4287 a55b61b26cbfb5f6b88e6c518e51c1ff ""
-  "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv1p.tex" 1768502232 4287 a55b61b26cbfb5f6b88e6c518e51c1ff ""
+  "COMPERAT.Etienne_cv1p.aux" 1771168018 490 e63c7f454ceb66872e8f18056c987a37 "pdflatex"
+  "COMPERAT.Etienne_cv1p.out" 1771168018 317 1d2aa4f4b1fb78455d7d776f703029ad "pdflatex"
+  "COMPERAT.Etienne_cv1p.tex" 1771168016 4619 a407e2399fc07c70aec8cab62964fc93 ""
+  "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv1p.tex" 1771168016 4619 a407e2399fc07c70aec8cab62964fc93 ""
   (generated)
   "COMPERAT.Etienne_cv1p.aux"
   "COMPERAT.Etienne_cv1p.log"

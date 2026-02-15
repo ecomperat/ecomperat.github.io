@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber COMPERAT.Etienne_cv"] 0 "COMPERAT.Etienne_cv.bcf" "COMPERAT.Etienne_cv.bbl" "COMPERAT.Etienne_cv" 1770667043.04468 0
+["biber COMPERAT.Etienne_cv"] 0 "COMPERAT.Etienne_cv.bcf" "COMPERAT.Etienne_cv.bbl" "COMPERAT.Etienne_cv" 1771168043.24913 0
   "COMPERAT.Etienne_cv.bcf" 0 -1 0 "pdflatex"
   "citations.bib" 0 -1 0 ""
   (generated)
   "COMPERAT.Etienne_cv.bbl"
   "COMPERAT.Etienne_cv.blg"
   (rewritten before read)
-["pdflatex"] 1770667038.33615 "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv.tex" "COMPERAT.Etienne_cv.pdf" "COMPERAT.Etienne_cv" 1770667043.04692 0
+["pdflatex"] 1771168041.40127 "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv.tex" "COMPERAT.Etienne_cv.pdf" "COMPERAT.Etienne_cv" 1771168043.25023 0
   "C:/Users/etien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748013994 281825 ffc862fcf1572770cc24f66899050ebe ""
   "C:/Users/etien/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1730487320 11548 508792932572601fa37a8ccae9124d98 ""
   "C:/Users/etien/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727253478 11948197 5708cb4a42204972d549ac371d624e8c ""
@@ -116,12 +116,12 @@
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1718356376 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/etien/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "COMPERAT.Etienne_cv.aux" 1770667041 710 a6eb80dc5efcdea8b6de2d8187cfcd19 "pdflatex"
+  "COMPERAT.Etienne_cv.aux" 1771168042 702 c51c7a212cc31fac0745499ed173a487 "pdflatex"
   "COMPERAT.Etienne_cv.bbl" 0 -1 0 "biber COMPERAT.Etienne_cv"
-  "COMPERAT.Etienne_cv.out" 1770667041 519 e2b94ce0b2c48f33fa693d61a8b8aa7a "pdflatex"
-  "COMPERAT.Etienne_cv.run.xml" 1770667041 2415 2f1ba158fafc5bd5c7f334f143ea2911 "pdflatex"
-  "COMPERAT.Etienne_cv.tex" 1770667036 12956 028d3888c777baeaca97b73008594a2c ""
-  "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv.tex" 1770667036 12956 028d3888c777baeaca97b73008594a2c ""
+  "COMPERAT.Etienne_cv.out" 1771168042 474 f9c6e28cb470a3283bfdbee2780216b9 "pdflatex"
+  "COMPERAT.Etienne_cv.run.xml" 1771168042 2415 2f1ba158fafc5bd5c7f334f143ea2911 "pdflatex"
+  "COMPERAT.Etienne_cv.tex" 1771168040 12940 f5ebbc7c2bbdcf01ac2921215f55ffd2 ""
+  "c:/Users/etien/OneDrive/Documents/GitHub/ecomperat.github.io/pdf/resume/COMPERAT.Etienne_cv.tex" 1771168040 12940 f5ebbc7c2bbdcf01ac2921215f55ffd2 ""
   (generated)
   "COMPERAT.Etienne_cv.aux"
   "COMPERAT.Etienne_cv.bcf"

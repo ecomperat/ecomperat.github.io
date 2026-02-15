@@ -1,6 +1,9 @@
 ---
-title: "CV"
-description: "Curriculum Vitae of Etienne Compérat - Pre-doctoral Fellow at UZH and JPE Replicator at UChicago. Research experience, education, and skills in economics."
+title: "Curriculum Vitae"
+description: "
+[Full Resume](pdf/resume/COMPERAT.Etienne_cv.pdf)
+-  [Short Resume (1p)](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
+"
 open-graph:
   type: article
   url: https://ecomperat.github.io/cv.html
@@ -11,94 +14,103 @@ open-graph:
 
 <a href="#research-experience" class="skip-link">Skip to main content</a>
 
-Choose the format that suits you best:
-
-- [One-page resume](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
-- [Detailed resume (2 pages)](pdf/resume/COMPERAT.Etienne_cv.pdf)
-
 ---
+## Education 🎓
+
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Sciences Po</strong> - </span><span class="cv-job-date">2023--2025</span></div>
+<div class="cv-degree-row"><span class="cv-degree-info">M.Res. in Economics (PhD Track)</span><span class="cv-gpa">GPA: 4.0</span></div>
+<div class="cv-details">
+Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-Century France"
+<span class="cv-advisors">Advisors: Roberto Galbiati, Emeric Henry</span>
+*Awarded Sciences Po Prize for Best Master's Thesis*
+</div>
+
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>University of California, Berkeley</strong></span><span class="cv-job-date">2022--2023</span></div>
+<div class="cv-degree-row"><span class="cv-degree-info">Full-Year Exchange Program (B.A.) - Department of Agricultural & Resource Economics</span><span class="cv-gpa">GPA: 4.0</span></div>
+
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Sciences Po</strong> </span><span class="cv-job-date">2020--2023</span></div>
+<div class="cv-degree-row"><span class="cv-degree-info">B.A. in Economics and Political Science</span><span class="cv-gpa">GPA: 4.0 *(Cum laude)*</span></div>
 
 ## Research Experience 🔬
 
 ### Predoctoral Position
 
-**Predoctoral Fellow in Economics** | University of Zurich (July 2025--Present)  
-<span class="cv-supervisor">Supervisor: Hans-Joachim Voth</span>  
-Contribute to supervisor-led projects in economic history and political economy, involving computer-vision-based image analysis (IMAGES) and the construction of linked archival, textual, and spatial datasets for empirical analysis.
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Predoctoral Fellow in Economics</strong> | University of Zurich</span><span class="cv-job-date">July 2025--Present</span></div>
+<span class="cv-supervisor">Supervisor: Hans-Joachim Voth</span>
+
+- Contribute to projects in economic history, political economy, and cultural economics, including the IMAGES project.
+- For IMAGES, contributed to an existing computer-vision workflow for historical images, including preprocessing, labeling/validation, supervised training runs, and feature extraction.
+- For an ongoing project on the French Revolution, developing an initial data pipeline linking archival, textual, and geospatial sources; conducted historical geocoding and GIS integration.
+- Produced documented code, draft figures/tables, and internal research memos using Python, Stata, and QGIS.
 
 ### Replication Work
 
-**JPE Replicator** | University of Chicago (July 2025--Present)  
-<span class="cv-supervisor">Supervisor: Florian Oswald</span>  
-Conduct reproducibility audits of accepted JPE articles, assessing data integrity, code robustness, and empirical validity using authors' replication packages under editorial supervision.
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>JPE Replicator</strong> | University of Chicago</span><span class="cv-job-date">July 2025--Present</span></div>
+<span class="cv-supervisor">Supervisor: Florian Oswald</span>
 
-**EJ Replicator** | Royal Economic Society (2024--July 2025)  
-<span class="cv-supervisor">Supervisor: Florian Oswald</span>  
-Conducted reproducibility checks for accepted articles at The Economic Journal using authors' replication packages under editorial supervision.
+- Execute authors' replication code to verify that published tables and figures are reproducible and consistent with reported results.
+- Assess data integrity, documentation quality, and code robustness; diagnose discrepancies and rebuild software environments when needed (Stata/R; Git-based workflows).
+- Author detailed replication reports to the Data Editor specifying missing components and required fixes.
+
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>EJ Replicator</strong> | Royal Economic Society</span><span class="cv-job-date">2024--July 2025</span></div>
+<span class="cv-supervisor">Supervisor: Florian Oswald</span>
+
+- Conducted reproducibility checks for accepted articles at *The Economic Journal* using authors' replication packages under editorial supervision.
 
 ### Research Assistantships
 
-**Research Assistant** | Sciences Po (June--July 2025)  
-<span class="cv-supervisor">Supervisor: Roberto Galbiati</span>  
-Collected and digitized archival data for an economic history research project. Assisted in transforming archival sources into structured datasets for empirical analysis of historical economic outcomes.
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | Sciences Po</span><span class="cv-job-date">Summer 2025</span></div>
+<span class="cv-supervisor">Supervisor: Roberto Galbiati</span>
 
-**Research Assistant** | Sciences Po (June--July 2024)  
-<span class="cv-supervisor">Supervisors: Roberto Galbiati, Aurelie Ouss (UPenn)</span>  
-Collected and digitized archival and administrative data for a research project in political economy. Contributed to data preparation and documentation for administrative regulatory approval.
+- Contributed to the construction of an original individual-level dataset from a primary historical source documenting financial contributions to an anti-Dreyfusard campaign in late 19th-century France.
+- Manually transcribed and cleaned donor records (names, locations, contribution amounts, messages); these data are currently used in an ongoing research draft.
+- Contributed to preliminary qualitative exploration of message content to inform subsequent text-based analysis.
 
-**Research Assistant** | CEPREMAP (OBE) (June--July 2023)  
-Contributed to the construction of a database on well-being economics researchers in France under the supervision of Mathieu Perona. Conducted literature reviews and exploratory empirical work for academic projects.
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | Sciences Po</span><span class="cv-job-date">Summer 2024</span></div>
+<span class="cv-supervisor">Supervisors: Roberto Galbiati, Aurelie Ouss (UPenn)</span>
 
-**Research Assistant** | University of California, Berkeley (Spring 2023)  
-Assisted in quantifying global arms trade in 19th-century France from archival sources (PATH project).
+- Collected and cleaned individual-level data from police reports (IGPN), press sources, and death notices for post-1980 France.
+- Produced a documented dataset and suggested corrections to baseline data.
+- Contributed to CNIL (GDPR) policy impact assessment through data documentation, integrity checks, and risk assessment.
 
-### Teaching and Other Experiences
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>(Research Assistant)</strong> | CEPREMAP (OBE)</span><span class="cv-job-date">Summer 2023</span></div>
+<span class="cv-supervisor">Supervisor: Mathieu Perona</span>
 
-**Assistant Project Manager** | Agence Francaise de Developpement (June--July 2022)  
-Conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.
+- Contributed to the construction of a database on well-being economics researchers in France. Conducted literature reviews and exploratory empirical work for academic projects.
 
-**Teaching Assistant** | Sciences Po (Fall 2021)  
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | University of California, Berkeley</span><span class="cv-job-date">Spring 2023</span></div>
+Project on Arms Trade History (PATH)
+
+- Extracted arms trade data from French customs reports (*Tableaux généraux du commerce de la France*, 19th century) using archival microfilms for the construction of a historical database on the global arms trade.
+
+### Additional Experiences
+
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Assistant Project Manager</strong> | Agence Francaise de Developpement</span><span class="cv-job-date">Summer 2022</span></div>
+
+- Conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.
+
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Teaching Assistant</strong> | Sciences Po</span><span class="cv-job-date">Fall 2021</span></div>
+
 Teaching assistant in Comparative Political Institutions (undergraduate level).
 
-## Education 🎓
+## Methods and Programming Skills 🛠️
 
-**Sciences Po** (2023--2025) - M.Res. in Economics (PhD Track)  
-GPA: 4.0  
-<div class="cv-details">
-Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-Century France"  
-<span class="cv-advisors">Advisors: Roberto Galbiati, Emeric Henry</span>  
-*Awarded Sciences Po Prize for Best Master's Thesis*
-</div>
+**Mathematical Preparation:** Probability Theory; Linear Algebra; Optimization; Dynamic Programming <br>
+**Quantitative Methods:** panel data; spatial analysis; historical data construction; text data; image data <br>
+**Programming:** Python; R (advanced); Stata; Julia (intermediate) <br>
+**Tools:** Git; LaTeX; GIS; OCR; computer vision; web scraping; reproducible workflows 
 
-**University of California, Berkeley** (2022--2023)  
-Full-Year Exchange Program (B.A.), Department of Agricultural & Resource Economics  
-GPA: 4.0
+## Graduate Coursework 📚
 
-**Sciences Po** (2020--2023) - B.A. in Economics and Political Science  
-GPA: 4.0, *Cum laude*
-
-## Coursework 📚
-
-For more details, check out the [dedicated page](courses.qmd).
-
-- **Econometrics:** Econometrics I--III (Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data)
-- **Microeconomics:** Microeconomics I--II (Optimal Choice and Equilibrium; Game Theory)
-- **Macroeconomics:** Macroeconomics I--III (Growth; Business Cycles; Macro-Finance and Heterogeneity (HANK))
-- **Applied Fields:** Economic History; Political Economy; Urban and Regional Economics; International Trade; Labor Economics; Public Economics; Demography
-- **Computation:** Computational Economics (Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods); Programming in R, Julia, and Git
-
-## Methods & Programming 🛠️
-
-- **Mathematical Preparation:** Probability Theory; Linear Algebra; Optimization; Dynamic Programming
-- **Programming:** Python, R (Advanced), Stata, Julia (Intermediate)
-- **Tools:** Git, LaTeX, Google Vertex AI, OCR, GIS, web scraping, reproducible workflows
+**Econometrics I-III:** Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data <br>
+**Microeconomics I-II:** Optimal Choice and Equilibrium; Game Theory <br>
+**Macroeconomics I-III:** Growth Models; Business Cycles; Macro-Finance and Heterogeneous-Agent Models <br>
+**Computational Economics:** Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods <br>
+**Selected Fields:** Economic History; Political Economy; Urban & Regional Economics; International Trade; Demography 
 
 ## Languages 🌍
 
-- French (Native)
-- English (C2)
-- Italian (C1)
-- German (B1)
+**French** (Native) | **English** (C2) | **Italian** (C1) | German (B1)
 
 <script type="application/ld+json">
 {

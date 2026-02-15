@@ -33,6 +33,8 @@ INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
@@ -129,6 +131,7 @@ INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\etien\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
@@ -136,6 +139,8 @@ INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\
 INPUT COMPERAT.Etienne_cv1p.aux
 INPUT .\COMPERAT.Etienne_cv1p.out
 INPUT .\COMPERAT.Etienne_cv1p.out
+INPUT C:\Users\etien\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\etien\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb

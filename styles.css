@@ -264,9 +264,17 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 1.5rem 1.25rem 3rem;
+}
+
+/* Override Quarto's container width constraints */
+#quarto-content,
+.quarto-container,
+.page-layout-article,
+#quarto-content.page-layout-article {
+  max-width: 1600px !important;
 }
 
 /* Narrower cap just for the homepage */
@@ -518,9 +526,74 @@ body.courses-page .course-label {
   color: #3b2714;
 }
 
+/* CV job title row with left/right alignment */
+.cv-job-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.05rem;
+  width: 100%;
+}
+
+.cv-job-title {
+  flex: 1;
+  text-align: left;
+}
+
+.cv-job-date {
+  flex-shrink: 0;
+  color: #4f3a26;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Override paragraph margins inside job title rows */
+.cv-job-title-row > p {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 !important;
+  padding: 0;
+  gap: 1rem;
+}
+
+/* Degree info row with GPA right-aligned */
+.cv-degree-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.cv-degree-info {
+  flex: 1;
+}
+
+.cv-gpa {
+  flex-shrink: 0;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+/* Remove paragraph margins around supervisors */
+p:has(> .cv-supervisor) {
+  margin-top: 0 !important;
+  margin-bottom: 0.05rem !important;
+}
+
+/* Update supervisor styling for consistent sizing */
 .cv-supervisor {
   color: #4f3a26;
   font-weight: 600;
+  font-size: 1.05rem;
+  display: block;
+  margin-bottom: 0.05rem;
+  margin-top: 0;
 }
 
 .cv-details {
@@ -787,6 +860,13 @@ main li {
 
   body.coursework-compact .course-item {
     padding: 0.6rem 0.85rem 0.75rem;
+  }
+
+  /* Stack CV job title rows on mobile */
+  .cv-job-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
   }
 }
 
