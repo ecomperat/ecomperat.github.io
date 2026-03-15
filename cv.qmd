@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "Resume"
 description: "
 [Full Resume](pdf/resume/COMPERAT.Etienne_cv.pdf)
 -  [Short Resume (1p)](pdf/resume/COMPERAT.Etienne_cv1p.pdf)
@@ -9,7 +9,7 @@ open-graph:
   url: https://ecomperat.github.io/cv.html
   article:
     author: Étienne Compérat
-    section: Academic CV
+    section: Resume
 ---
 
 <a href="#research-experience" class="skip-link">Skip to main content</a>

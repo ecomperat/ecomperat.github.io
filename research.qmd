@@ -1,0 +1,38 @@
+---
+title: "Research"
+open-graph:
+  type: article
+  url: https://ecomperat.github.io/research.html
+  article:
+    author: Étienne Compérat
+    section: Research
+format:
+  html:
+    toc: false
+---
+
+My research interests span Economic History, Political Economy, and Regional Economics, with a particular focus on how institutions, education shape long-run development and industrialization, drawing on nineteenth-century French history. In my master's thesis, I examined the joint impact of primary schooling and democratic reforms enacted under the July Monarchy on local economic development.
+
+## Master's Thesis
+
+<div class="research-paper">
+
+<p class="research-paper-title">"Enrichissez-vous !": The Effects of Primary Schooling and Political Participation on Economic Development in 19th-century France</p>
+
+<div class="research-badges">
+<span class="research-badge">Master's Thesis · Sciences Po · 2025</span>
+<span class="research-badge research-badge-award">Sciences Po Prize for Best Master's Thesis (2024–2025)</span>
+</div>
+
+<p class="research-advisors">Jury: <a href="https://sites.google.com/view/galbiatir1/">Roberto Galbiati</a>, <a href="https://sites.google.com/site/emericmlhenry/home">Emeric Henry</a> (supervisors), <a href="https://kevinhorourke.com/">Kevin O'Rourke</a></p>
+
+<div class="research-abstract">
+<span class="research-abstract-label">Abstract</span>
+Education and democracy are often considered as drivers of economic growth. However, there is still scarce causal evidence on either channel, and practically none on the interaction between the two. This paper studies their joint role in 19th-century France using two population-threshold reforms enacted under the July Monarchy: the Municipal Law of 1831, which expanded local voting rights through a commune-size-based suffrage schedule, and the Guizot Law of 1833, which mandated a boys' primary school in municipalities above 500 inhabitants. Using a newly assembled arrondissement-level dataset of France from 1830 to 1865, I implement two complementary empirical designs. A static OLS specification examines the relationship between pre-reform education, baseline municipal suffrage exposure, and industrial wages in the 1840s, before post-Guizot schooling expansion could fully affect labor-market outcomes. A dynamic IV specification then instruments changes in male primary schooling with arrondissement exposure to the Guizot population threshold and evaluates wage growth into the 1860s. The evidence shows higher pre-reform male primary education is positively associated with higher industrial wages in the 1840s. By contrast, I find no robust evidence of an independent wage effect of municipal suffrage exposure, no evidence of complementarity between education and political participation, and no statistically significant medium-run wage effect of policy-induced schooling expansion in the IV specification. These results are consistent with long adjustment lags for schooling returns and with the limited economic powers of municipalities under the centralized institutions of the July Monarchy. Finally, I also show that a central identification challenge is that commune-size distributions are historically structured and spatially correlated with pre-existing regional differences, which jointly shape exposure to both laws. The paper therefore contributes to the literature on the causes of growth in two ways: by combining evidence on education and political participation in a unified historical setting, and by highlighting the identification challenges that arise when institutional and demographic legacies are spatially correlated.
+</div>
+
+<div class="research-links">
+<span class="research-link-soon">PDF under revision</span>
+</div>
+
+</div>

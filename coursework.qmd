@@ -1,5 +1,5 @@
 ---
-title: "Past Assignments"
+title: "Sample Work"
 description: "Academic projects, research papers, referee reports, and replication packages from graduate coursework in Economics at Sciences Po and UC Berkeley."
 format:
   html:
@@ -363,9 +363,6 @@ body.coursework-compact .cat-filter.active {
 }
 </style>
 
-This section includes past coursework throughout my Bachelor and Master's.
-
-
 <div class="column-margin categories-container" markdown="1">
 <div id="filters-panel" markdown="1">
 #### Institutions
@@ -600,7 +597,7 @@ This section includes past coursework throughout my Bachelor and Master's.
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Past Assignments",
+  "name": "Sample Work",
   "description": "Academic projects, research papers, referee reports, and replication packages",
   "about": {
     "@type": "EducationalOccupationalProgram",

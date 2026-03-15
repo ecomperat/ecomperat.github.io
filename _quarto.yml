@@ -3,6 +3,7 @@
   output-dir: docs
   render:
     - index.qmd
+    - research.qmd
     - coursework.qmd
     - courses.qmd
     - cv.qmd
@@ -20,12 +21,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Coursework
+      - href: research.qmd
+        text: Research
+      - text: Education
         menu:
-          - href: coursework.qmd
-            text: Past Assignments
           - href: courses.qmd
-            text: Courses
+            text: Coursework
+          - href: coursework.qmd
+            text: Sample Work
       - cv.qmd
 
 format:
