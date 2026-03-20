@@ -28,9 +28,9 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
   <li class="course-list-parent open" id="course-list-core-parent">
     <a href="#core-seq">Core Graduate Sequences</a>
     <ul id="course-list-core" class="course-list-children">
-      <li><a href="#micro-ii">Microeconomics I-II</a></li>
-      <li><a href="#macro-iii">Macroeconomics I-III</a></li>
       <li><a href="#econ-iii">Econometrics I-III</a></li>
+      <li><a href="#macro-iii">Macroeconomics I-III</a></li>
+      <li><a href="#micro-ii">Microeconomics I-II</a></li>
     </ul>
   </li>
   <li class="course-list-parent">
@@ -85,28 +85,36 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
 ### Core Graduate Sequences {#core-seq}
 
 <div class="course-item" markdown="1">
-#### MICROECONOMICS I-II (Optimal Choice, Equilibrium, and Strategic Interaction) {#micro-ii .course-title}
+#### ECONOMETRICS I-III (Probability, Estimation, and Causal Inference) {#econ-iii .course-title}
 
-<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span>
+<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
 
 <button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">Details</button>
 <div class="course-body" hidden>
-**Microeconomics I: Optimal Choice and Equilibrium**
+**Econometrics I: Probability and Statistics**
 
-<span class="course-desc">Graduate microeconomics covering individual choice, choice under uncertainty, revealed preferences, consumer and producer theory, general equilibrium, and comparative statics.</span>
+<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including methods for point and interval estimation (least-squares, maximum likelihood, and method of moments), hypothesis testing  (t-test, F-test, Wald, Likelihood ratio, and Lagrange multiplier), and asymptotic properties.</span>
 
-<span class="course-meta"><span class="course-label">Instructor:</span> Eduardo Perez</span>
+<span class="course-meta"><span class="course-label">Instructor:</span> Jean-Marc Robin</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Mas-Colell et al. (1995); Jehle & Reny (2011); Kreps (2013)</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Casella & Berger, Statistical Inference. 2nd ed. (2002)</span>
 
-**Microeconomics II: Thinking Strategically (Game Theory)**
+**Econometrics II: Estimation and Inference**
 
-<span class="course-desc">Graduate game theory with emphasis on Nash equilibrium, sequential and repeated games, and games of incomplete information, with applications to industrial organization, political economy, and public economics.</span>
+<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric settings  under standard and nonstandard conditions, with cross-sectional data.</span>
 
-<span class="course-meta"><span class="course-label">Instructor:</span> Emeric Henry</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Wooldridge. Econometric Analysis of Cross Section and Panel Data (2010)</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Fudenberg & Tirole (1991); Osborne (1994); Tirole (1988)</span>
 
+<span class="course-meta"><span class="course-label">Instructor:</span> Moshe Buchinsky</span>
+
+**Econometrics III: Causal Inference with Cross-Sectional and Panel Data**
+
+<span class="course-desc">Graduate causal inference covering randomized controlled trials, matching, instrumental variables, regression discontinuity designs, and difference-in-differences.</span>
+
+<span class="course-meta"><span class="course-label">Instructor:</span> Clément de Chaisemartin</span>
+
+<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Chaisemartin & D’Haultfœuille. Credible Answers to Hard Questions: Differences-in-Differences for Natural Experiments. (2025)</span>
 </div>
 </div>
 
@@ -144,36 +152,28 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
 </div>
 
 <div class="course-item" markdown="1">
-#### ECONOMETRICS I-III (Probability, Estimation, and Causal Inference) {#econ-iii .course-title}
+#### MICROECONOMICS I-II (Optimal Choice, Equilibrium, and Strategic Interaction) {#micro-ii .course-title}
 
-<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Jean-Marc Robin, Moshe Buchinsky, Clément de Chaisemartin</span>
+<span class="course-meta course-meta-core"><span class="course-label">Instructors:</span> Eduardo Perez, Emeric Henry</span>
 
 <button class="course-toggle" type="button" aria-expanded="false" aria-label="Show course details">Details</button>
 <div class="course-body" hidden>
-**Econometrics I: Probability and Statistics**
+**Microeconomics I: Optimal Choice and Equilibrium**
 
-<span class="course-desc">Graduate introduction to probability theory, statistical inference, and linear regression, including methods for point and interval estimation (least-squares, maximum likelihood, and method of moments), hypothesis testing  (t-test, F-test, Wald, Likelihood ratio, and Lagrange multiplier), and asymptotic properties.</span>
+<span class="course-desc">Graduate microeconomics covering individual choice, choice under uncertainty, revealed preferences, consumer and producer theory, general equilibrium, and comparative statics.</span>
 
-<span class="course-meta"><span class="course-label">Instructor:</span> Jean-Marc Robin</span>
+<span class="course-meta"><span class="course-label">Instructor:</span> Eduardo Perez</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Casella & Berger, Statistical Inference. 2nd ed. (2002)</span>
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Mas-Colell et al. (1995); Jehle & Reny (2011); Kreps (2013)</span>
 
-**Econometrics II: Estimation and Inference**
+**Microeconomics II: Thinking Strategically (Game Theory)**
 
-<span class="course-desc">Advanced econometrics focusing on identification and inference in linear, nonlinear, and semiparametric settings  under standard and nonstandard conditions, with cross-sectional data.</span>
+<span class="course-desc">Graduate game theory with emphasis on Nash equilibrium, sequential and repeated games, and games of incomplete information, with applications to industrial organization, political economy, and public economics.</span>
 
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Wooldridge. Econometric Analysis of Cross Section and Panel Data (2010)</span>
+<span class="course-meta"><span class="course-label">Instructor:</span> Emeric Henry</span>
 
+<span class="course-meta course-meta-reading"><span class="course-label">Selected readings:</span> Fudenberg & Tirole (1991); Osborne (1994); Tirole (1988)</span>
 
-<span class="course-meta"><span class="course-label">Instructor:</span> Moshe Buchinsky</span>
-
-**Econometrics III: Causal Inference with Cross-Sectional and Panel Data**
-
-<span class="course-desc">Graduate causal inference covering randomized controlled trials, matching, instrumental variables, regression discontinuity designs, and difference-in-differences.</span>
-
-<span class="course-meta"><span class="course-label">Instructor:</span> Clément de Chaisemartin</span>
-
-<span class="course-meta course-meta-reading"><span class="course-label">Textbook:</span> Chaisemartin & D’Haultfœuille. Credible Answers to Hard Questions: Differences-in-Differences for Natural Experiments. (2025)</span>
 </div>
 </div>
 
@@ -498,8 +498,8 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
   "itemListElement": [
     {
       "@type": "Course",
-      "name": "Microeconomics I-II",
-      "description": "Optimal Choice, Equilibrium, and Strategic Interaction",
+      "name": "Econometrics I-III",
+      "description": "Probability, Estimation, and Causal Inference",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Sciences Po"
@@ -516,8 +516,8 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
     },
     {
       "@type": "Course",
-      "name": "Econometrics I-III",
-      "description": "Probability, Estimation, and Causal Inference",
+      "name": "Microeconomics I-II",
+      "description": "Optimal Choice, Equilibrium, and Strategic Interaction",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Sciences Po"

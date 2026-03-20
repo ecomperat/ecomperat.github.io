@@ -2,7 +2,7 @@
 ---
 image: img/ppic_uzh_optimized.jpg
 title: Etienne Compérat
-subtitle: "<b>Pre-doctoral Fellow, UZH<br>JPE Replicator, UChicago</b>"
+subtitle: "<b>Pre-doctoral Fellow | UZH<br>JPE Replicator | UChicago</b>"
 open-graph:
   type: profile
   url: https://ecomperat.github.io/
@@ -43,7 +43,7 @@ Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics 
 <div class="inst-item" markdown="1">
   <img src="img/logo_uzh_opt.png" alt="University of Zurich logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
-**University of Zurich** | 2025 -<br>
+**University of Zurich** | 2025 - Now<br>
 Pre-doctoral Fellow in Economics
   </div>
 </div>
@@ -51,7 +51,7 @@ Pre-doctoral Fellow in Economics
 <div class="inst-item" markdown="1">
   <img src="img/logo_uchicago.png" alt="University of Chicago logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
-**University of Chicago** | 2025 -<br>
+**University of Chicago** | 2025 - Now<br>
 Replicator, Journal of Political Economy
   </div>
 </div>

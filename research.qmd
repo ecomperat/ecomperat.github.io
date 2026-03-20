@@ -11,7 +11,7 @@ format:
     toc: false
 ---
 
-My research interests span Economic History, Political Economy, and Regional Economics, with a particular focus on how institutions, education shape long-run development and industrialization, drawing on nineteenth-century French history. In my master's thesis, I examined the joint impact of primary schooling and democratic reforms enacted under the July Monarchy on local economic development.
+My research asks how political and educational institutions shape long-run economic development, with a primary focus on nineteenth-century France. I am particularly interested in how institutional variation at the local level (in suffrage rules, schooling access, and administrative structure) translates into differences in labour markets, industrialisation, and regional growth. Empirically, I construct original historical datasets from archival sources, combining quantitative methods with GIS, OCR, and machine learning tools for large-scale data extraction. Methodologically, I am interested in how historically persistent territorial patterns condition what can be credibly identified from policy variation, and what those patterns themselves reveal about long-run development.
 
 ## Master's Thesis
 
@@ -28,7 +28,7 @@ My research interests span Economic History, Political Economy, and Regional Eco
 
 <div class="research-abstract">
 <span class="research-abstract-label">Abstract</span>
-Education and democracy are often considered as drivers of economic growth. However, there is still scarce causal evidence on either channel, and practically none on the interaction between the two. This paper studies their joint role in 19th-century France using two population-threshold reforms enacted under the July Monarchy: the Municipal Law of 1831, which expanded local voting rights through a commune-size-based suffrage schedule, and the Guizot Law of 1833, which mandated a boys' primary school in municipalities above 500 inhabitants. Using a newly assembled arrondissement-level dataset of France from 1830 to 1865, I implement two complementary empirical designs. A static OLS specification examines the relationship between pre-reform education, baseline municipal suffrage exposure, and industrial wages in the 1840s, before post-Guizot schooling expansion could fully affect labor-market outcomes. A dynamic IV specification then instruments changes in male primary schooling with arrondissement exposure to the Guizot population threshold and evaluates wage growth into the 1860s. The evidence shows higher pre-reform male primary education is positively associated with higher industrial wages in the 1840s. By contrast, I find no robust evidence of an independent wage effect of municipal suffrage exposure, no evidence of complementarity between education and political participation, and no statistically significant medium-run wage effect of policy-induced schooling expansion in the IV specification. These results are consistent with long adjustment lags for schooling returns and with the limited economic powers of municipalities under the centralized institutions of the July Monarchy. Finally, I also show that a central identification challenge is that commune-size distributions are historically structured and spatially correlated with pre-existing regional differences, which jointly shape exposure to both laws. The paper therefore contributes to the literature on the causes of growth in two ways: by combining evidence on education and political participation in a unified historical setting, and by highlighting the identification challenges that arise when institutional and demographic legacies are spatially correlated.
+<span class="research-abstract-body">This paper studies the joint role of primary schooling and local democratic participation in shaping industrial development in 19th-century France. I exploit two population-threshold reforms enacted under the July Monarchy - the Municipal Law of 1831, which expanded local voting rights, and the Guizot Law of 1833, which mandated primary schools in municipalities above 500 inhabitants - using a newly assembled arrondissement-level dataset covering 1830–1865. A static OLS design finds that pre-reform male primary education is positively associated with industrial wages in the 1840s. A dynamic IV specification, instrumenting schooling changes with exposure to the Guizot threshold, detects no statistically significant medium-run wage effect. Municipal suffrage exposure shows no independent or interactive effect in either design. A central finding is methodological: because commune-size distributions are historically structured and spatially correlated with prior development, threshold-based designs in this setting face identification challenges that are themselves historically informative.</span>
 </div>
 
 <div class="research-links">
@@ -36,3 +36,53 @@ Education and democracy are often considered as drivers of economic growth. Howe
 </div>
 
 </div>
+
+## Predoctoral Research
+
+As a predoctoral fellow at UZH under Hans-Joachim Voth, I contribute to the following projects.
+
+<div class="predoc-item">
+<span class="swl-title">(Untitled)</span>
+<span class="swl-meta"><strong>H.-J. Voth, M. P. Squicciarini, N. Voigtländer</strong></span>
+<div class="predoc-desc">I contribute to the early-stage data construction of this project, set in Revolutionary France, integrating archival, textual, and geospatial sources into a unified research pipeline — including historical geocoding, GIS integration, and the preparation of administrative data for econometric analysis.</div>
+</div>
+
+<div class="predoc-item">
+<span class="swl-title">Image(s)</span>
+<span class="swl-meta"><strong>H.-J. Voth and D. Yanagizawa-Drott</strong> · R&amp;R, Quarterly Journal of Economics</span>
+<div class="predoc-desc">This project uses machine learning applied to over 14 million high school yearbook portraits (1930–2010) to measure cultural change through stylistic choices, constructing granular measures of individualism, cultural persistence, and style novelty across US commuting zones. I contributed to the computer vision pipeline: image preprocessing, labeling and validation, supervised model training, as well as feature and name extraction.</div>
+</div>
+
+<div class="predoc-item">
+<span class="swl-title">Fighting for Growth: Labor Scarcity and Technological Progress During the British Industrial Revolution</span>
+<span class="swl-meta"><strong>H.-J. Voth, B. Caprettini, A. Trew</strong> · Conditionally accepted, Quarterly Journal of Economics</span>
+<div class="predoc-desc">I contributed to the replication package by writing clean, documented code to recreate a subset of the variables used in the analysis.</div>
+</div>
+
+For details on additional research assistance and replication experience, feel free to consult my [Resume](cv.html).
+
+## Selected Sample Work
+
+A selection of assignments from my graduate coursework. Browse the full [Sample Work](coursework.html) page for more.
+
+<ul class="sample-work-list">
+
+<li>
+<span class="swl-title">Railroads, Market Access, and Urban Fringe Dynamics: Extensions to Donaldson &amp; Hornbeck (2016)</span>
+<span class="swl-meta"><strong>Research Proposal</strong> · Urban &amp; Regional Economics | Sciences Po · 2025</span>
+<span class="swl-desc">This proposal outlines two extensions to the Donaldson-Hornbeck market-access framework: one incorporating dynamic spatial adjustment and urban fringe land-use equilibria (drawing on monocentric city theory), and one adapting the approach to 19th-century France using railway maps, agricultural inquiries, and historical census data. [<a href="pdf/URE_researchproject.pdf">PDF</a>]</span>
+</li>
+
+<li>
+<span class="swl-title">Primary Schooling and Crime in 19th-Century France: A Cohort-Based Identification Strategy</span>
+<span class="swl-meta"><strong>Research Proposal</strong> · Topics in Political, Public &amp; Organizational Economics | Sciences Po · 2025</span>
+<span class="swl-desc">Proposes a causal identification strategy for the effect of the 1833 Guizot Law on adult crime using cohort exposure as an instrument for literacy, estimated in a panel fixed-effects framework with 19th-century administrative data. [<a href="pdf/TPPOE_researchproject.pdf">PDF</a>]</span>
+</li>
+
+<li>
+<span class="swl-title">Replication of Monge-Naranjo, Sanchez &amp; Santaeulalia-Llopis (2019)</span>
+<span class="swl-meta"><strong>Replication Package</strong> · Computational Economics | Sciences Po · 2024 · with <a href="https://lionelchambon.github.io/">Lionel Chambon</a> and <a href="https://www.paulogcd.com/">Paulo Gugelmo Cavalheiro Dias</a></span>
+<span class="swl-desc">Full Julia replication package for "Natural Resources and Global Misallocation" (AEJ: Macroeconomics), reconstructed from scratch — the authors provided raw data and a single merge file but no code for tables or figures. The full replication package, documentation, and reproducible workflow are available <a href="https://www.paulogcd.com/Replication_Monge_et_al_2019.jl/dev/">here</a>.</span>
+</li>
+
+</ul>

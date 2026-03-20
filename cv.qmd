@@ -17,7 +17,7 @@ open-graph:
 ---
 ## Education 🎓
 
-<div class="cv-job-title-row"><span class="cv-job-title"><strong>Sciences Po</strong> - </span><span class="cv-job-date">2023--2025</span></div>
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Sciences Po</strong> </span><span class="cv-job-date">2023--2025</span></div>
 <div class="cv-degree-row"><span class="cv-degree-info">M.Res. in Economics (PhD Track)</span><span class="cv-gpa">GPA: 4.0</span></div>
 <div class="cv-details">
 Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-Century France"
@@ -29,7 +29,7 @@ Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-C
 <div class="cv-degree-row"><span class="cv-degree-info">Full-Year Exchange Program (B.A.) - Department of Agricultural & Resource Economics</span><span class="cv-gpa">GPA: 4.0</span></div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Sciences Po</strong> </span><span class="cv-job-date">2020--2023</span></div>
-<div class="cv-degree-row"><span class="cv-degree-info">B.A. in Economics and Political Science</span><span class="cv-gpa">GPA: 4.0 *(Cum laude)*</span></div>
+<div class="cv-degree-row"><span class="cv-degree-info">B.A. in Economics and Political Science</span><span class="cv-gpa">*(Cum laude)* GPA: 4.0</span></div>
 
 ## Research Experience 🔬
 
@@ -38,79 +38,159 @@ Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-C
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Predoctoral Fellow in Economics</strong> | University of Zurich</span><span class="cv-job-date">July 2025--Present</span></div>
 <span class="cv-supervisor">Supervisor: Hans-Joachim Voth</span>
 
-- Contribute to projects in economic history, political economy, and cultural economics, including the IMAGES project.
-- For IMAGES, contributed to an existing computer-vision workflow for historical images, including preprocessing, labeling/validation, supervised training runs, and feature extraction.
-- For an ongoing project on the French Revolution, developing an initial data pipeline linking archival, textual, and geospatial sources; conducted historical geocoding and GIS integration.
-- Produced documented code, draft figures/tables, and internal research memos using Python, Stata, and QGIS.
+<div class="predoc-item">
+<span class="swl-title">(Untitled)</span>
+<span class="swl-meta"><strong>H.-J. Voth, M. P. Squicciarini, N. Voigtländer</strong></span>
+<div class="cv-details">Developing an initial data pipeline for a project set in Revolutionary France, integrating archival, textual, and geospatial sources; conducted historical geocoding and GIS integration.</div>
+</div>
+
+<div class="predoc-item">
+<span class="swl-title">Image(s)</span>
+<span class="swl-meta"><strong>H.-J. Voth and D. Yanagizawa-Drott</strong> · R&amp;R, Quarterly Journal of Economics</span>
+<div class="cv-details">Contributed to the computer vision pipeline: image preprocessing, labeling and validation, supervised model training, as well as feature and name extraction.</div>
+</div>
+
+<div class="predoc-item">
+<span class="swl-title">Fighting for Growth: Labor Scarcity and Technological Progress During the British Industrial Revolution</span>
+<span class="swl-meta"><strong>H.-J. Voth, B. Caprettini, A. Trew</strong> · Conditionally accepted, Quarterly Journal of Economics</span>
+<div class="cv-details">Contributed to the replication package by writing clean, documented code to recreate a subset of the variables used in the analysis.</div>
+</div>
 
 ### Replication Work
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>JPE Replicator</strong> | University of Chicago</span><span class="cv-job-date">July 2025--Present</span></div>
 <span class="cv-supervisor">Supervisor: Florian Oswald</span>
 
-- Execute authors' replication code to verify that published tables and figures are reproducible and consistent with reported results.
-- Assess data integrity, documentation quality, and code robustness; diagnose discrepancies and rebuild software environments when needed (Stata/R; Git-based workflows).
-- Author detailed replication reports to the Data Editor specifying missing components and required fixes.
+<div class="cv-details">I conduct reproducibility audits of accepted articles at the Journal of Political Economy, verifying that published tables and figures are reproducible from authors' replication packages, assessing data integrity, documentation quality, and code robustness, and authoring detailed reports to the Data Editor.</div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>EJ Replicator</strong> | Royal Economic Society</span><span class="cv-job-date">2024--July 2025</span></div>
 <span class="cv-supervisor">Supervisor: Florian Oswald</span>
 
-- Conducted reproducibility checks for accepted articles at *The Economic Journal* using authors' replication packages under editorial supervision.
+<div class="cv-details">I conducted reproducibility checks for accepted articles at <em>The Economic Journal</em> using authors' replication packages under the supervision of the Data Editor.</div>
 
 ### Research Assistantships
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | Sciences Po</span><span class="cv-job-date">Summer 2025</span></div>
-<span class="cv-supervisor">Supervisor: Roberto Galbiati</span>
+<span class="cv-supervisor">Supervisors: Roberto Galbiati</span>
 
-- Contributed to the construction of an original individual-level dataset from a primary historical source documenting financial contributions to an anti-Dreyfusard campaign in late 19th-century France.
-- Manually transcribed and cleaned donor records (names, locations, contribution amounts, messages); these data are currently used in an ongoing research draft.
-- Contributed to preliminary qualitative exploration of message content to inform subsequent text-based analysis.
+<div class="predoc-item">
+<span class="swl-title">Dreyfus Affair: Polarization and Resistance during WWII</span>
+<span class="swl-meta"><strong>R. Galbiati, S. Lauterbach, B. Marx</strong></span>
+<div class="cv-details">This project constructs an individual-level dataset from archival sources documenting financial contributions to an anti-Dreyfusard campaign, to study the political economy of mass mobilisation and its long-run consequences for polarization and resistance. Contributed to the collection, transcription, and cleaning of donor records.</div>
+</div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | Sciences Po</span><span class="cv-job-date">Summer 2024</span></div>
-<span class="cv-supervisor">Supervisors: Roberto Galbiati, Aurelie Ouss (UPenn)</span>
+<span class="cv-supervisor">Supervisors: Roberto Galbiati, Aurélie Ouss (UPenn)</span>
 
-- Collected and cleaned individual-level data from police reports (IGPN), press sources, and death notices for post-1980 France.
-- Produced a documented dataset and suggested corrections to baseline data.
-- Contributed to CNIL (GDPR) policy impact assessment through data documentation, integrity checks, and risk assessment.
+<div class="cv-details">I collected, cleaned, and documented individual-level administrative data from police reports, press sources, and death notices for post-1980 France, and contributed to a CNIL compliance assessment through data documentation, integrity checks, and risk evaluation.</div>
 
-<div class="cv-job-title-row"><span class="cv-job-title"><strong>(Research Assistant)</strong> | CEPREMAP (OBE)</span><span class="cv-job-date">Summer 2023</span></div>
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | CEPREMAP (OBE)</span><span class="cv-job-date">Summer 2023</span></div>
 <span class="cv-supervisor">Supervisor: Mathieu Perona</span>
 
-- Contributed to the construction of a database on well-being economics researchers in France. Conducted literature reviews and exploratory empirical work for academic projects.
+<div class="cv-details">I contributed to the construction of a database on well-being economics researchers in France and conducted literature reviews and exploratory empirical work for ongoing academic projects in cultural economics.</div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | University of California, Berkeley</span><span class="cv-job-date">Spring 2023</span></div>
-Project on Arms Trade History (PATH)
-
-- Extracted arms trade data from French customs reports (*Tableaux généraux du commerce de la France*, 19th century) using archival microfilms for the construction of a historical database on the global arms trade.
+<p class="predoc-cv-entry"><strong>Project on Arms Trade History (PATH)</strong></p>
+<div class="cv-details">I extracted arms trade data from 19th-century French customs reports (<em>Tableaux généraux du commerce de la France</em>) using archival microfilms, contributing to the construction of a historical database on the global arms trade.</div>
 
 ### Additional Experiences
 
-<div class="cv-job-title-row"><span class="cv-job-title"><strong>Assistant Project Manager</strong> | Agence Francaise de Developpement</span><span class="cv-job-date">Summer 2022</span></div>
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Assistant Project Manager</strong> | Agence Française de Développement</span><span class="cv-job-date">Summer 2022</span></div>
 
-- Conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.
+<div class="cv-details">I conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.</div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Teaching Assistant</strong> | Sciences Po</span><span class="cv-job-date">Fall 2021</span></div>
 
-Teaching assistant in Comparative Political Institutions (undergraduate level).
+<div class="cv-details">Teaching assistant in Comparative Political Institutions (undergraduate level).</div>
 
 ## Methods and Programming Skills 🛠️
 
-**Mathematical Preparation:** Probability Theory; Linear Algebra; Optimization; Dynamic Programming <br>
-**Quantitative Methods:** panel data; spatial analysis; historical data construction; text data; image data <br>
-**Programming:** Python; R (advanced); Stata; Julia (intermediate) <br>
-**Tools:** Git; LaTeX; GIS; OCR; computer vision; web scraping; reproducible workflows 
+<div class="cv-skill-grid">
+  <span class="cv-skill-label">Mathematical Preparation</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Probability Theory</span>
+    <span class="cv-tag">Linear Algebra</span>
+    <span class="cv-tag">Optimization</span>
+    <span class="cv-tag">Dynamic Programming</span>
+  </span>
+
+  <span class="cv-skill-label">Quantitative Methods</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Panel data</span>
+    <span class="cv-tag">Spatial analysis</span>
+    <span class="cv-tag">Historical data construction</span>
+    <span class="cv-tag">Text data</span>
+    <span class="cv-tag">Image data</span>
+  </span>
+
+  <span class="cv-skill-label">Programming</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Python</span>
+    <span class="cv-tag">R (advanced)</span>
+    <span class="cv-tag">Stata</span>
+    <span class="cv-tag">Julia (intermediate)</span>
+  </span>
+
+  <span class="cv-skill-label">Tools</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Git</span>
+    <span class="cv-tag">LaTeX</span>
+    <span class="cv-tag">GIS</span>
+    <span class="cv-tag">OCR</span>
+    <span class="cv-tag">Computer vision</span>
+    <span class="cv-tag">Web scraping</span>
+    <span class="cv-tag">Reproducible workflows</span>
+  </span>
+</div>
 
 ## Graduate Coursework 📚
 
-**Econometrics I-III:** Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data <br>
-**Microeconomics I-II:** Optimal Choice and Equilibrium; Game Theory <br>
-**Macroeconomics I-III:** Growth Models; Business Cycles; Macro-Finance and Heterogeneous-Agent Models <br>
-**Computational Economics:** Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods <br>
-**Selected Fields:** Economic History; Political Economy; Urban & Regional Economics; International Trade; Demography 
+<div class="cv-skill-grid">
+  <span class="cv-skill-label">Econometrics I–III</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Probability and Statistics</span>
+    <span class="cv-tag">Estimation and Inference</span>
+    <span class="cv-tag">Causal Inference</span>
+  </span>
+
+  <span class="cv-skill-label">Macroeconomics I–III</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Growth Models</span>
+    <span class="cv-tag">Business Cycles</span>
+    <span class="cv-tag">Macro-Finance and Heterogeneous-Agent Models</span>
+  </span>
+
+  <span class="cv-skill-label">Microeconomics I–II</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Optimal Choice and Equilibrium</span>
+    <span class="cv-tag">Game Theory</span>
+  </span>
+
+  <span class="cv-skill-label">Computational Economics</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Dynamic Programming</span>
+    <span class="cv-tag">Incomplete-Market Models</span>
+    <span class="cv-tag">Numerical Solution Methods</span>
+  </span>
+
+  <span class="cv-skill-label">Selected Fields</span>
+  <span class="cv-skill-items">
+    <span class="cv-tag">Economic History</span>
+    <span class="cv-tag">Political Economy</span>
+    <span class="cv-tag">Urban &amp; Regional Economics</span>
+    <span class="cv-tag">International Trade</span>
+    <span class="cv-tag">Demography</span>
+  </span>
+</div>
 
 ## Languages 🌍
 
-**French** (Native) | **English** (C2) | **Italian** (C1) | German (B1)
+<div class="cv-lang-row">
+  <span class="cv-lang-pill"><strong>French</strong> <span class="cv-lang-level">Native</span></span>
+  <span class="cv-lang-pill"><strong>English</strong> <span class="cv-lang-level">C2</span></span>
+  <span class="cv-lang-pill"><strong>Italian</strong> <span class="cv-lang-level">C1</span></span>
+  <span class="cv-lang-pill">German <span class="cv-lang-level">B1</span></span>
+</div>
 
 <script type="application/ld+json">
 {

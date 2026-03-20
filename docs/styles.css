@@ -282,6 +282,11 @@ body.home-compact main {
   max-width: 900px;
 }
 
+/* Reduce gap between intro paragraph and about card (Quarto default is 3em) */
+body.home-compact .quarto-about-trestles {
+  padding-top: 0.75em !important;
+}
+
 /* Slightly tighter typography just on the homepage */
 body.home-compact {
   font-size: 0.97rem;
@@ -534,6 +539,7 @@ body.courses-page .course-label {
   gap: 1rem;
   font-size: 1.05rem;
   font-weight: 600;
+  margin-top: 1.1rem;
   margin-bottom: 0.05rem;
   width: 100%;
 }
@@ -601,11 +607,96 @@ p:has(> .cv-supervisor) {
   margin-left: 1.5rem;
   border-left: 3px solid #b6b6b6;
   padding-left: 0.9rem;
+  font-size: 0.88rem;
 }
 
 .cv-advisors {
   color: #4f3a26;
   font-weight: 600;
+}
+
+.predoc-cv-entry {
+  font-size: 0.9rem;
+  margin: 0.6rem 0 0;
+  line-height: 1.4;
+}
+
+.cv-status {
+  font-weight: 400;
+  color: #6b5743;
+}
+
+/* CV skills/coursework stacked layout */
+.cv-skill-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.cv-skill-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #4f3a26;
+  white-space: nowrap;
+  margin-top: 0.3rem;
+  margin-bottom: 0.25rem;
+}
+
+.cv-skill-grid .cv-skill-label:first-child {
+  margin-top: 0;
+}
+
+.cv-skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.cv-tag {
+  background: #f0ebe5;
+  color: #3b2714;
+  border-radius: 5px;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  border: 1px solid #ddd0c4;
+}
+
+/* Language pills */
+.cv-lang-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cv-lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #f7f2eb;
+  border: 1px solid #ddd0c4;
+  border-radius: 8px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.85rem;
+}
+
+.cv-lang-level {
+  font-size: 0.75rem;
+  color: #6b5743;
+}
+
+.predoc-item {
+  margin-top: 0.75rem;
+}
+
+.predoc-desc {
+  font-size: 0.88rem;
+  color: #4a4a4a;
+  line-height: 1.3;
+  margin-top: 0.2rem;
+  border-left: 3px solid #d0d0d0;
+  padding-left: 0.9rem;
 }
 
 
@@ -743,7 +834,7 @@ main li {
   background: #ffffff;
   border: 1px solid #e6e8ed;
   border-radius: 14px;
-  padding: 1.5rem 1.75rem;
+  padding: 1.25rem 1.75rem 1rem;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
   margin-bottom: 1.75rem;
 }
@@ -760,7 +851,7 @@ main li {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.35rem;
 }
 
 .research-badge {
@@ -783,7 +874,7 @@ main li {
   font-size: 0.88rem;
   color: #4f3a26;
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.4rem;
 }
 
 .research-abstract {
@@ -794,6 +885,32 @@ main li {
   padding-left: 1rem;
   margin-top: 0.75rem;
   line-height: 1.65;
+  cursor: pointer;
+  transition: border-left-color 0.3s ease;
+}
+
+.research-abstract-body {
+  display: block;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s ease;
+}
+
+.research-abstract:hover {
+  border-left-color: #c45607;
+}
+
+.research-abstract:hover .research-abstract-body {
+  max-height: 500px;
+  opacity: 1;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .research-abstract-body {
+    max-height: none;
+    opacity: 1;
+  }
 }
 
 .research-abstract-label {
@@ -807,7 +924,7 @@ main li {
 }
 
 .research-links {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   gap: 0.6rem;
   flex-wrap: wrap;
@@ -818,6 +935,59 @@ main li {
   font-size: 0.83rem;
   color: #a0a0a0;
   font-style: italic;
+}
+
+.sample-work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+}
+
+.sample-work-list li {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #f0ebe5;
+}
+
+.sample-work-list li:last-child {
+  border-bottom: none;
+}
+
+.swl-title {
+  font-weight: 650;
+  font-size: 0.97rem;
+  color: #14213d;
+  display: block;
+  margin-bottom: 0.05rem;
+}
+
+.swl-meta {
+  font-size: 0.8rem;
+  color: #8a7060;
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+.swl-desc {
+  font-size: 0.88rem;
+  color: #4a4a4a;
+  line-height: 1.3;
+  display: block;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s ease;
+}
+
+.sample-work-list li:hover .swl-desc {
+  max-height: 300px;
+  opacity: 1;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .swl-desc {
+    max-height: none;
+    opacity: 1;
+  }
 }
 
 /* Contact block clarity */
