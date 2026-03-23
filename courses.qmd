@@ -14,7 +14,7 @@ open-graph:
 
 <a href="#selected-graduate" class="skip-link">Skip to main content</a>
 
-## Graduate Coursework (M.Res.) {#selected-graduate}
+## Graduate Coursework (M.Res.) - Sciences Po {#selected-graduate}
 
 Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/academics/masters/master-economics/).
 
@@ -80,7 +80,6 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
 </div>
 :::
 
-<span class="institution">Sciences Po Paris - MRes in Economics</span>
 
 ### Core Graduate Sequences {#core-seq}
 
@@ -300,9 +299,7 @@ Sample coursework available [here](https://www.sciencespo.fr/ecole-recherche/en/
 </div>
 </div>
 
-## Upper-Division Coursework (B.A.) {#upper-division}
-
-<span class="institution"> Selected upper-division courses at the University of California, Berkeley.</span>
+## Upper-Division Coursework (B.A.) - UC Berkeley. {#upper-division}
 
 ### Economic History and Political Economy
 
