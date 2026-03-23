@@ -22,7 +22,6 @@ open-graph:
 <div class="cv-details">
 Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-Century France"
 <span class="cv-advisors">Advisors: Roberto Galbiati, Emeric Henry</span>
-
 *Awarded Sciences Po Prize for Best Master's Thesis*
 </div>
 
@@ -79,29 +78,37 @@ Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-C
 <div class="cv-details">This project constructs an individual-level dataset from archival sources documenting financial contributions to an anti-Dreyfusard campaign, to study the political economy of mass mobilisation and its long-run consequences for polarization and resistance. Contributed to the collection, transcription, and cleaning of donor records.</div>
 </div>
 
+<div class="cv-entry">
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | Sciences Po</span><span class="cv-job-date">Summer 2024</span></div>
 <span class="cv-supervisor">Supervisors: Roberto Galbiati, Aurélie Ouss (UPenn)</span>
-
 <div class="cv-details">I collected, cleaned, and documented individual-level administrative data from police reports, press sources, and death notices for post-1980 France, and contributed to a CNIL compliance assessment through data documentation, integrity checks, and risk evaluation.</div>
+</div>
 
+<div class="cv-entry">
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | CEPREMAP (OBE)</span><span class="cv-job-date">Summer 2023</span></div>
 <span class="cv-supervisor">Supervisor: Mathieu Perona</span>
-
 <div class="cv-details">I contributed to the construction of a database on well-being economics researchers in France and conducted literature reviews and exploratory empirical work for ongoing academic projects in cultural economics.</div>
+</div>
 
+<div class="cv-entry">
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | University of California, Berkeley</span><span class="cv-job-date">Spring 2023</span></div>
-<p class="predoc-cv-entry"><strong>Project on Arms Trade History (PATH)</strong></p>
+<div class="predoc-item">
+<span class="swl-title">Project on Arms Trade History (PATH)</span>
 <div class="cv-details">I extracted arms trade data from 19th-century French customs reports (<em>Tableaux généraux du commerce de la France</em>) using archival microfilms, contributing to the construction of a historical database on the global arms trade.</div>
+</div>
+</div>
 
 ### Additional Experiences
 
+<div class="cv-entry">
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Assistant Project Manager</strong> | Agence Française de Développement</span><span class="cv-job-date">Summer 2022</span></div>
-
 <div class="cv-details">I conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.</div>
+</div>
 
+<div class="cv-entry">
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Teaching Assistant</strong> | Sciences Po</span><span class="cv-job-date">Fall 2021</span></div>
-
 <div class="cv-details">Teaching assistant in Comparative Political Institutions (undergraduate level).</div>
+</div>
 
 ## Methods and Programming Skills 🛠️
 

@@ -547,6 +547,13 @@ body.courses-page .course-label {
 .cv-job-title {
   flex: 1;
   text-align: left;
+  color: #14213d;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+.cv-job-title strong {
+  font-weight: inherit;
 }
 
 .cv-job-date {
@@ -698,6 +705,29 @@ p:has(> .cv-supervisor) {
 
 .predoc-item .cv-details {
   margin-left: 0;
+}
+
+/* Research Experience: hover-reveal descriptions */
+#research-experience .cv-details {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0;
+  transition: max-height 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.8s ease, margin-top 0.3s ease;
+}
+
+#research-experience .predoc-item,
+#research-experience .cv-entry {
+  cursor: pointer;
+}
+
+#research-experience .predoc-item:hover .cv-details,
+#research-experience .cv-entry:hover .cv-details,
+#research-experience .predoc-item:focus-within .cv-details,
+#research-experience .cv-entry:focus-within .cv-details {
+  max-height: 400px;
+  opacity: 1;
+  margin-top: 0.35rem;
 }
 
 .predoc-desc {
