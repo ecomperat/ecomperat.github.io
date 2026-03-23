@@ -22,6 +22,7 @@ open-graph:
 <div class="cv-details">
 Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-Century France"
 <span class="cv-advisors">Advisors: Roberto Galbiati, Emeric Henry</span>
+
 *Awarded Sciences Po Prize for Best Master's Thesis*
 </div>
 
@@ -32,8 +33,6 @@ Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-C
 <div class="cv-degree-row"><span class="cv-degree-info">B.A. in Economics and Political Science</span><span class="cv-gpa">*(Cum laude)* GPA: 4.0</span></div>
 
 ## Research Experience 🔬
-
-### Predoctoral Position
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Predoctoral Fellow in Economics</strong> | University of Zurich</span><span class="cv-job-date">July 2025--Present</span></div>
 <span class="cv-supervisor">Supervisor: Hans-Joachim Voth</span>
@@ -52,26 +51,27 @@ Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-C
 
 <div class="predoc-item">
 <span class="swl-title">Fighting for Growth: Labor Scarcity and Technological Progress During the British Industrial Revolution</span>
-<span class="swl-meta"><strong>H.-J. Voth, B. Caprettini, A. Trew</strong> · Conditionally accepted, Quarterly Journal of Economics</span>
+<span class="swl-meta"><strong>H.-J. Voth, B. Caprettini, A. Trew</strong> · Conditionally accepted, American Economic Review</span>
 <div class="cv-details">Contributed to the replication package by writing clean, documented code to recreate a subset of the variables used in the analysis.</div>
 </div>
 
-### Replication Work
+<div class="cv-job-title-row"><span class="cv-job-title"><strong>Data Replicator</strong> | University of Chicago (previously RES)</span><span class="cv-job-date">2024--Present</span></div>
+<span class="cv-supervisor">Data Editor: Florian Oswald</span>
 
-<div class="cv-job-title-row"><span class="cv-job-title"><strong>JPE Replicator</strong> | University of Chicago</span><span class="cv-job-date">July 2025--Present</span></div>
-<span class="cv-supervisor">Supervisor: Florian Oswald</span>
-
+<div class="predoc-item">
+<span class="swl-title">JPE Replicator</span>
+<span class="swl-meta">University of Chicago · July 2025–Present</span>
 <div class="cv-details">I conduct reproducibility audits of accepted articles at the Journal of Political Economy, verifying that published tables and figures are reproducible from authors' replication packages, assessing data integrity, documentation quality, and code robustness, and authoring detailed reports to the Data Editor.</div>
+</div>
 
-<div class="cv-job-title-row"><span class="cv-job-title"><strong>EJ Replicator</strong> | Royal Economic Society</span><span class="cv-job-date">2024--July 2025</span></div>
-<span class="cv-supervisor">Supervisor: Florian Oswald</span>
-
+<div class="predoc-item">
+<span class="swl-title">EJ Replicator</span>
+<span class="swl-meta">Royal Economic Society · 2024–July 2025</span>
 <div class="cv-details">I conducted reproducibility checks for accepted articles at <em>The Economic Journal</em> using authors' replication packages under the supervision of the Data Editor.</div>
-
-### Research Assistantships
+</div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Research Assistant</strong> | Sciences Po</span><span class="cv-job-date">Summer 2025</span></div>
-<span class="cv-supervisor">Supervisors: Roberto Galbiati</span>
+<span class="cv-supervisor">Supervisor: Roberto Galbiati</span>
 
 <div class="predoc-item">
 <span class="swl-title">Dreyfus Affair: Polarization and Resistance during WWII</span>

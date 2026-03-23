@@ -633,23 +633,28 @@ p:has(> .cv-supervisor) {
   margin-top: 0.5rem;
 }
 
+.cv-skill-grid p {
+  margin-bottom: 0.25rem;
+}
+
 .cv-skill-label {
   font-weight: 700;
   font-size: 0.85rem;
   color: #4f3a26;
   white-space: nowrap;
-  margin-top: 0.3rem;
-  margin-bottom: 0.25rem;
-}
-
-.cv-skill-grid .cv-skill-label:first-child {
   margin-top: 0;
+  margin-bottom: 0.15rem;
 }
 
 .cv-skill-items {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
+  margin-bottom: 0.35rem;
+}
+
+.cv-skill-grid .cv-skill-items:last-child {
+  margin-bottom: 0;
 }
 
 .cv-tag {
@@ -688,6 +693,11 @@ p:has(> .cv-supervisor) {
 
 .predoc-item {
   margin-top: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+.predoc-item .cv-details {
+  margin-left: 0;
 }
 
 .predoc-desc {

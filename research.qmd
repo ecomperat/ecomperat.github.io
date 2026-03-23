@@ -55,7 +55,7 @@ As a predoctoral fellow at UZH under Hans-Joachim Voth, I contribute to the foll
 
 <div class="predoc-item">
 <span class="swl-title">Fighting for Growth: Labor Scarcity and Technological Progress During the British Industrial Revolution</span>
-<span class="swl-meta"><strong>H.-J. Voth, B. Caprettini, A. Trew</strong> · Conditionally accepted, Quarterly Journal of Economics</span>
+<span class="swl-meta"><strong>H.-J. Voth, B. Caprettini, A. Trew</strong> · Conditionally accepted, American Economic Review</span>
 <div class="predoc-desc">I contributed to the replication package by writing clean, documented code to recreate a subset of the variables used in the analysis.</div>
 </div>
 
