@@ -63,7 +63,7 @@ Master's Thesis: "Education, Local Democracy, and Economic Development in 19th-C
 <div class="cv-details">I conduct reproducibility audits of accepted articles at the Journal of Political Economy, verifying that published tables and figures are reproducible from authors' replication packages, assessing data integrity, documentation quality, and code robustness, and authoring detailed reports to the Data Editor.</div>
 </div>
 
-<div class="predoc-item">
+<div class="predoc-item cv-collapsed">
 <span class="swl-title">EJ Replicator</span>
 <span class="swl-meta">Royal Economic Society · 2024–July 2025</span>
 <div class="cv-details">I conducted reproducibility checks for accepted articles at <em>The Economic Journal</em> using authors' replication packages under the supervision of the Data Editor.</div>

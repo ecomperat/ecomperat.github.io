@@ -707,8 +707,9 @@ p:has(> .cv-supervisor) {
   margin-left: 0;
 }
 
-/* Research Experience: hover-reveal descriptions */
-#research-experience .cv-details {
+/* Research Experience: hover-reveal descriptions (only Additional Experiences + EJ Replicator) */
+#additional-experiences .cv-entry .cv-details,
+.predoc-item.cv-collapsed .cv-details {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -716,15 +717,15 @@ p:has(> .cv-supervisor) {
   transition: max-height 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.8s ease, margin-top 0.3s ease;
 }
 
-#research-experience .predoc-item,
-#research-experience .cv-entry {
+#additional-experiences .cv-entry,
+.predoc-item.cv-collapsed {
   cursor: pointer;
 }
 
-#research-experience .predoc-item:hover .cv-details,
-#research-experience .cv-entry:hover .cv-details,
-#research-experience .predoc-item:focus-within .cv-details,
-#research-experience .cv-entry:focus-within .cv-details {
+#additional-experiences .cv-entry:hover .cv-details,
+#additional-experiences .cv-entry:focus-within .cv-details,
+.predoc-item.cv-collapsed:hover .cv-details,
+.predoc-item.cv-collapsed:focus-within .cv-details {
   max-height: 400px;
   opacity: 1;
   margin-top: 0.35rem;
