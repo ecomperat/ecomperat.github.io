@@ -1,8 +1,7 @@
-
 ---
 image: img/ppic_uzh_optimized.jpg
 title: Etienne Compérat
-subtitle: "<b>Pre-doctoral Fellow | UZH<br>JPE Replicator | UChicago</b>"
+subtitle: "<b>Predoctoral Fellow | UZH<br>JPE Replicator | UChicago</b>"
 open-graph:
   type: profile
   url: https://ecomperat.github.io/
@@ -33,7 +32,7 @@ format:
 
 <a href="#hero-heading" class="skip-link">Skip to main content</a>
 
-Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/). Welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
+Hi! I'm Etienne Compérat, a predoctoral fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/). Welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
 
 
 :::{#hero-heading}
@@ -44,7 +43,7 @@ Hi! I'm Etienne Compérat, a Pre-doctoral Fellow in the Department of Economics 
   <img src="img/logo_uzh_opt.png" alt="University of Zurich logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **University of Zurich** | 2025 - Now<br>
-Pre-doctoral Fellow in Economics
+Predoctoral Fellow in Economics
   </div>
 </div>
 
@@ -62,7 +61,7 @@ Replicator, Journal of Political Economy
   <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **Sciences Po** | 2023 - 2025<br>
-MRes in Economics
+M.Res. in Economics
   </div>
 </div>
 
@@ -78,25 +77,25 @@ Exchange - Dept. of Agricultural & Resource Economics
   <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
 **Sciences Po** | 2020 - 2023<br>
-B.A. in Economics and Political Sciences
+B.A. in Economics and Political Science
   </div>
 </div>
 
-**Research Interests:** <br> Political Economy, Economic History, Urban/Regional Economics
+**Research Interests:** <br> Economic History, Political Economy, Spatial & Regional Economics
 :::
 
-I recently completed a Research Master’s in Economics at Sciences Po, following an exchange year at UC Berkeley, where I specialized in Environmental Economics and Policy. My master’s thesis, supervised by [Emeric Henry](https://sites.google.com/site/emericmlhenry/home) and [Roberto Galbiati](https://sites.google.com/view/galbiatir1/), examined the joint impact of education and local democratic institutions on economic development in nineteenth-century France and was awarded Sciences Po’s Prize for Best Master’s Thesis (2024-2025).
+My research asks how modernisation reshaped the geography of development in nineteenth-century France. My doctoral project, **"Diffusion and Divergence: Railways, Schools, and the Modernisation of Rural France,"** studies how railway-induced market integration and mass primary education integrated rural areas into national markets, institutions, and language while also producing concentration, out-migration, and deindustrialisation in some places.
 
-My research interests lie at the intersection of Economic History, Political Economy, and Urban & Regional Economics, with an emphasis on institutions and long-run development. Empirically, I am particularly interested in constructing new historical datasets from archival sources, combining original data collection with modern empirical methods, including OCR and machine learning tools for large-scale data extraction.
+I recently completed a Research Master's in Economics at Sciences Po. My master's thesis, supervised by [Roberto Galbiati](https://sites.google.com/view/galbiatir1/) and [Emeric Henry](https://sites.google.com/site/emericmlhenry/home), studied the joint effects of primary schooling and municipal suffrage under the July Monarchy on local development, and was awarded Sciences Po's Prize for Best Master's Thesis (2024-2025).
 
-More broadly, I am interested in exploiting historical institutional and spatial variation for causal inference, with a primary focus on nineteenth-century France and Europe. During my pre-doctoral fellowship, my goal is to refine my PhD project while strengthening my empirical and computationals skills. My work involves large historical datasets and the use of Python, Stata, as well as the application of machine learning tools to economic history. In parallel, I am also part of the [JPE replication team](https://jpe-reproducibility.github.io/replicator-team/) at UChicago, under the supervision of [Florian Oswald](https://floswald.github.io/).
+Empirically, I construct historical datasets from archival, textual, administrative, and geospatial sources, combining GIS, OCR, computer vision, and reproducible workflows with modern causal-inference tools. During my predoctoral fellowship, I work on projects in economic history, political economy, and cultural economics, and I am also part of the [JPE replication team](https://jpe-reproducibility.github.io/replicator-team/) at UChicago under the supervision of [Florian Oswald](https://floswald.github.io/).
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Étienne Compérat",
-  "jobTitle": "Pre-doctoral Fellow in Economics",
+  "jobTitle": "Predoctoral Fellow in Economics",
   "affiliation": [
     {
       "@type": "Organization",
@@ -126,7 +125,7 @@ More broadly, I am interested in exploiting historical institutional and spatial
   "knowsAbout": [
     "Economic History",
     "Political Economy",
-    "Urban Economics",
+    "Spatial Economics",
     "Regional Economics",
     "Econometrics",
     "Causal Inference"

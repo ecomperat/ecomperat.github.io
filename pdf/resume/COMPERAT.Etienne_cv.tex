@@ -1,289 +1,125 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
-
-% article class because we want to fully customize the page and not use a cv template
 \documentclass[a4paper,11pt]{article}
 
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
-
-% % fontspec allows you to use TTF/OTF fonts directly
-% \usepackage{fontspec}
-% \defaultfontfeatures{Ligatures=TeX}
-
-% % modified for ShareLaTeX use
-% \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
-% {Fontin.otf}
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
-\usepackage{url}
-\usepackage{parskip} 	
-
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{parskip}
 \usepackage[scale=0.9]{geometry}
-
-%tabularx environment
 \usepackage{tabularx}
-
-%for lists within experience section
 \usepackage{enumitem}
-
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
-
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-
-
-\titleformat{\section}{\large\scshape\raggedright\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{8pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
+\usepackage{titlesec}
 \usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
 \usepackage{fontawesome5}
 
-\usepackage{enumitem}
+\titleformat{\section}{\large\scshape\raggedright\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+\hypersetup{colorlinks,breaklinks,urlcolor=blue,linkcolor=blue}
 
-%debug page outer frames
-%\usepackage{showframe}
+\newcommand{\cvitem}[1]{\item #1}
 
+\pagestyle{empty}
 
-\titlespacing*{\subsection}{0pt}{4pt}{2pt}
-
-%----------------------------------------------------------------------------------------
-%	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
 \begin{document}
 
-% non-numbered pages
-\pagestyle{empty} 
-
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
-
-% \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
-% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
-% \end{tabularx}
-
 \begin{center}
-\textbf{\Large ÉTIENNE COMPÉRAT}\\[3pt] % Name
-\textbf{Predoctoral Fellow in Economics, UZH}\\[1pt] % One-liner% One-line
+\textbf{\Large ÉTIENNE COMPÉRAT}\\[3pt]
+\textbf{Predoctoral Fellow in Economics, University of Zurich}\\[3pt]
 \begin{tabularx}{\linewidth}{X}
 \centering
-\href{https://github.com/ecomperat}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \ 
-\href{https://ecomperat.github.io}{\raisebox{-0.05\height}\faGlobe\ Website} \ $|$ \ 
-\href{https://www.linkedin.com/in/étienne-compérat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
-\href{mailto: etienne.comperat@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope\ E-Mail} \ 
-\end{tabularx} \\[1pt]
-\textbf{Research Interests:} Economic History, Political Economy, Urban \& Regional Economics
+\href{https://ecomperat.github.io}{\raisebox{-0.05\height}\faGlobe\ Website} \ $|$ \
+\href{https://github.com/ecomperat}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \
+\href{https://www.linkedin.com/in/\%C3\%A9tienne-comp\%C3\%A9rat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \
+\href{mailto:etienne.comperat@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope\ E-Mail}
+\end{tabularx}\\[3pt]
+\textbf{Research Interests:} Economic History, Political Economy, Spatial and Regional Economics
 \end{center}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section{EDUCATION}
+\section{Education}
 
 \textbf{Sciences Po} \hfill 2023--2025 \\
-M.Res. in Economics (PhD Track) \hfill GPA: 4.0 \\
-Master’s Thesis: ``Education, Local Democracy, and Economic Development in 19th-Century France'' \\
-Advisors: Roberto Galbiati, Emeric Henry \\
-\emph{Awarded Sciences Po Prize for Best Master’s Thesis}
-
+M.Res. in Economics, PhD Track \\
+Master's Thesis (16/20): ``Enrichissez-vous!'': Education, Suffrage, and Local Development in July Monarchy France \\
+Jury: Roberto Galbiati, Emeric Henry (advisors), Kevin O'Rourke \\
+\emph{Awarded Sciences Po Prize for Best Master's Thesis}
 
 \textbf{University of California, Berkeley} \hfill 2022--2023 \\
-Full-Year Exchange (B.A.), Dept. of Agricultural \& Resource Economics \hfill GPA: 4.0
+Full-Year Exchange Program, B.A., Dept. of Agricultural \& Resource Economics \hfill GPA: 4.0
 
 \textbf{Sciences Po} \hfill 2020--2023 \\
-B.A. in Economics and Political Science \hfill (\textit{Cum Laude}) GPA: 4.0
+B.A. in Economics and Political Science \hfill \textit{Cum laude}
 
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\section{RESEARCH EXPERIENCE}
+\section{Research Experience}
 
 \textbf{Predoctoral Fellow in Economics} $|$ University of Zurich \hfill July 2025--Present \\
 Supervisor: Hans-Joachim Voth
-\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
-    \item Contribute to projects in economic history, political economy, and cultural economics, including the IMAGES project.
-    \item For IMAGES, contributed to an existing computer-vision workflow for historical images, including preprocessing, labeling/validation, supervised training runs, and feature extraction.
-    \item For an ongoing project on the French Revolution, developing an initial data pipeline linking archival, textual, and geospatial sources; conducted historical geocoding and GIS integration.
-    \item Produced documented code, draft figures/tables, and internal research memos using Python, Stata, and QGIS.
-\end{itemize}}
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{\textit{Untitled} (with M. P. Squicciarini and N. Voigtländer): build reproducible historical data pipelines from archival, textual, administrative, and geospatial sources, with historical geocoding and GIS integration for a project set in Revolutionary France; review period historiography to inform a coding framework for downstream analysis.}
+  \cvitem{\textit{Image(s)} (with D. Yanagizawa-Drott): contribute to the computer-vision workflow (image preprocessing, labelling and validation, supervised model training, feature extraction, and name extraction) and to the appendix analysis of name norm-deviation.}
+  \cvitem{\textit{Fighting for Growth} (with B. Caprettini and A. Trew): contributed to the documented replication package by writing clean, reproducible code for the empirical analysis.}
+\end{itemize}
 
-\normalsize{\textbf{JPE Replicator (previously EJ)} $|$ University of Chicago \hfill 2024--Present \\
-Supervisor: Florian Oswald}
-\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
-  \item Served as replicator for \textit{The Economic Journal} (2024--July 2025) and subsequently for the \textit{Journal of Political Economy} (July 2025--Present) under editorial supervision.
-  \item Executed authors’ replication code to verify that published tables and figures are reproducible and consistent with reported results.
-  \item Assessed data integrity, documentation quality, and code robustness; diagnosed discrepancies and rebuilt software environments when needed (Stata/R; Git-based workflows).
-  \item Authored detailed replication reports to the Data Editor specifying missing components and required fixes.
-\end{itemize}} 
+\textbf{JPE Replicator} $|$ University of Chicago \hfill July 2025--Present \\
+Data Editor: Florian Oswald
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{Conduct independent replications of accepted \textit{Journal of Political Economy} articles under editorial supervision: verify tables and figures from authors' replication packages, review code, run reproducibility and robustness checks, diagnose data and code issues, rebuild software environments when needed, and prepare detailed reports for the Data Editor.}
+\end{itemize}
 
-\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
-Supervisor: Roberto Galbiati}
-\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
-  \item Contributed to the construction of an original individual-level dataset from a primary historical source documenting financial contributions to an anti-Dreyfusard campaign in late 19th-century France.
-  \item Manually transcribed and cleaned donor records (names, locations, contribution amounts, messages); these data are currently used in an ongoing research draft.
-  \item Contributed to preliminary qualitative exploration of message content to inform subsequent text-based analysis.
-\end{itemize}}
+\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
+Supervisor: Roberto Galbiati
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{\textit{Dreyfus Affair: Polarization and Resistance during WWII} (with S. Lauterbach and B. Marx): collected, transcribed, and cleaned archival donor records to construct an individual-level dataset on anti-Dreyfusard mobilisation in late nineteenth-century France.}
+\end{itemize}
 
-\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
-Supervisors: Roberto Galbiati, Aurélie Ouss (UPenn)}
-\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
-  \item Collected and cleaned individual-level data from police reports (IGPN), press sources, and death notices for post-1980 France.
-roduced a documented dataset and suggested corrections to baseline data.
-  \item Contributed to CNIL (GDPR) policy impact assessment through data documentation, integrity checks, and risk assessment.
-\end{itemize}}
+\textbf{EJ Replicator} $|$ Royal Economic Society \hfill 2024--July 2025 \\
+Data Editor: Florian Oswald
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{Conducted reproducibility checks for accepted articles at \textit{The Economic Journal} using authors' replication packages under editorial supervision.}
+\end{itemize}
 
-\normalsize{\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
-Project on Arms Trade History (PATH)}
-\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
-  \item Extracted arms trade data from French customs reports (\emph{Tableaux généraux du commerce de la France}, 19th century) using archival microfilms for the construction of a historical database on the global arms trade.
-\end{itemize}}
+\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
+Supervisors: Roberto Galbiati, Aurélie Ouss
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{Collected, cleaned, and documented individual-level administrative data from police reports, press sources, and death notices for post-1980 France; contributed to data integrity checks and CNIL/GDPR compliance documentation.}
+\end{itemize}
 
+\textbf{Research Assistant} $|$ CEPREMAP \hfill Summer 2023 \\
+Supervisor: Mathieu Perona
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{Contributed to the construction of a database on well-being economics researchers and conducted background research for projects in cultural and well-being economics.}
+\end{itemize}
 
-%----------------------------------------------------------------------------------------
-%	SKILLS
-%----------------------------------------------------------------------------------------
-\section{METHODS \& PROGRAMMING}
+\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
+Project on Arms Trade History (PATH)
+\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
+  \cvitem{Extracted nineteenth-century arms-trade data from French customs reports (\textit{Tableaux généraux du commerce de la France}) using archival microfilms, contributing to the construction of a historical database on the global arms trade.}
+\end{itemize}
 
-\textbf{Mathematical Preparation:} Probability Theory; Linear Algebra; Optimization; Dynamic Programming \\[-1.5em]
+\section{Methods \& Programming}
 
-\textbf{Quantitative Methods:} panel data; spatial analysis; historical data construction; text data; image data \\[-1.5em]
+\textbf{Empirical methods:} causal inference, panel data, spatial analysis, text analysis, computer vision. \\
+\textbf{Historical data:} archival data construction, historical GIS and geocoding, OCR, web scraping, record linkage. \\
+\textbf{Programming:} Python, R, Stata (advanced), Julia (intermediate). \\
+\textbf{Tools:} Git, \LaTeX, QGIS, Google Vertex AI, reproducible workflows.
 
-\textbf{Programming:} Python; R (advanced); Stata; Julia (intermediate) \\[-1.5em]
+\section{Graduate Coursework}
 
-\textbf{Tools:} Git; \LaTeX; GIS; OCR; computer vision; web scraping; reproducible workflows
-
-
-%----------------------------------------------------------------------------------------
-%	COURSEWORK
-%----------------------------------------------------------------------------------------
-
-
-\section*{GRADUATE COURSEWORK}
-
-\textbf{Econometrics I-III:} Probability and Statistics; Estimation and Inference; Causal Inference with Cross-Sectional and Panel Data \\[-1.5em]
-
-\textbf{Microeconomics I-II:} Optimal Choice and Equilibrium; Game Theory \\[-1.5em]
-
-\textbf{Macroeconomics I-III:} Growth Models; Business Cycles; Macro-Finance and Heterogeneous-Agent Models \\[-1.5em]
-
-\textbf{Computational Economics:}  Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods \\[-1.5em]
-
+\textbf{Core Sequences:} Econometrics I--III; Macroeconomics I--III; Microeconomics I--II \\
+\textbf{Computational Economics:} Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods \\
 \textbf{Selected Fields:} Economic History; Political Economy; Urban \& Regional Economics; International Trade; Demography
 
+\section{Languages}
 
-
-%----------------------------------------------------------------------------------------
-%	LANGUAGES
-%----------------------------------------------------------------------------------------
-\section{LANGUAGES}
-\
 \textbf{Native:} French \ $|$ \ \textbf{C2:} English \ $|$ \ \textbf{C1:} Italian \ $|$ \ \textbf{B1:} German
 
-%----------------------------------------------------------------------------------------
-%	ADDITIONAL EXPERIENCE
-%----------------------------------------------------------------------------------------
-\section*{ADDITIONAL EXPERIENCE}
-
-\textbf{Research Assistant} $|$ CEPREMAP (OBE) \hfill Summer 2023 \\
-Contributed to data collection and background research for projects in well-being economics.
+\section*{Additional Experiences}
 
 \textbf{Assistant Project Manager} $|$ Agence Française de Développement \hfill Summer 2022 \\
-Assistant project manager on transportation infrastructure projects in Pakistan.
+Conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.
 
 \textbf{Teaching Assistant} $|$ Sciences Po \hfill Fall 2021 \\
-Teaching assistant in Comparative Political Institutions (undergraduate level).
-
-
-
+Teaching assistant in Comparative Political Institutions, undergraduate level.
 
 \vfill
-\center{\footnotesize Last updated: \today}
-
-
+\center{\footnotesize Last updated: May 2026}
 
 \end{document}
-
-%----------------------------------------------------------------------------------------
-%	References
-%----------------------------------------------------------------------------------------
-\section*{REFEREES}
-
-\textbf{Prof. Roberto Galbiati} \\
-Sciences Po
-
-\vspace{6pt}
-
-\textbf{Prof. Florian Oswald} \\
-University of Turin
-
-\vspace{6pt}
-
-\textbf{Prof. Aurélie Ouss} \\
-University of Pennsylavania
-
-\vspace{6pt}
-
-\textbf{Prof. Hans-Joachim Voth} \\
-University of Zurich 
