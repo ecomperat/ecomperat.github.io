@@ -181,13 +181,16 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 /* Compact typography just for this page */
 body.coursework-compact {
   font-size: 0.9rem;
-  background: #ffffff;
-  --accent: #c45607;
-  --accent-soft: #faf1e7;
-  --card-bg: #fffdfa;
-  --card-border: #ecd9c6;
-  --text-strong: #3b2714;
-  --muted: #6b5743;
+  background: #fffaf6;
+  --accent: #a83f2d;
+  --accent-hover: #8f3426;
+  --accent-deep: #74291f;
+  --accent-soft: #f2ddd8;
+  --card-bg: #fffaf6;
+  --card-border: #ded0c6;
+  --surface-alt: #f1ebe5;
+  --heading: #24313d;
+  --muted: #58635f;
 }
 
 body.coursework-compact h1,
@@ -199,7 +202,7 @@ body.coursework-compact h2,
 body.coursework-compact h3,
 body.coursework-compact h4 {
   font-size: 1.35rem;
-  color: var(--text-strong);
+  color: var(--heading);
 }
 
 body.coursework-compact p,
@@ -261,8 +264,8 @@ body.coursework-compact .course-tags {
 }
 
 body.coursework-compact .course-tag {
-  background: #eee6de;
-  color: #4a3017;
+  background: var(--surface-alt);
+  color: var(--heading);
   border-radius: 999px;
   padding: 0.1rem 0.55rem;
   font-size: 0.8rem;
@@ -294,7 +297,7 @@ body.coursework-compact .course-grade {
   float: right;
   font-weight: 400;
   white-space: nowrap;
-  color: var(--accent);
+  color: var(--accent-deep);
 }
 
 body.coursework-compact .course-note::after {
@@ -314,8 +317,8 @@ body.coursework-compact .program-tag {
   font-weight: 600;
   letter-spacing: 0.01em;
   line-height: 1.2;
-  background: #f7f2eb;
-  color: var(--text-strong);
+  background: var(--surface-alt);
+  color: var(--heading);
 }
 
 body.coursework-compact .program-tag.program-mres {
@@ -349,7 +352,7 @@ body.coursework-compact .course-toggle {
   font-size: 0.85rem;
   border-radius: 0.6rem;
   border: 1px solid var(--accent);
-  color: var(--accent);
+  color: var(--accent-deep);
   background: var(--accent-soft);
   cursor: pointer;
   transition: all 0.18s ease-in-out;
@@ -368,7 +371,7 @@ body.coursework-compact .course-toggle:hover {
 }
 
 body.coursework-compact .course-item.open .course-toggle {
-  background: var(--accent);
+  background: var(--accent-deep);
   color: #fff;
   box-shadow: 0 6px 14px rgba(0,0,0,0.1);
 }
@@ -384,8 +387,8 @@ body.coursework-compact .course-note i {
 }
 
 body.coursework-compact .course-tag {
-  background: #eee6de;
-  color: #4a3017;
+  background: var(--surface-alt);
+  color: var(--heading);
   border-radius: 999px;
   padding: 0.1rem 0.55rem;
   font-size: 0.8rem;
@@ -401,9 +404,9 @@ body.coursework-compact .categories-container {
 
 body.coursework-compact #filters-panel {
   padding: 0.75rem 0.9rem;
-  border: 1px solid #e1e1e1;
+  border: 1px solid var(--card-border);
   border-radius: 0.5rem;
-  background: #faf7f4;
+  background: var(--surface-alt);
   max-width: 240px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.04);
   display: flex;
@@ -420,7 +423,7 @@ body.coursework-compact #filters-panel h4 {
 body.coursework-compact .filters-divider {
   height: 1px;
   width: 100%;
-  background: #e1e1e1;
+  background: var(--card-border);
   margin: 0.65rem 0 0.5rem 0;
 }
 
@@ -451,25 +454,25 @@ body.coursework-compact #filters-panel p {
 
 body.coursework-compact .program-filter[data-program="all"] {
   border: 1px solid var(--accent);
-  color: var(--accent);
+  color: var(--accent-deep);
   background: #fff;
 }
 
 body.coursework-compact .program-filter[data-program="mres"] {
   border: 1px solid #c8102e;
   color: #c8102e;
-  background: #eee6de;
+  background: var(--surface-alt);
 }
 
 body.coursework-compact .program-filter[data-program="ucb"] {
   border: 1px solid #003262;
   color: #003262;
-  background: #eee6de;
+  background: var(--surface-alt);
 }
 
 body.coursework-compact .program-filter.active[data-program="all"],
 body.coursework-compact .program-filter:hover[data-program="all"] {
-  background: var(--accent);
+  background: var(--accent-deep);
   color: #fdfefe;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transform: translateY(-1px);
@@ -497,7 +500,7 @@ body.coursework-compact .cat-filter {
   padding: 0.32rem 0.65rem;
   border-radius: 999px;
   border: 1px solid var(--accent);
-  color: var(--accent);
+  color: var(--accent-deep);
   background: #fff;
   font-size: 0.8rem;
   font-weight: 600;
@@ -509,7 +512,7 @@ body.coursework-compact .cat-filter {
 
 body.coursework-compact .cat-filter:hover,
 body.coursework-compact .cat-filter.active {
-  background: var(--accent);
+  background: var(--accent-deep);
   color: #fdfefe;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
