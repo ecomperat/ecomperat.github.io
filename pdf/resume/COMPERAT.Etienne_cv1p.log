@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  29 MAY 2026 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  29 MAY 2026 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -483,7 +483,7 @@ Package rerunfilecheck Info: File `COMPERAT.Etienne_cv1p.out' has not changed.
 Here is how much of TeX's memory you used:
  13010 strings out of 473899
  226275 string characters out of 5726500
- 614254 words of memory out of 5000000
+ 615253 words of memory out of 5000000
  35727 multiletter control sequences out of 15000+600000
  592858 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -498,9 +498,9 @@ a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/etien/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/etien/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/etien/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on COMPERAT.Etienne_cv1p.pdf (1 page, 181752 bytes).
+Output written on COMPERAT.Etienne_cv1p.pdf (1 page, 187046 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

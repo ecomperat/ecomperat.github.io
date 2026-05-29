@@ -809,6 +809,12 @@ body.home-compact .about {
   padding-bottom: 1.1rem;
 }
 
+/* Match Quarto footnotes to the home page surface */
+body.home-compact #quarto-appendix.default {
+  background-color: var(--surface);
+  border-top-color: var(--border);
+}
+
 /* Title banner: cleaner, lighter */
 .quarto-title-banner {
   background: #ffffff;
@@ -842,15 +848,26 @@ body.home-compact .about {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-.about-links .about-link {
-  border: 1px solid #d4d9e1;
-  border-radius: 8px;
-  padding: 0.5rem 0.9rem;
+body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link {
+  border: 1px solid var(--brand-deep);
   background: var(--surface-alt);
+  color: var(--brand-deep);
 }
 
-.about-links .about-link:hover {
+body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link i.bi,
+body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link .about-link-text {
+  color: var(--brand-deep);
+}
+
+body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link:hover {
+  border-color: var(--brand-hover);
   background: var(--brand-soft);
+  color: var(--brand-hover);
+}
+
+body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link:hover i.bi,
+body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link:hover .about-link-text {
+  color: var(--brand-hover);
 }
 
 /* Section spacing and headings */
@@ -928,36 +945,17 @@ main li {
   font-size: 0.92rem;
   color: var(--ink);
   text-align: justify;
-  border-left: 3px solid #e1e1e1;
+  border-left: 3px solid var(--brand);
   padding-left: 1rem;
   margin-top: 0.75rem;
   line-height: 1.65;
-  cursor: pointer;
-  transition: border-left-color 0.3s ease;
 }
 
 .research-abstract-body {
   display: block;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s ease;
-}
-
-.research-abstract:hover {
-  border-left-color: var(--brand);
-}
-
-.research-abstract:hover .research-abstract-body {
-  max-height: 500px;
+  max-height: none;
   opacity: 1;
-}
-
-@media (hover: none) and (pointer: coarse) {
-  .research-abstract-body {
-    max-height: none;
-    opacity: 1;
-  }
+  overflow: visible;
 }
 
 .research-abstract-label {
@@ -1018,6 +1016,12 @@ main li {
   color: var(--heading);
   display: block;
   margin-bottom: 0.05rem;
+}
+
+a.swl-title:hover,
+a.swl-title:focus {
+  color: var(--brand-hover);
+  text-decoration: none;
 }
 
 .swl-meta {

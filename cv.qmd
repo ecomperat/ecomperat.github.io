@@ -26,7 +26,7 @@ Master's Thesis (16/20): "Enrichissez-vous!": Education, Suffrage, and Local Dev
 </div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>University of California, Berkeley</strong></span><span class="cv-job-date">2022--2023</span></div>
-<div class="cv-degree-row"><span class="cv-degree-info">Full-Year Exchange Program (B.A.) - Department of Agricultural & Resource Economics</span><span class="cv-gpa">GPA: 4.0</span></div>
+<div class="cv-degree-row"><span class="cv-degree-info">Full-Year Exchange Program, B.A., Dept. of Agricultural & Resource Economics</span><span class="cv-gpa">GPA: 4.0</span></div>
 
 <div class="cv-job-title-row"><span class="cv-job-title"><strong>Sciences Po</strong> </span><span class="cv-job-date">2020--2023</span></div>
 <div class="cv-degree-row"><span class="cv-degree-info">B.A. in Economics and Political Science</span><span class="cv-gpa">*(Cum laude)*</span></div>
@@ -38,19 +38,19 @@ Master's Thesis (16/20): "Enrichissez-vous!": Education, Suffrage, and Local Dev
 
 <div class="predoc-item">
 <span class="swl-title">(Untitled)</span>
-<span class="swl-meta"><strong>M. P. Squicciarini and N. Voigtländer</strong></span>
+<span class="swl-meta">with <strong>M. P. Squicciarini and N. Voigtländer</strong></span>
 <div class="cv-details">Build reproducible historical data pipelines from archival, textual, administrative, and geospatial sources, with historical geocoding and GIS integration for a project set in Revolutionary France; review period historiography to inform a coding framework for downstream analysis.</div>
 </div>
 
 <div class="predoc-item">
-<span class="swl-title">Image(s)</span>
-<span class="swl-meta"><strong>D. Yanagizawa-Drott</strong></span>
+<a class="swl-title" href="https://www.jvoth.com/images_july_24.pdf">Image(s)</a>
+<span class="swl-meta">with <strong>D. Yanagizawa-Drott</strong></span>
 <div class="cv-details">Contribute to the computer-vision workflow, including image preprocessing, labelling and validation, supervised model training, feature extraction, name extraction, and appendix analysis of name norm-deviation.</div>
 </div>
 
 <div class="predoc-item">
-<span class="swl-title">Fighting for Growth</span>
-<span class="swl-meta"><strong>B. Caprettini and A. Trew</strong></span>
+<a class="swl-title" href="https://brunocaprettini.com/wp-content/uploads/2024/05/napoleon.pdf">Fighting for Growth</a>
+<span class="swl-meta">with <strong>B. Caprettini and A. Trew</strong></span>
 <div class="cv-details">Contributed to the documented replication package by writing clean, reproducible code for the empirical analysis.</div>
 </div>
 

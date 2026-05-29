@@ -1,46 +1,77 @@
 \documentclass[a4paper,11pt]{article}
 
+%----------------------------------------------------------------------------------------
+% PACKAGES
+%----------------------------------------------------------------------------------------
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
+\usepackage{url}
 \usepackage{parskip}
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[scale=0.9]{geometry}
+
 \usepackage{tabularx}
 \usepackage{enumitem}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\usepackage{supertabular}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
 \usepackage{titlesec}
-\usepackage[unicode, draft=false]{hyperref}
+\usepackage{multicol}
+\usepackage{multirow}
+
+\usepackage[unicode,draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
 \usepackage{fontawesome5}
 
 \titleformat{\section}{\large\scshape\raggedright\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{8pt}{6pt}
-\hypersetup{colorlinks,breaklinks,urlcolor=blue,linkcolor=blue}
+\titlespacing{\section}{0pt}{10pt}{8pt}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
 
-\newcommand{\cvitem}[1]{\item #1}
+%----------------------------------------------------------------------------------------
+% BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
 
 \pagestyle{empty}
 
-\begin{document}
+%----------------------------------------------------------------------------------------
+% TITLE
+%----------------------------------------------------------------------------------------
 
 \begin{center}
-\textbf{\Large ÉTIENNE COMPÉRAT}\\[3pt]
-\textbf{Predoctoral Fellow in Economics, University of Zurich}\\[3pt]
+\textbf{\Large \'{E}TIENNE COMP\'{E}RAT}\\[3pt]
+\textbf{Predoctoral Fellow in Economics, University of Zurich}\\[1pt]
 \begin{tabularx}{\linewidth}{X}
 \centering
 \href{https://ecomperat.github.io}{\raisebox{-0.05\height}\faGlobe\ Website} \ $|$ \
 \href{https://github.com/ecomperat}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \
 \href{https://www.linkedin.com/in/\%C3\%A9tienne-comp\%C3\%A9rat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \
 \href{mailto:etienne.comperat@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope\ E-Mail}
-\end{tabularx}\\[3pt]
+\end{tabularx} \\[1pt]
 \textbf{Research Interests:} Economic History, Political Economy, Spatial and Regional Economics
 \end{center}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
 
 \section{Education}
 
 \textbf{Sciences Po} \hfill 2023--2025 \\
 M.Res. in Economics, PhD Track \\
-Master's Thesis (16/20): ``Enrichissez-vous!'': Education, Suffrage, and Local Development in July Monarchy France \\
-Jury: Roberto Galbiati, Emeric Henry (advisors), Kevin O'Rourke \\
-\emph{Awarded Sciences Po Prize for Best Master's Thesis}
+{\small
+\hspace*{1em} Master's Thesis (16/20): ``\emph{Enrichissez-vous\,!}: Education, Suffrage, and Local Development in July Monarchy France'' \\
+\hspace*{1em} Jury: Roberto Galbiati, Emeric Henry (advisors), Kevin O'Rourke \\
+\hspace*{1em} \emph{Awarded Sciences Po Prize for Best Master's Thesis}
+}
 
 \textbf{University of California, Berkeley} \hfill 2022--2023 \\
 Full-Year Exchange Program, B.A., Dept. of Agricultural \& Resource Economics \hfill GPA: 4.0
@@ -48,72 +79,93 @@ Full-Year Exchange Program, B.A., Dept. of Agricultural \& Resource Economics \h
 \textbf{Sciences Po} \hfill 2020--2023 \\
 B.A. in Economics and Political Science \hfill \textit{Cum laude}
 
+%----------------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+
 \section{Research Experience}
 
 \textbf{Predoctoral Fellow in Economics} $|$ University of Zurich \hfill July 2025--Present \\
 Supervisor: Hans-Joachim Voth
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{\textit{Untitled} (with M. P. Squicciarini and N. Voigtländer): build reproducible historical data pipelines from archival, textual, administrative, and geospatial sources, with historical geocoding and GIS integration for a project set in Revolutionary France; review period historiography to inform a coding framework for downstream analysis.}
-  \cvitem{\textit{Image(s)} (with D. Yanagizawa-Drott): contribute to the computer-vision workflow (image preprocessing, labelling and validation, supervised model training, feature extraction, and name extraction) and to the appendix analysis of name norm-deviation.}
-  \cvitem{\textit{Fighting for Growth} (with B. Caprettini and A. Trew): contributed to the documented replication package by writing clean, reproducible code for the empirical analysis.}
-\end{itemize}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item \textbf{\emph{Untitled}} (with M.~P.~Squicciarini and N.~Voigtl\"ander): build reproducible historical data pipelines from archival, textual, administrative, and geospatial sources, with historical geocoding and GIS integration for a project set in Revolutionary France; review period historiography to inform a coding framework for downstream analysis.
 
-\textbf{JPE Replicator} $|$ University of Chicago \hfill July 2025--Present \\
-Data Editor: Florian Oswald
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{Conduct independent replications of accepted \textit{Journal of Political Economy} articles under editorial supervision: verify tables and figures from authors' replication packages, review code, run reproducibility and robustness checks, diagnose data and code issues, rebuild software environments when needed, and prepare detailed reports for the Data Editor.}
-\end{itemize}
+    \item \href{https://www.jvoth.com/images_july_24.pdf}{\textbf{\emph{Image(s)}}} (with D.~Yanagizawa-Drott): contribute to the computer-vision workflow (image preprocessing, labeling and validation, supervised model training, feature extraction, and name extraction) and to the appendix analysis of name norm-deviation.
 
-\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
-Supervisor: Roberto Galbiati
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{\textit{Dreyfus Affair: Polarization and Resistance during WWII} (with S. Lauterbach and B. Marx): collected, transcribed, and cleaned archival donor records to construct an individual-level dataset on anti-Dreyfusard mobilisation in late nineteenth-century France.}
-\end{itemize}
+    \item \href{https://brunocaprettini.com/wp-content/uploads/2024/05/napoleon.pdf}{\textbf{\emph{Fighting for Growth}}} (with B.~Caprettini and A.~Trew): contributed to the documented replication package by writing clean, reproducible code for the empirical analysis.
 
-\textbf{EJ Replicator} $|$ Royal Economic Society \hfill 2024--July 2025 \\
-Data Editor: Florian Oswald
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{Conducted reproducibility checks for accepted articles at \textit{The Economic Journal} using authors' replication packages under editorial supervision.}
-\end{itemize}
+\end{itemize}}
+\normalsize{\textbf{JPE Replicator} $|$ University of Chicago \hfill July 2025--Present \\
+Data Editor: Florian Oswald}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Conduct independent replications of accepted \emph{Journal of Political Economy} articles under editorial supervision: verify tables and figures from authors' replication packages, review code, run reproducibility and robustness checks, diagnose data and code issues, rebuild software environments when needed, and prepare detailed reports for the Data Editor.
+\end{itemize}}
+\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
+Supervisor: Roberto Galbiati}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item \textbf{\emph{Dreyfus Affair: Polarization and Resistance during WWII}} (with S.~Lauterbach and B.~Marx): collected, transcribed, and cleaned archival donor records to construct an individual-level dataset on anti-Dreyfusard mobilization in late nineteenth-century France.
+\end{itemize}}
+\normalsize{\textbf{EJ Replicator} $|$ Royal Economic Society \hfill 2024--July 2025 \\
+Data Editor: Florian Oswald}
 
-\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
-Supervisors: Roberto Galbiati, Aurélie Ouss
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{Collected, cleaned, and documented individual-level administrative data from police reports, press sources, and death notices for post-1980 France; contributed to data integrity checks and CNIL/GDPR compliance documentation.}
-\end{itemize}
+\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
+Supervisors: Roberto Galbiati, Aur\'elie Ouss}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Collected, cleaned, and documented individual-level administrative data from police reports, press sources, and death notices for post-1980 France; contributed to data integrity checks and CNIL/GDPR compliance documentation.
+\end{itemize}}
+\normalsize{\textbf{Research Assistant} $|$ CEPREMAP \hfill Summer 2023 \\
+Supervisor: Mathieu Perona}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Contributed to the construction of a database on well-being economics researchers and conducted background research for projects in cultural and well-being economics.
+\end{itemize}}
+\normalsize{\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
+Project on Arms Trade History, PATH}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Extracted nineteenth-century arms-trade data from French customs reports (\emph{Tableaux g\'en\'eraux du commerce de la France}) using archival microfilms, contributing to the construction of a historical database on the global arms trade.
+\end{itemize}}
 
-\textbf{Research Assistant} $|$ CEPREMAP \hfill Summer 2023 \\
-Supervisor: Mathieu Perona
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{Contributed to the construction of a database on well-being economics researchers and conducted background research for projects in cultural and well-being economics.}
-\end{itemize}
-
-\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
-Project on Arms Trade History (PATH)
-\begin{itemize}[leftmargin=1.2em,itemsep=-0.15em,topsep=0.15em]
-  \cvitem{Extracted nineteenth-century arms-trade data from French customs reports (\textit{Tableaux généraux du commerce de la France}) using archival microfilms, contributing to the construction of a historical database on the global arms trade.}
-\end{itemize}
+%----------------------------------------------------------------------------------------
+% METHODS AND PROGRAMMING
+%----------------------------------------------------------------------------------------
 
 \section{Methods \& Programming}
 
-\textbf{Empirical methods:} causal inference, panel data, spatial analysis, text analysis, computer vision. \\
-\textbf{Historical data:} archival data construction, historical GIS and geocoding, OCR, web scraping, record linkage. \\
-\textbf{Programming:} Python, R, Stata (advanced), Julia (intermediate). \\
+\normalsize
+\textbf{Empirical methods:} causal inference, panel data, spatial analysis, text analysis, computer vision. \\[-1.5em]
+
+\textbf{Historical data:} archival data construction, historical GIS and geocoding, OCR, web scraping, record linkage. \\[-1.5em]
+
+\textbf{Programming:} Python, R, Stata (advanced), Julia (intermediate). \\[-1.5em]
+
 \textbf{Tools:} Git, \LaTeX, QGIS, Google Vertex AI, reproducible workflows.
 
-\section{Graduate Coursework}
+%----------------------------------------------------------------------------------------
+% GRADUATE COURSEWORK
+%----------------------------------------------------------------------------------------
 
-\textbf{Core Sequences:} Econometrics I--III; Macroeconomics I--III; Microeconomics I--II \\
-\textbf{Computational Economics:} Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods \\
+\section*{Graduate Coursework}
+
+\textbf{Core Sequences:} Econometrics I--III; Macroeconomics I--III; Microeconomics I--II \\[-1.5em]
+
+\textbf{Computational Economics:} Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods \\[-1.5em]
+
 \textbf{Selected Fields:} Economic History; Political Economy; Urban \& Regional Economics; International Trade; Demography
+
+%----------------------------------------------------------------------------------------
+% LANGUAGES
+%----------------------------------------------------------------------------------------
 
 \section{Languages}
 
 \textbf{Native:} French \ $|$ \ \textbf{C2:} English \ $|$ \ \textbf{C1:} Italian \ $|$ \ \textbf{B1:} German
 
+%----------------------------------------------------------------------------------------
+% ADDITIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
 \section*{Additional Experiences}
 
-\textbf{Assistant Project Manager} $|$ Agence Française de Développement \hfill Summer 2022 \\
+\textbf{Assistant Project Manager} $|$ Agence Fran\c{c}aise de D\'eveloppement \hfill Summer 2022 \\
 Conducted economic and environmental analysis of transportation infrastructure projects in Pakistan.
 
 \textbf{Teaching Assistant} $|$ Sciences Po \hfill Fall 2021 \\
