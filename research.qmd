@@ -26,7 +26,6 @@ My research studies how institutions, infrastructure, and markets shaped long-ru
 </div>
 
 <div class="research-abstract">
-<span class="research-abstract-label">Abstract</span>
 <span class="research-abstract-body">This project asks how railway-induced market integration and mass primary education reshaped the geography of development in nineteenth-century rural France. The dissertation treats railways and schooling as modernisation shocks that integrated rural communes into national markets, institutions, and language, while also reallocating people, firms, capital, and activity across space. The central question is why these shocks generated integration and convergence in some places but concentration, out-migration, and deindustrialisation in others.</span>
 </div>
 
@@ -61,7 +60,6 @@ My research studies how institutions, infrastructure, and markets shaped long-ru
 <p class="research-advisors">Jury: <a href="https://sites.google.com/view/galbiatir1/">Roberto Galbiati</a>, <a href="https://sites.google.com/site/emericmlhenry/home">Emeric Henry</a> (supervisors), <a href="https://kevinhorourke.com/">Kevin O'Rourke</a></p>
 
 <div class="research-abstract">
-<span class="research-abstract-label">Abstract</span>
 <span class="research-abstract-body">This paper studies how primary schooling and municipal suffrage shaped local development in July Monarchy France. I combine the 1831 Municipal Law and the 1833 Guizot Law with an arrondissement-level dataset covering 1830-1865. Pre-reform male primary education is positively associated with industrial wages in the 1840s, but I find no robust independent or interactive effect of municipal suffrage and no statistically significant medium-run wage effect of policy-induced schooling expansion. The paper also shows that threshold-based designs in this setting face historically informative identification challenges because commune-size distributions are spatially structured and correlated with prior development.</span>
 </div>
 

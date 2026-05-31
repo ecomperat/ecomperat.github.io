@@ -29,7 +29,8 @@ website:
             text: Coursework
           - href: coursework.qmd
             text: Sample Work
-      - cv.qmd
+      - href: cv.qmd
+        text: Resume
 
 format:
   html:

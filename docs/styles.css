@@ -591,6 +591,7 @@ body.courses-page .course-label {
 
 .cv-degree-info {
   flex: 1;
+  color: var(--brand-deep);
 }
 
 .cv-gpa {
@@ -607,7 +608,7 @@ p:has(> .cv-supervisor) {
 
 /* Update supervisor styling for consistent sizing */
 .cv-supervisor {
-  color: var(--muted);
+  color: var(--brand-deep);
   font-weight: 600;
   font-size: 1.05rem;
   display: block;
@@ -621,6 +622,14 @@ p:has(> .cv-supervisor) {
   border-left: 3px solid #b6b6b6;
   padding-left: 0.9rem;
   font-size: 0.88rem;
+}
+
+.cv-thesis-details {
+  border-left-color: var(--brand);
+}
+
+.cv-accent-details {
+  border-left-color: var(--brand);
 }
 
 .cv-advisors {
@@ -793,8 +802,12 @@ body.home-compact .inst-text {
 }
 
 /* Trim space above the social links */
+body.home-compact .quarto-title .subtitle {
+  margin-bottom: 0.15rem;
+}
+
 body.home-compact .about-links {
-  margin-top: 0.05rem !important;
+  margin-top: 0 !important;
   margin-bottom: 0;
 }
 
@@ -813,6 +826,10 @@ body.home-compact .about {
 body.home-compact #quarto-appendix.default {
   background-color: var(--surface);
   border-top-color: var(--border);
+}
+
+body.home-compact #quarto-appendix .quarto-appendix-heading {
+  display: none;
 }
 
 /* Title banner: cleaner, lighter */
@@ -849,8 +866,8 @@ body.home-compact #quarto-appendix.default {
 }
 
 body.home-compact div.quarto-about-trestles .about-entity .about-links .about-link {
-  border: 1px solid var(--brand-deep);
-  background: var(--surface-alt);
+  border: 1.5px solid var(--brand-deep);
+  background: var(--surface);
   color: var(--brand-deep);
 }
 
