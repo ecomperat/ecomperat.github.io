@@ -11,7 +11,7 @@ format:
     toc: false
 ---
 
-My research studies how institutions, infrastructure, and markets shaped long-run development, with a primary focus on nineteenth-century France. I am particularly interested in spatially uneven modernisation: why the same shocks that integrated rural areas into national markets, schools, language, and politics generated convergence in some places but concentration, migration, and deindustrialisation in others. Empirically, I construct original historical datasets from archival, textual, administrative, and geospatial sources, combining quantitative methods with GIS, OCR, computer vision, and reproducible workflows.
+My research studies how institutions, infrastructure, and human capital shaped long-run development, with a primary focus on nineteenth-century France. I am particularly interested in the spatial unevenness of structural change: why the same shocks that integrated rural areas into national markets, schooling, language, and politics produced convergence in some places while reshaping the spatial distribution of population, economic activity, and political mobilisation in others. Empirically, I build original historical datasets from archival, textual, administrative, and geospatial sources, combining quasi-experimental designs with GIS, OCR, computer vision, and reproducible workflows.
 
 ## Doctoral Project
 
@@ -26,7 +26,7 @@ My research studies how institutions, infrastructure, and markets shaped long-ru
 </div>
 
 <div class="research-abstract">
-<span class="research-abstract-body">This project asks how railway-induced market integration and mass primary education reshaped the geography of development in nineteenth-century rural France. The dissertation treats railways and schooling as modernisation shocks that integrated rural communes into national markets, institutions, and language, while also reallocating people, firms, capital, and activity across space. The central question is why these shocks generated integration and convergence in some places but concentration, out-migration, and deindustrialisation in others.</span>
+<span class="research-abstract-body">This project asks how the joint diffusion of railroads and mass primary education over the nineteenth century reorganized the spatial distribution of economic activity and political integration in rural France. I treat both as linked modernisation shocks that lowered internal trade costs and raised the stock of human capital, and that interacted with prior regional structure to reshape the allocation of population, industry, and political mobilisation across space. The central question is why these shocks produced  catch-up, agglomeration, and national political integration in some places, while accelerating out-migration, industrial decline, and the restructuring of rural manufacturing in others.</span>
 </div>
 
 <ul class="sample-work-list">
@@ -36,11 +36,11 @@ My research studies how institutions, infrastructure, and markets shaped long-ru
 </li>
 <li>
 <span class="swl-title">Education and the Restructuring of Rural Industry</span>
-<span class="swl-desc">Extends my master's thesis by asking whether the Guizot Law's schooling shock accumulated human capital locally or reallocated it toward industrialising centres.</span>
+<span class="swl-desc">Extends my master's thesis by asking whether the Guizot Law's schooling shock raised local human-capital stocks or reallocated newly educated workers toward industrializing centers.</span>
 </li>
 <li>
 <span class="swl-title">Railways, Market Access, and Competition</span>
-<span class="swl-desc">Connects the market-access and trade-shock literatures to study when railway integration generated expansion, restructuring, or decline in agriculture and industry.</span>
+<span class="swl-desc">Connects the market-access and trade-shock literatures to study under what conditions railway integration generated expansion, restructuring, or decline in agriculture and rural industry.</span>
 </li>
 </ul>
 
