@@ -1,94 +1,155 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,11pt]{article}
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern}
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
 \usepackage{parskip}
-\usepackage[margin=0.55in]{geometry}
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
 \usepackage{tabularx}
 \usepackage{enumitem}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\usepackage{supertabular}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
 \usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
 \usepackage[unicode,draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
 \usepackage{fontawesome5}
 
-\titleformat{\section}{\normalsize\scshape\raggedright\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{5pt}{3pt}
-\hypersetup{colorlinks,breaklinks,urlcolor=blue,linkcolor=blue}
-\pagestyle{empty}
-\setlength{\parskip}{2pt}
-\setlist[itemize]{leftmargin=1.1em,itemsep=-0.25em,topsep=0.05em}
+\titleformat{\section}{\large\scshape\raggedright\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
 
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
 \begin{document}
 
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
 \begin{center}
-\textbf{\Large \'{E}TIENNE COMP\'{E}RAT}\\[-1pt]
-\textbf{Predoctoral Fellow in Economics, University of Zurich}\\[-1pt]
+\textbf{\Large ÉTIENNE COMPÉRAT}\\[3pt]
+\textbf{PhD Student in Economics, Sciences Po}\\[1pt]
+\begin{tabularx}{\linewidth}{X}
+\centering
 \href{https://ecomperat.github.io}{\raisebox{-0.05\height}\faGlobe\ Website} \ $|$ \
 \href{https://github.com/ecomperat}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \
-\href{https://www.linkedin.com/in/\%C3\%A9tienne-comp\%C3\%A9rat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \
-\href{mailto:etienne.comperat@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope\ E-Mail}\\[-1pt]
+\href{https://www.linkedin.com/in/étienne-compérat-a22850242/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \
+\href{mailto:etienne.comperat@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope\ E-Mail}
+\end{tabularx} \\[1pt]
 \textbf{Research Interests:} Economic History, Political Economy, Spatial and Regional Economics
 \end{center}
 
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
 \section{Education}
 
+\textbf{Sciences Po} \hfill 2026--Present \\
+PhD in Economics \\
+{\small \hspace*{1em} Advisors: Roberto Galbiati (primary), Pierre-Philippe Combes, Kevin O'Rourke} \\[-1.5em]
+
 \textbf{Sciences Po} \hfill 2023--2025 \\
-M.Res. in Economics, PhD Track. Thesis (16/20): ``\emph{Enrichissez-vous\,!}: Education, Suffrage, and Local Development in July Monarchy France''. Awarded Sciences Po Prize for Best Master's Thesis.
+M.Res. in Economics, PhD Track \hfill GPA: 4.0 \\
+{\small
+\hspace*{1em} Master's Thesis (16/20): ``\emph{Enrichissez-vous\,!} Education, Suffrage, and Local Development in July Monarchy France'' \\
+\hspace*{1em} Jury: Roberto Galbiati, Emeric Henry (advisors), Kevin O'Rourke} \\[-1.5em]
 
 \textbf{University of California, Berkeley} \hfill 2022--2023 \\
-Full-Year Exchange Program, B.A., Dept. of Agricultural \& Resource Economics \hfill GPA: 4.0
+Full-Year Exchange Program, Dept. of Agricultural \& Resource Economics \hfill GPA: 4.0 \\[-1.5em]
 
 \textbf{Sciences Po} \hfill 2020--2023 \\
-B.A. in Economics and Political Science \hfill \textit{Cum laude}
+B.A. in Economics and Political Science \hfill \textit{Cum laude} GPA: 4.0
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
 
 \section{Research Experience}
 
-\textbf{Predoctoral Fellow in Economics} $|$ University of Zurich \hfill July 2025--Present \\
-Supervisor: Hans-Joachim Voth
-\begin{itemize}
-  \item \textit{Untitled} (with M.~P.~Squicciarini and N.~Voigtl\"ander): build historical data pipelines from archival, textual, administrative, and geospatial sources for a project set in Revolutionary France; conduct historical geocoding and GIS integration.
-  \item \href{https://www.jvoth.com/images_july_24.pdf}{\textit{Image(s)}} (with D.~Yanagizawa-Drott): contribute to computer-vision workflows for historical images, including preprocessing, labelling, supervised model training, feature extraction, and name extraction.
-  \item \href{https://brunocaprettini.com/wp-content/uploads/2024/05/napoleon.pdf}{\textit{Fighting for Growth}} (with B.~Caprettini and A.~Trew): contributed reproducible code to the documented replication package.
-\end{itemize}
+\normalsize{\textbf{JPE Replicator} $|$ University of Chicago \hfill July 2025--Present \\
+Data Editor: Florian Oswald}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Conduct independent replications of accepted \emph{Journal of Political Economy} articles: verify empirical results and replication packages, review code, diagnose reproducibility issues, and prepare reports for the Data Editor. \\[-1.5em]
+\end{itemize}}
 
-\textbf{JPE Replicator} $|$ University of Chicago \hfill July 2025--Present \\
-Data Editor: Florian Oswald
-\begin{itemize}
-  \item Conduct independent replications of accepted \textit{Journal of Political Economy} articles: verify tables and figures, review code, diagnose data and code issues, rebuild software environments, and prepare reports.
-\end{itemize}
+\normalsize{\textbf{Predoctoral Fellow in Economics} $|$ University of Zurich \hfill July 2025--August 2026 \\
+Supervisor: Hans-Joachim Voth}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Research in economic history and political economy with H.-J. Voth, M.~P.~Squicciarini, N.~Voigtländer, D.~Yanagizawa-Drott, B.~Caprettini, and A.~Trew; constructed and analyzed historical, textual, image, and geospatial data. \\[-1.5em]
+\end{itemize}}
 
-\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
-Supervisor: Roberto Galbiati
-\begin{itemize}
-  \item \textit{Dreyfus Affair: Polarization and Resistance during WWII} (with S.~Lauterbach and B.~Marx): collected, transcribed, and cleaned archival donor records on anti-Dreyfusard mobilization.
-\end{itemize}
+\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2025 \\
+Supervisor: Roberto Galbiati}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Constructed an individual-level historical dataset for research on political polarization and resistance in France. \\[-1.5em]
+\end{itemize}}
 
-\textbf{EJ Replicator} $|$ Royal Economic Society \hfill 2024--July 2025 \\
-Conducted reproducibility checks for accepted \textit{The Economic Journal} articles under editorial supervision.
+\normalsize{\textbf{EJ Replicator} $|$ Royal Economic Society \hfill 2024--July 2025 \\
+Data Editor: Florian Oswald}
 
-\textbf{Research Assistant} $|$ Sciences Po; UC Berkeley; CEPREMAP \hfill 2023--2024
-\begin{itemize}
-  \item Constructed and documented administrative and historical datasets from police reports, press sources, death notices, French customs reports, and well-being-economics sources.
-\end{itemize}
+\normalsize{\textbf{Research Assistant} $|$ Sciences Po \hfill Summer 2024 \\
+Supervisors: Roberto Galbiati, Aurélie Ouss}
+\small{\begin{itemize}[itemsep=-0.1em, before=\vspace{-1em}, after=\vspace{-0.25em}]
+    \item Constructed and documented individual-level administrative data for research in applied microeconomics. \\[-1.5em]
+\end{itemize}}
+
+\normalsize{\textbf{Research Assistant} $|$ CEPREMAP \hfill Summer 2023 \\
+Supervisor: Mathieu Perona}
+
+\normalsize{\textbf{Research Assistant} $|$ University of California, Berkeley \hfill Spring 2023 \\
+Project on Arms Trade History (PATH)}
+
+%----------------------------------------------------------------------------------------
+%	METHODS AND PROGRAMMING
+%----------------------------------------------------------------------------------------
 
 \section{Methods \& Programming}
 
-\textbf{Empirical methods:} causal inference, panel data, spatial analysis, text analysis, computer vision. \\
-\textbf{Historical data:} archival data construction, historical GIS and geocoding, OCR, web scraping, record linkage. \\
-\textbf{Programming:} Python, R, Stata (advanced), Julia (intermediate). \\
-\textbf{Tools:} Git, \LaTeX, QGIS, Google Vertex AI, reproducible workflows.
+\normalsize
+\textbf{Empirical methods:} causal inference, panel data, spatial analysis, text analysis, computer vision. \\[-1.5em]
+
+\textbf{Programming:} Python, R (advanced); Stata, Julia (intermediate). \quad
+\textbf{Tools:} Git, \LaTeX, QGIS.
+
+%----------------------------------------------------------------------------------------
+%	GRADUATE COURSEWORK
+%----------------------------------------------------------------------------------------
 
 \section{Graduate Coursework}
 
-\textbf{Core:} Econometrics I--III; Macroeconomics I--III; Microeconomics I--II. \quad
-\textbf{Fields:} Economic History; Political Economy; Urban \& Regional Economics; International Trade; Demography. \quad
-\textbf{Computational:} Dynamic Programming; Incomplete-Market Models; Numerical Solution Methods.
+\normalsize
+\textbf{Core:} Econometrics I--III; Macroeconomics I--III; Microeconomics I--II \\[-1.5em]
+
+\textbf{Fields:} Economic History; Political Economy; Urban \& Regional Economics ; Labor Economics; International Trade; Public Economics \hfill
+\href{https://ecomperat.github.io/courses.html}{\textbf{Detailed coursework}}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
 
 \section{Languages}
 
-\textbf{Native:} French \ $|$ \ \textbf{C2:} English \ $|$ \ \textbf{C1:} Italian \ $|$ \ \textbf{B1:} German
+\normalsize
+\textbf{French:} Native \ $|$ \ \textbf{English:} C2 \ $|$ \ \textbf{Italian:} C1 \ $|$ \ \textbf{German:} B1
 
-\vfill
-\center{\footnotesize Last updated: May 2026}
+\center{\footnotesize Last updated: \today}
 
 \end{document}
