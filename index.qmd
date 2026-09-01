@@ -1,7 +1,7 @@
 ---
 image: img/ppic_uzh_optimized.jpg
 title: Etienne Compérat
-subtitle: "<b>Predoctoral Fellow | UZH<br>JPE Replicator | UChicago</b>"
+subtitle: "<b>PhD Student | Sciences Po<br>JPE Replicator | UChicago</b>"
 open-graph:
   type: profile
   url: https://ecomperat.github.io/
@@ -21,8 +21,8 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/%C3%A9tienne-comp%C3%A9rat-a22850242/
-    - text: "<b>UZH</b>"
-      href: https://www.econ.uzh.ch/en/people/predocs/comperat.html
+    - text: "<b>Sciences Po</b>"
+      href: https://www.sciencespo.fr/
 format:
   html:
     body-classes: home-compact
@@ -32,7 +32,7 @@ format:
 
 <a href="#hero-heading" class="skip-link">Skip to main content</a>
 
-Hi! I'm Etienne Compérat, a predoctoral fellow in the Department of Economics at the University of Zurich under the supervision of [Hans-Joachim Voth](https://www.jvoth.com/). Welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
+Hi! I'm Etienne Compérat, a PhD student in Economics at Sciences Po. Welcome to my website! ^[A special thanks to Paulo for his help in bringing this website to life! You can find his research portfolio tutorial [here](https://www.paulogcd.com/portfolio_tutorial/).]
 
 
 :::{#hero-heading}
@@ -40,22 +40,30 @@ Hi! I'm Etienne Compérat, a predoctoral fellow in the Department of Economics a
 ## Affiliations
 
 <div class="inst-item" markdown="1">
-  <img src="img/logo_uzh_opt.png" alt="University of Zurich logo" class="inst-logo" loading="lazy" width="42" height="42">
+  <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
-**University of Zurich** | 2025 - Now<br>
-Predoctoral Fellow in Economics
+**Sciences Po** | 2026 - Present<br>
+PhD in Economics
   </div>
 </div>
 
 <div class="inst-item" markdown="1">
   <img src="img/logo_uchicago.png" alt="University of Chicago logo" class="inst-logo" loading="lazy" width="42" height="42">
   <div class="inst-text">
-**University of Chicago** | 2025 - Now<br>
+**University of Chicago** | July 2025 - Present<br>
 Replicator, Journal of Political Economy
   </div>
 </div>
 
 ## Education
+
+<div class="inst-item" markdown="1">
+  <img src="img/logo_uzh_opt.png" alt="University of Zurich logo" class="inst-logo" loading="lazy" width="42" height="42">
+  <div class="inst-text">
+**University of Zurich** | July 2025 - August 2026<br>
+Predoctoral Fellow in Economics
+  </div>
+</div>
 
 <div class="inst-item" markdown="1">
   <img src="img/logo_scpo.png" alt="Sciences Po logo" class="inst-logo" loading="lazy" width="42" height="42">
@@ -95,13 +103,13 @@ Across these projects and my predoctoral work, I contribute to building historic
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Étienne Compérat",
-  "jobTitle": "Predoctoral Fellow in Economics",
+  "jobTitle": "PhD Student in Economics",
   "affiliation": [
     {
       "@type": "Organization",
-      "name": "University of Zurich",
+      "name": "Sciences Po",
       "department": "Department of Economics",
-      "url": "https://www.econ.uzh.ch/"
+      "url": "https://www.sciencespo.fr/department-economics/"
     },
     {
       "@type": "Organization",
@@ -111,6 +119,11 @@ Across these projects and my predoctoral work, I contribute to building historic
     }
   ],
   "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Zurich",
+      "url": "https://www.uzh.ch/"
+    },
     {
       "@type": "EducationalOrganization",
       "name": "Sciences Po",

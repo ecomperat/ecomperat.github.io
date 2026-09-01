@@ -790,6 +790,17 @@ body.home-compact .inst-item {
   margin: 0.3rem 0 0.55rem;
 }
 
+/* Keep homepage institution headings close to their first entries. */
+body.home-compact #affiliations > h2,
+body.home-compact #education > h2 {
+  margin-bottom: 0.4rem;
+}
+
+/* Tighten the transition between Affiliations and Education. */
+body.home-compact #education > h2 {
+  margin-top: 0.95rem;
+}
+
 body.home-compact .inst-logo {
   width: 42px;
   height: 42px;
