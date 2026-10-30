@@ -2,3 +2,5 @@
 analytics.js
 CLAUDE.md
 /.claude/
+
+**/*.quarto_ipynb
