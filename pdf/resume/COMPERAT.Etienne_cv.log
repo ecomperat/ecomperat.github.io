@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  30 OCT 2026 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.25)  30 OCT 2026 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -431,17 +431,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 63.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--70
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--78
+Underfull \hbox (badness 10000) in paragraph at lines 70--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 76--80
 
  []
 
@@ -450,32 +450,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
 [1
 
 {C:/Users/etien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
@@ -491,22 +491,22 @@ L3 programming layer <2024-08-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `COMPERAT.Etienne_cv.out' has not changed.
-(rerunfilecheck)             Checksum: B2D33209BC2C86751D0CC787F4C45A62;907.
+(rerunfilecheck)             Checksum: 26DB9C5CF1A5B9E007D25CDADA783157;907.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 145 ({)
+### simple group (level 1) entered at line 144 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  13786 strings out of 473899
  238879 string characters out of 5726500
- 647425 words of memory out of 5000000
+ 648425 words of memory out of 5000000
  36492 multiletter control sequences out of 15000+600000
  564948 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,80p,1280b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,9n,80p,1280b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\etien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on COMPERAT.Etienne_cv.pdf (2 pages, 156561 bytes).
+Output written on COMPERAT.Etienne_cv.pdf (2 pages, 155001 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
